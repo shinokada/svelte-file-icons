@@ -87,6 +87,7 @@ import Terminal from './Terminal.svelte'
 import Nightwatch from './Nightwatch.svelte'
 import Cheetah3D from './Cheetah3D.svelte'
 import TestReact from './TestReact.svelte'
+import CSharpScript from './CSharpScript.svelte'
 import PAWN from './PAWN.svelte'
 import RAML from './RAML.svelte'
 import Kubernetes from './Kubernetes.svelte'
@@ -123,7 +124,6 @@ import Sophia from './Sophia.svelte'
 import Hy from './Hy.svelte'
 import Bosque from './Bosque.svelte'
 import FreeDesktop from './FreeDesktop.svelte'
-import C# from './C#.svelte'
 import Dyalog from './Dyalog.svelte'
 import TLA+ from './TLA+.svelte'
 import Lean from './Lean.svelte'
@@ -176,7 +176,6 @@ import OpenVPN from './OpenVPN.svelte'
 import Gosu from './Gosu.svelte'
 import SVN from './SVN.svelte'
 import Manjaro from './Manjaro.svelte'
-import C#Script from './C#Script.svelte'
 import NSRIAlt from './NSRIAlt.svelte'
 import TestPerl from './TestPerl.svelte'
 import Gatsby from './Gatsby.svelte'
@@ -317,6 +316,7 @@ import RSpec from './RSpec.svelte'
 import Scheme from './Scheme.svelte'
 import Nano from './Nano.svelte'
 import Meson from './Meson.svelte'
+import CPlusPlus from './CPlusPlus.svelte'
 import BYOND from './BYOND.svelte'
 import CocoaPods from './CocoaPods.svelte'
 import Papyrus from './Papyrus.svelte'
@@ -568,7 +568,6 @@ import AdobePhotoshop from './AdobePhotoshop.svelte'
 import Oberon from './Oberon.svelte'
 import Thor from './Thor.svelte'
 import SketchUpMake from './SketchUpMake.svelte'
-import C++ from './C++.svelte'
 import Swagger from './Swagger.svelte'
 import ActionScript from './ActionScript.svelte'
 import Cakefile from './Cakefile.svelte'
@@ -926,6 +925,7 @@ import Dub from './Dub.svelte'
 import YARA from './YARA.svelte'
 import TestJS from './TestJS.svelte'
 import PowerBuilder from './PowerBuilder.svelte'
+import CSharp from './CSharp.svelte'
 import MSDOS from './MSDOS.svelte'
 import CorelDRAWAlt from './CorelDRAWAlt.svelte'
 import Cython from './Cython.svelte'
@@ -1019,6 +1019,7 @@ Terminal,
 Nightwatch,
 Cheetah3D,
 TestReact,
+CSharpScript,
 PAWN,
 RAML,
 Kubernetes,
@@ -1055,7 +1056,6 @@ Sophia,
 Hy,
 Bosque,
 FreeDesktop,
-C#,
 Dyalog,
 TLA+,
 Lean,
@@ -1108,7 +1108,6 @@ OpenVPN,
 Gosu,
 SVN,
 Manjaro,
-C#Script,
 NSRIAlt,
 TestPerl,
 Gatsby,
@@ -1249,6 +1248,7 @@ RSpec,
 Scheme,
 Nano,
 Meson,
+CPlusPlus,
 BYOND,
 CocoaPods,
 Papyrus,
@@ -1500,7 +1500,6 @@ AdobePhotoshop,
 Oberon,
 Thor,
 SketchUpMake,
-C++,
 Swagger,
 ActionScript,
 Cakefile,
@@ -1858,6 +1857,7 @@ Dub,
 YARA,
 TestJS,
 PowerBuilder,
+CSharp,
 MSDOS,
 CorelDRAWAlt,
 Cython,

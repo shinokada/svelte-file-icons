@@ -21,9 +21,7 @@ In a svelte file:
 
 ```html
 <script>
-	import {
-		Vite, Config, D3, Sublime, Svelte, VSCode, EJS 
-	} from 'svelte-file-icons';
+	import { Vite, Config, D3, Sublime, Svelte, VSCode, EJS } from 'svelte-file-icons';
 </script>
 
 <Vite />
@@ -40,13 +38,13 @@ In a svelte file:
 Use the `size` prop to change the size of icons.
 
 ```html
-<Vite size="40"/>
-<Config size="40"/>
-<D3 size="40"/>
-<Sublime size="40"/>
-<Svelte size="40"/>
-<VSCode size="40"/>
-<EJS size="40"/>
+<Vite size="40" />
+<Config size="40" />
+<D3 size="40" />
+<Sublime size="40" />
+<Svelte size="40" />
+<VSCode size="40" />
+<EJS size="40" />
 ```
 
 ## CSS HEX Colors
@@ -54,9 +52,9 @@ Use the `size` prop to change the size of icons.
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<Vite color="#c61515"/>
-<Config color="#3759e5"/>
-<D3 color="#3fe537"/>
+<Vite color="#c61515" />
+<Config color="#3759e5" />
+<D3 color="#3fe537" />
 ```
 
 ## CSS framworks suport
@@ -91,7 +89,7 @@ All icons have aria-label. For example `Svelte` has `aria-label="svelte"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<Svelte ariaLabel="Awesome Svelte">
+<Svelte ariaLabel="Awesome Svelte"></Svelte>
 ```
 
 ## Passing down other attributes
@@ -99,7 +97,7 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 You can pass other attibutes as well.
 
 ```html
-<Svelte tabindex="0">
+<Svelte tabindex="0"></Svelte>
 ```
 
 ## Using svelte:component
@@ -113,14 +111,14 @@ You can pass other attibutes as well.
 	};
 </script>
 
-<svelte:component this={Svelte} />
+<svelte:component this="{Svelte}" />
 ```
 
 ## Using onMount
 
 ```html
 <script>
-  import { Svelte } from 'svelte-file-icons';
+	import { Svelte } from 'svelte-file-icons';
 	import { onMount } from 'svelte';
 	onMount(() => {
 		const icon = new Svelte({ target: document.body, props });
@@ -129,7 +127,6 @@ You can pass other attibutes as well.
 ```
 
 ## Import all
-
 
 Use `import * as Icon from 'svelte-file-icons`.
 
