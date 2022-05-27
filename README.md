@@ -89,7 +89,7 @@ All icons have aria-label. For example `Svelte` has `aria-label="svelte"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<Svelte ariaLabel="Awesome Svelte"></Svelte>
+<Svelte ariaLabel="Awesome Svelte" />
 ```
 
 ## Passing down other attributes
@@ -97,7 +97,7 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 You can pass other attibutes as well.
 
 ```html
-<Svelte tabindex="0"></Svelte>
+<Svelte tabindex="0" />
 ```
 
 ## Using svelte:component
@@ -105,10 +105,6 @@ You can pass other attibutes as well.
 ```html
 <script>
 	import { Svelte } from 'svelte-file-icons';
-	const props = {
-		size: '50',
-		color: '#ff0000'
-	};
 </script>
 
 <svelte:component this="{Svelte}" />
@@ -120,6 +116,10 @@ You can pass other attibutes as well.
 <script>
 	import { Svelte } from 'svelte-file-icons';
 	import { onMount } from 'svelte';
+	const props = {
+		size: '50',
+		color: '#ff0000'
+	};
 	onMount(() => {
 		const icon = new Svelte({ target: document.body, props });
 	});
