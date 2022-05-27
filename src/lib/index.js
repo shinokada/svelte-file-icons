@@ -346,7 +346,6 @@ import Eagle from './Eagle.svelte'
 import HaxeDevelop from './HaxeDevelop.svelte'
 import AssemblyAGC from './AssemblyAGC.svelte'
 import Spacemacs from './Spacemacs.svelte'
-import Draw.Io from './Draw.Io.svelte'
 import FontOutline from './FontOutline.svelte'
 import DOSBox from './DOSBox.svelte'
 import LightWave from './LightWave.svelte'
@@ -885,6 +884,7 @@ import DevContainer from './DevContainer.svelte'
 import Monkey from './Monkey.svelte'
 import AutoHotkey from './AutoHotkey.svelte'
 import Flux from './Flux.svelte'
+import Draw_io from './Draw_io.svelte'
 import IGORPro from './IGORPro.svelte'
 import AssemblyVAX from './AssemblyVAX.svelte'
 import AffinityDesigner from './AffinityDesigner.svelte'
@@ -1278,7 +1278,6 @@ Eagle,
 HaxeDevelop,
 AssemblyAGC,
 Spacemacs,
-Draw.Io,
 FontOutline,
 DOSBox,
 LightWave,
@@ -1817,6 +1816,7 @@ DevContainer,
 Monkey,
 AutoHotkey,
 Flux,
+Draw_io,
 IGORPro,
 AssemblyVAX,
 AffinityDesigner,

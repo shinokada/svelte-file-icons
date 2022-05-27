@@ -1,6 +1,5 @@
 # Icon names
 
-- A+.svelte
 - A1C.svelte
 - A1CAlt.svelte
 - A3DModel.svelte
@@ -16,6 +15,7 @@
 - APIExtractor.svelte
 - APL.svelte
 - APLOld.svelte
+- APlus.svelte
 - ARM.svelte
 - ATS.svelte
 - ATT.svelte
@@ -138,9 +138,6 @@
 - BuildBoot.svelte
 - Buildkite.svelte
 - Bundler.svelte
-- C#.svelte
-- C#Script.svelte
-- C++.svelte
 - CASC.svelte
 - CDF.svelte
 - CKEditor.svelte
@@ -148,6 +145,9 @@
 - CNAB.svelte
 - COBOL.svelte
 - CPAN.svelte
+- CPlusPlus.svelte
+- CSharp.svelte
+- CSharpScript.svelte
 - CSound.svelte
 - CURL.svelte
 - CVS.svelte
@@ -214,7 +214,7 @@
 - CorelDRAW.svelte
 - CorelDRAWAlt.svelte
 - Coveralls.svelte
-- CpcdosC+.svelte
+- CpcdosCPlus.svelte
 - CraftTweaker.svelte
 - Creole.svelte
 - Crowdin.svelte
@@ -258,7 +258,7 @@
 - Doxygen.svelte
 - DragonflyBSD.svelte
 - Dragula.svelte
-- Draw.Io.svelte
+- Draw_io.svelte
 - Drone.svelte
 - Dub.svelte
 - DyLib.svelte
@@ -686,7 +686,7 @@
 - PyUp.svelte
 - Pyret.svelte
 - Pytest.svelte
-- Q#.svelte
+- QSharp.svelte
 - QT.svelte
 - Qiskit.svelte
 - QlikView.svelte
@@ -807,7 +807,7 @@
 - Swagger.svelte
 - SystemVerilog.svelte
 - TFS.svelte
-- TLA+.svelte
+- TLAPlus.svelte
 - TOML.svelte
 - TOTVS.svelte
 - TSX.svelte
@@ -931,3 +931,4 @@
 - Zimpl.svelte
 - ZorinOS.svelte
 - Zork.svelte
+- index.js
