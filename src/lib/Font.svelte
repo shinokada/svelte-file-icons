@@ -1,1 +1,20 @@
-<script>export let size="24"; export let color="currentColor";export let ariaLabel="Font" </script><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill={color} class={$$props.class} {...$$restProps} aria-label={ariaLabel} ><path d="M32 256h192v64h-64v192h-64v-192h-64zM480 128h-125.875v384h-68.25v-384h-125.875v-64h320z"></path></svg>
+<script>
+	export let size = '24';
+	export let color = 'currentColor';
+	export let ariaLabel = 'Font';
+</script>
+
+<svg
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+	width="512"
+	height="512"
+	viewBox="0 0 512 512"
+	fill={color}
+	class={$$props.class}
+	{...$$restProps}
+	aria-label={ariaLabel}
+	><path
+		d="M32 256h192v64h-64v192h-64v-192h-64zM480 128h-125.875v384h-68.25v-384h-125.875v-64h320z"
+	/></svg
+>

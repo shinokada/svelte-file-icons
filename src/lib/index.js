@@ -125,7 +125,6 @@ import Hy from './Hy.svelte'
 import Bosque from './Bosque.svelte'
 import FreeDesktop from './FreeDesktop.svelte'
 import Dyalog from './Dyalog.svelte'
-import TLA+ from './TLA+.svelte'
 import Lean from './Lean.svelte'
 import PugOld from './PugOld.svelte'
 import Electron from './Electron.svelte'
@@ -133,7 +132,6 @@ import ReactOS from './ReactOS.svelte'
 import Xmake from './Xmake.svelte'
 import Babel from './Babel.svelte'
 import Franca from './Franca.svelte'
-import A+ from './A+.svelte'
 import Arc from './Arc.svelte'
 import Ring from './Ring.svelte'
 import Io from './Io.svelte'
@@ -364,6 +362,7 @@ import Asciidoctor from './Asciidoctor.svelte'
 import Netlify from './Netlify.svelte'
 import AMPL from './AMPL.svelte'
 import CASC from './CASC.svelte'
+import QSharp from './QSharp.svelte'
 import AssemblyATT from './AssemblyATT.svelte'
 import Propeller from './Propeller.svelte'
 import OS2 from './OS2.svelte'
@@ -439,6 +438,7 @@ import EasyBuild from './EasyBuild.svelte'
 import LexAlt from './LexAlt.svelte'
 import Asymptote from './Asymptote.svelte'
 import Glade from './Glade.svelte'
+import CpcdosCPlus from './CpcdosCPlus.svelte'
 import Kusto from './Kusto.svelte'
 import TestRust from './TestRust.svelte'
 import Nimrod from './Nimrod.svelte'
@@ -525,7 +525,6 @@ import MATLAB from './MATLAB.svelte'
 import ServiceFabric from './ServiceFabric.svelte'
 import Buck from './Buck.svelte'
 import Brainfuck from './Brainfuck.svelte'
-import CpcdosC+ from './CpcdosC+.svelte'
 import KRL from './KRL.svelte'
 import MarkdownLint from './MarkdownLint.svelte'
 import TSX from './TSX.svelte'
@@ -540,6 +539,7 @@ import Modelica from './Modelica.svelte'
 import Tern from './Tern.svelte'
 import VirtualBoxAlt from './VirtualBoxAlt.svelte'
 import Bluespec from './Bluespec.svelte'
+import APlus from './APlus.svelte'
 import GravitDesigner from './GravitDesigner.svelte'
 import Brakeman from './Brakeman.svelte'
 import Solidity from './Solidity.svelte'
@@ -665,7 +665,6 @@ import VAX from './VAX.svelte'
 import AdobeLightroom from './AdobeLightroom.svelte'
 import Boo from './Boo.svelte'
 import Opa from './Opa.svelte'
-import Q# from './Q#.svelte'
 import Elm from './Elm.svelte'
 import GenStat from './GenStat.svelte'
 import Kaitai from './Kaitai.svelte'
@@ -768,6 +767,7 @@ import MuPAD from './MuPAD.svelte'
 import Sigils from './Sigils.svelte'
 import CodeClimate from './CodeClimate.svelte'
 import Istanbul from './Istanbul.svelte'
+import TLAPlus from './TLAPlus.svelte'
 import Alacritty from './Alacritty.svelte'
 import Normalise from './Normalise.svelte'
 import CorelDRAW from './CorelDRAW.svelte'
@@ -1057,7 +1057,6 @@ Hy,
 Bosque,
 FreeDesktop,
 Dyalog,
-TLA+,
 Lean,
 PugOld,
 Electron,
@@ -1065,7 +1064,6 @@ ReactOS,
 Xmake,
 Babel,
 Franca,
-A+,
 Arc,
 Ring,
 Io,
@@ -1296,6 +1294,7 @@ Asciidoctor,
 Netlify,
 AMPL,
 CASC,
+QSharp,
 AssemblyATT,
 Propeller,
 OS2,
@@ -1371,6 +1370,7 @@ EasyBuild,
 LexAlt,
 Asymptote,
 Glade,
+CpcdosCPlus,
 Kusto,
 TestRust,
 Nimrod,
@@ -1457,7 +1457,6 @@ MATLAB,
 ServiceFabric,
 Buck,
 Brainfuck,
-CpcdosC+,
 KRL,
 MarkdownLint,
 TSX,
@@ -1472,6 +1471,7 @@ Modelica,
 Tern,
 VirtualBoxAlt,
 Bluespec,
+APlus,
 GravitDesigner,
 Brakeman,
 Solidity,
@@ -1597,7 +1597,6 @@ VAX,
 AdobeLightroom,
 Boo,
 Opa,
-Q#,
 Elm,
 GenStat,
 Kaitai,
@@ -1700,6 +1699,7 @@ MuPAD,
 Sigils,
 CodeClimate,
 Istanbul,
+TLAPlus,
 Alacritty,
 Normalise,
 CorelDRAW,
