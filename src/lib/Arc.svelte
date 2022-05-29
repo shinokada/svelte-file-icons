@@ -14,7 +14,7 @@
 	class={$$props.class}
 	{...$$restProps}
 	aria-label={ariaLabel}
-	><rect x="198.1135864" y={size} width="115.7728271" height="200.185791" /><path
+	><rect x="198.1135864" y="256" width={size} height={size} /><path
 		d="M0,0v512h512V0H0z M484.3464355,484.3464355H27.6535645V256h170.460022V55.814209h115.7728271V256h170.460022V484.3464355z"
 	/></svg
 >
