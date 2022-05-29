@@ -931,4 +931,3 @@
 - Zimpl.svelte
 - ZorinOS.svelte
 - Zork.svelte
-- index.js

@@ -5,6 +5,15 @@
 
 930+ SVG file icon components for Svelte. Svelte-file-Icons support major CSS frameworks using the `class` props.
 
+<p align="center">
+<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-file-icons/main/static/images/file-icons1.png" />
+<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-file-icons/main/static/images/file-icons2.png" />
+<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-file-icons/main/static/images/file-icons3.png" />
+<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-file-icons/main/static/images/file-icons4.png" />
+<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-file-icons/main/static/images/file-icons5.png" />
+</p>
+
+
 ## Icon name list
 
 [Icon list](https://github.com/shinokada/svelte-file-icons/blob/main/icon-list.md)

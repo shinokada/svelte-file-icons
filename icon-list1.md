@@ -932,5 +932,4 @@
 <Icon.Zimpl size="40" color="{random_hex_color_code()}" />
 <Icon.ZorinOS size="40" color="{random_hex_color_code()}" />
 <Icon.Zork size="40" color="{random_hex_color_code()}" />
-<Icon.i size="40" color="{random_hex_color_code()}" />
 ```
