@@ -1,7 +1,16 @@
-# Svelte-File-Icons
+<h1 align="center">Svelte-File-Icons</h1>
 
-[![npm version](https://badgen.net/npm/v/svelte-file-icons)](https://www.npmjs.com/package/svelte-file-icons)
-[![license](https://badgen.net/npm/license/svelte-file-icons)](https://github.com/shinokada/svelte-file-icons/blob/main/LICENSE)
+<p align="center">
+<a href="https://shinokada.github.io/svelte-file-icons/">Svelte-File-Icons</a>
+</p>
+
+<p align="center">
+<a href="https://www.npmjs.com/package/svelte-file-icons" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-file-icons" alt="npm"></a>
+<a href="https://twitter.com/shinokada" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada"></a>
+<a href="http://www.apache.org/licenses/" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-file-icons" alt="License"></a>
+<a href="https://www.npmjs.com/package/svelte-file-icons" rel="nofollow"><img src="https://img.shields.io/npm/dw/svelte-file-icons.svg" alt="npm"></a>
+</p>
+
 
 930+ SVG file icon components for Svelte. Svelte-file-Icons support major CSS frameworks using the `class` props.
 
@@ -13,15 +22,15 @@
 <img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-file-icons/main/static/images/file-icons5.webp" />
 </p>
 
-## Icon name list
-
-[Icon list](https://github.com/shinokada/svelte-file-icons/blob/main/icon-list.md)
-
 ## Installation
 
 ```sh
 npm i -D svelte-file-icons
 ```
+
+## Icon name list
+
+[Icon list](https://github.com/shinokada/svelte-file-icons/blob/main/docs/icon-list.md)
 
 ## Usages
 
