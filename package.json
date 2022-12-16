@@ -8,7 +8,7 @@
 		"url": "https://blog.codewithshin.com"
 	},
 	"bugs": "https://github.com/shinokada/svelte-file-icons/issues",
-	"homepage": "https://github.com/shinokada/svelte-file-icons",
+	"homepage": "https://shinokada.github.io/svelte-file-icons/",
 	"license": "MIT",
 	"scripts": {
 		"dev": "vite dev",
