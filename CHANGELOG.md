@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.10](https://github.com/shinokada/svelte-file-icons/compare/v0.1.9...v0.1.10) (2022-12-16)
+
+
+### Features
+
+* add docs ([114f269](https://github.com/shinokada/svelte-file-icons/commit/114f2698ec96778384ff3ab42f009b997bc3e35c))
+
+
+### Bug Fixes
+
+* move files from docs to root since npmjs does not show README. Update sveltekit ([7a6b215](https://github.com/shinokada/svelte-file-icons/commit/7a6b215b91d211bb869d084ea6cbc2a1511b4134))
+
 ### [0.1.9](https://github.com/shinokada/svelte-file-icons/compare/v0.1.8...v0.1.9) (2022-05-29)
 
 ### [0.1.8](https://github.com/shinokada/svelte-file-icons/compare/v0.1.7...v0.1.8) (2022-05-29)
