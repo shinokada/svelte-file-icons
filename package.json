@@ -1,6 +1,6 @@
 {
 	"name": "svelte-file-icons",
-	"version": "0.1.10",
+	"version": "0.1.11",
 	"description": "Svelte file icon components",
 	"author": {
 		"name": "Shinichi Okada",
