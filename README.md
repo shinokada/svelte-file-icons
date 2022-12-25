@@ -1,7 +1,7 @@
 <h1 align="center">Svelte-File-Icons</h1>
 
 <p align="center">
-<a href="https://shinokada.github.io/svelte-file-icons/">Svelte-File-Icons</a>
+<a href="https://svelte-file-icons.codewithshin.com/">Svelte-File-Icons</a>
 </p>
 
 <p align="center">
