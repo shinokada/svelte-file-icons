@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.12](https://github.com/shinokada/svelte-file-icons/compare/v0.1.11...v0.1.12) (2022-12-25)
+
+
+### Bug Fixes
+
+* url updates ([b6fcbbd](https://github.com/shinokada/svelte-file-icons/commit/b6fcbbd6ac71cc60ecb6e111afb93d0113bf9e9b))
+
 ### [0.1.11](https://github.com/shinokada/svelte-file-icons/compare/v0.1.10...v0.1.11) (2022-12-16)
 
 ### Bug Fixes
