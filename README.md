@@ -30,7 +30,7 @@ npm i -D svelte-file-icons
 
 ## Icon name list
 
-[Icon list](https://github.com/shinokada/svelte-file-icons/blob/main/icon-list.md)
+[Icon list](/icon-list.md)
 
 ## Usages
 
