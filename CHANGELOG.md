@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.13](https://github.com/shinokada/svelte-file-icons/compare/v0.1.12...v0.1.13) (2023-01-30)
+
+
+### Features
+
+* add pwa ([9ab56dd](https://github.com/shinokada/svelte-file-icons/commit/9ab56dd086380a8df0ead8602c7e07b69e905594))
+
+
+### Bug Fixes
+
+* icon list link and verion update ([2e409cc](https://github.com/shinokada/svelte-file-icons/commit/2e409cc1268b52cb441cef54ba029f9de01b1d2f))
+
 ### [0.1.12](https://github.com/shinokada/svelte-file-icons/compare/v0.1.11...v0.1.12) (2022-12-25)
 
 ### Bug Fixes
