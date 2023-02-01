@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.1.14](https://github.com/shinokada/svelte-file-icons/compare/v0.1.13...v0.1.14) (2023-02-01)
 
-
 ### Bug Fixes
 
-* add optimized image ([c1b1bd7](https://github.com/shinokada/svelte-file-icons/commit/c1b1bd7a96e0bae8aff664e7c5586decf8da57f6))
+- add optimized image ([c1b1bd7](https://github.com/shinokada/svelte-file-icons/commit/c1b1bd7a96e0bae8aff664e7c5586decf8da57f6))
 
 ### [0.1.13](https://github.com/shinokada/svelte-file-icons/compare/v0.1.12...v0.1.13) (2023-01-30)
 
