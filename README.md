@@ -15,11 +15,7 @@
 930+ SVG file icon components for Svelte. Svelte-file-Icons support major CSS frameworks using the `class` props.
 
 <p align="center">
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-file-icons/main/static/images/file-icons1.webp" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-file-icons/main/static/images/file-icons2.webp" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-file-icons/main/static/images/file-icons3.webp" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-file-icons/main/static/images/file-icons4.webp" />
-<img width="400" src="https://raw.githubusercontent.com/shinokada/svelte-file-icons/main/static/images/file-icons5.webp" />
+<img width="650" src="/static/images/file-icons-650-1050-optimized.png" />
 </p>
 
 ## Installation
@@ -28,9 +24,13 @@
 npm i -D svelte-file-icons
 ```
 
-## Icon name list
+## Icon names
 
 [Icon list](/icon-list.md)
+
+## Icon images
+
+[Icon images](/icon-images.md)
 
 ## Usages
 
@@ -171,7 +171,7 @@ Use `import * as Icon from 'svelte-file-icons`.
 
 - [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
 
-## Experience lightning-fast browsing and offline access with Our PWA
+## PWA: Fast & Offline
 
 This website can be downloaded and installed on your device for offline access as a Progressive Web App.
 
