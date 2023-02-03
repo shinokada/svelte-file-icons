@@ -2,13 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [0.2.0](https://github.com/shinokada/svelte-file-icons/compare/v0.1.15...v0.2.0) (2023-02-03)
+### [0.2.1](https://github.com/shinokada/svelte-file-icons/compare/v0.2.0...v0.2.1) (2023-02-03)
 
+## [0.2.0](https://github.com/shinokada/svelte-file-icons/compare/v0.1.15...v0.2.0) (2023-02-03)
 
 ### Bug Fixes
 
-* update index.js ([bb95b11](https://github.com/shinokada/svelte-file-icons/commit/bb95b1139798e9805989055f0b6a31596abd3706))
-* update index.js ([4421a65](https://github.com/shinokada/svelte-file-icons/commit/4421a65f6999950b7f91d619bed5005033005665))
+- update index.js ([bb95b11](https://github.com/shinokada/svelte-file-icons/commit/bb95b1139798e9805989055f0b6a31596abd3706))
+- update index.js ([4421a65](https://github.com/shinokada/svelte-file-icons/commit/4421a65f6999950b7f91d619bed5005033005665))
 
 ### [0.1.15](https://github.com/shinokada/svelte-file-icons/compare/v0.1.14...v0.1.15) (2023-02-01)
 
