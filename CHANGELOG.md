@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.1.15](https://github.com/shinokada/svelte-file-icons/compare/v0.1.14...v0.1.15) (2023-02-01)
 
-
 ### Bug Fixes
 
-* badges target, height, and add links to crossOriginLinks ([40c617a](https://github.com/shinokada/svelte-file-icons/commit/40c617aef86f2ee73f8842ff1568b6ecac57e310))
+- badges target, height, and add links to crossOriginLinks ([40c617a](https://github.com/shinokada/svelte-file-icons/commit/40c617aef86f2ee73f8842ff1568b6ecac57e310))
 
 ### [0.1.14](https://github.com/shinokada/svelte-file-icons/compare/v0.1.13...v0.1.14) (2023-02-01)
 

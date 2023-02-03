@@ -1,1864 +1,931 @@
-import Jscpd from './Jscpd.svelte';
-import KustoAlt from './KustoAlt.svelte';
-import TestCafe from './TestCafe.svelte';
-import ABAP from './ABAP.svelte';
-import ConfigJS from './ConfigJS.svelte';
-import SmartOS from './SmartOS.svelte';
-import Phoenix from './Phoenix.svelte';
-import Fabric from './Fabric.svelte';
-import RDoc from './RDoc.svelte';
-import Vite from './Vite.svelte';
-import KitchenCI from './KitchenCI.svelte';
-import Bazaar from './Bazaar.svelte';
-import Clean from './Clean.svelte';
-import Macaulay2 from './Macaulay2.svelte';
-import BuildBoot from './BuildBoot.svelte';
-import Turing from './Turing.svelte';
-import Kotlin from './Kotlin.svelte';
-import NetLogo from './NetLogo.svelte';
-import RStudio from './RStudio.svelte';
-import Source from './Source.svelte';
-import Truffle from './Truffle.svelte';
-import Wurst from './Wurst.svelte';
-import Rascal from './Rascal.svelte';
-import Nanoc from './Nanoc.svelte';
-import MicrosoftLync from './MicrosoftLync.svelte';
-import Nokogiri from './Nokogiri.svelte';
-import Precision from './Precision.svelte';
-import SmartOSAlt from './SmartOSAlt.svelte';
-import AssemblySPARC from './AssemblySPARC.svelte';
-import StyledComponents from './StyledComponents.svelte';
-import Chai from './Chai.svelte';
-import BitHound from './BitHound.svelte';
-import Fabfile from './Fabfile.svelte';
-import NuGet from './NuGet.svelte';
-import AssemblyPowerPC from './AssemblyPowerPC.svelte';
-import DocBook from './DocBook.svelte';
-import TypeScriptAlt from './TypeScriptAlt.svelte';
-import YAMLLint from './YAMLLint.svelte';
-import VHDL from './VHDL.svelte';
-import Jolie from './Jolie.svelte';
-import Pure from './Pure.svelte';
-import StylishHaskell from './StylishHaskell.svelte';
-import UNO from './UNO.svelte';
-import DataWeave from './DataWeave.svelte';
-import AdobeAfterEffects from './AdobeAfterEffects.svelte';
-import R from './R.svelte';
-import Cmake from './Cmake.svelte';
-import Textile from './Textile.svelte';
-import Falcon from './Falcon.svelte';
-import Moment from './Moment.svelte';
-import Vala from './Vala.svelte';
-import COBOL from './COBOL.svelte';
-import StylusOrb from './StylusOrb.svelte';
-import PhotoRec from './PhotoRec.svelte';
-import Fork from './Fork.svelte';
-import PostCSS from './PostCSS.svelte';
-import CircleCI from './CircleCI.svelte';
-import Genshi from './Genshi.svelte';
-import Nx from './Nx.svelte';
-import Xubuntu from './Xubuntu.svelte';
-import MicrosoftPublisher from './MicrosoftPublisher.svelte';
-import AnyScript from './AnyScript.svelte';
-import UnrealScript from './UnrealScript.svelte';
-import AdobeCharacterAnimator from './AdobeCharacterAnimator.svelte';
-import Blender from './Blender.svelte';
-import OpenBSD from './OpenBSD.svelte';
-import Modo from './Modo.svelte';
-import Workbox from './Workbox.svelte';
-import ProgressOld from './ProgressOld.svelte';
-import OpenPolicyAgent from './OpenPolicyAgent.svelte';
-import Oz from './Oz.svelte';
-import FBX from './FBX.svelte';
-import TestTypeScript from './TestTypeScript.svelte';
-import Snowpack from './Snowpack.svelte';
-import Minecraft from './Minecraft.svelte';
-import JSXAlt from './JSXAlt.svelte';
-import Pkgsrc from './Pkgsrc.svelte';
-import ARM from './ARM.svelte';
-import ABIF from './ABIF.svelte';
-import PyPi from './PyPi.svelte';
-import Rollup from './Rollup.svelte';
-import Akka from './Akka.svelte';
-import Brunch from './Brunch.svelte';
-import GAUSS from './GAUSS.svelte';
-import J from './J.svelte';
-import Terminal from './Terminal.svelte';
-import Nightwatch from './Nightwatch.svelte';
-import Cheetah3D from './Cheetah3D.svelte';
-import TestReact from './TestReact.svelte';
-import CSharpScript from './CSharpScript.svelte';
-import PAWN from './PAWN.svelte';
-import RAML from './RAML.svelte';
-import Kubernetes from './Kubernetes.svelte';
-import SemanticRelease from './SemanticRelease.svelte';
-import AVR from './AVR.svelte';
-import MIRC from './MIRC.svelte';
-import TestGeneric from './TestGeneric.svelte';
-import AssemblyMotorola from './AssemblyMotorola.svelte';
-import MicrosoftAccess from './MicrosoftAccess.svelte';
-import BazelOld from './BazelOld.svelte';
-import ConfigTypeScript from './ConfigTypeScript.svelte';
-import Ox from './Ox.svelte';
-import ATT from './ATT.svelte';
-import OCaml from './OCaml.svelte';
-import Zig from './Zig.svelte';
-import Nomad from './Nomad.svelte';
-import MicrosoftOutlook from './MicrosoftOutlook.svelte';
-import TOTVS from './TOTVS.svelte';
-import Cubit from './Cubit.svelte';
-import Nodemon from './Nodemon.svelte';
-import Drone from './Drone.svelte';
-import CloudFoundry from './CloudFoundry.svelte';
-import PM2 from './PM2.svelte';
-import WebAssembly from './WebAssembly.svelte';
-import Cucumber from './Cucumber.svelte';
-import Pug from './Pug.svelte';
-import YAML from './YAML.svelte';
-import AdobeIllustrator from './AdobeIllustrator.svelte';
-import ImbaOld from './ImbaOld.svelte';
-import NEON from './NEON.svelte';
-import ArchLinux from './ArchLinux.svelte';
-import Figma from './Figma.svelte';
-import Sophia from './Sophia.svelte';
-import Hy from './Hy.svelte';
-import Bosque from './Bosque.svelte';
-import FreeDesktop from './FreeDesktop.svelte';
-import Dyalog from './Dyalog.svelte';
-import Lean from './Lean.svelte';
-import PugOld from './PugOld.svelte';
-import Electron from './Electron.svelte';
-import ReactOS from './ReactOS.svelte';
-import Xmake from './Xmake.svelte';
-import Babel from './Babel.svelte';
-import Franca from './Franca.svelte';
-import Arc from './Arc.svelte';
-import Ring from './Ring.svelte';
-import Io from './Io.svelte';
-import Neo4J from './Neo4J.svelte';
-import P4 from './P4.svelte';
-import Shuriken from './Shuriken.svelte';
-import Rhino3D from './Rhino3D.svelte';
-import Leaflet from './Leaflet.svelte';
-import GAP from './GAP.svelte';
-import Dependabot from './Dependabot.svelte';
-import SketchUpStyleBuilder from './SketchUpStyleBuilder.svelte';
-import Reek from './Reek.svelte';
-import FontForge from './FontForge.svelte';
-import CodeShip from './CodeShip.svelte';
-import DocPad from './DocPad.svelte';
-import WebGL from './WebGL.svelte';
-import Inform7 from './Inform7.svelte';
-import AGC from './AGC.svelte';
-import Khronos from './Khronos.svelte';
-import WebpackOld from './WebpackOld.svelte';
-import Serverless from './Serverless.svelte';
-import TestRuby from './TestRuby.svelte';
-import Cuneiform from './Cuneiform.svelte';
-import DBASE from './DBASE.svelte';
-import Jenkins from './Jenkins.svelte';
-import AdobePrelude from './AdobePrelude.svelte';
-import WebVTT from './WebVTT.svelte';
-import Patreon from './Patreon.svelte';
-import PhraseApp from './PhraseApp.svelte';
-import Ecere from './Ecere.svelte';
-import Shippable from './Shippable.svelte';
-import CoNLL from './CoNLL.svelte';
-import SiliconGraphics from './SiliconGraphics.svelte';
-import Docker from './Docker.svelte';
-import LFE from './LFE.svelte';
-import Noon from './Noon.svelte';
-import Protractor from './Protractor.svelte';
-import DVC from './DVC.svelte';
-import OpenVPN from './OpenVPN.svelte';
-import Gosu from './Gosu.svelte';
-import SVN from './SVN.svelte';
-import Manjaro from './Manjaro.svelte';
-import NSRIAlt from './NSRIAlt.svelte';
-import TestPerl from './TestPerl.svelte';
-import Gatsby from './Gatsby.svelte';
-import Nickle from './Nickle.svelte';
-import Laravel from './Laravel.svelte';
-import CVS from './CVS.svelte';
-import UFO from './UFO.svelte';
-import Wercker from './Wercker.svelte';
-import Crowdin from './Crowdin.svelte';
-import JSONLD2 from './JSONLD2.svelte';
-import Terraform from './Terraform.svelte';
-import Fiddle from './Fiddle.svelte';
-import Pod from './Pod.svelte';
-import TestPython from './TestPython.svelte';
-import OpenEXR from './OpenEXR.svelte';
-import YAMLAlt4 from './YAMLAlt4.svelte';
-import Inkscape from './Inkscape.svelte';
-import AdonisJS from './AdonisJS.svelte';
-import Acre from './Acre.svelte';
-import Modula3 from './Modula3.svelte';
-import FirebaseBolt from './FirebaseBolt.svelte';
-import GN from './GN.svelte';
-import DarcsPatch from './DarcsPatch.svelte';
-import Adobe from './Adobe.svelte';
-import CDF from './CDF.svelte';
-import NSISOld from './NSISOld.svelte';
-import ArtText4 from './ArtText4.svelte';
-import AmuseWiki from './AmuseWiki.svelte';
-import MathJax from './MathJax.svelte';
-import Houdini from './Houdini.svelte';
-import Mercurial from './Mercurial.svelte';
-import Moleculer from './Moleculer.svelte';
-import LGTM from './LGTM.svelte';
-import Stylus from './Stylus.svelte';
-import SBT from './SBT.svelte';
-import Automator from './Automator.svelte';
-import Rebol from './Rebol.svelte';
-import SquareSpace from './SquareSpace.svelte';
-import AdobeDimension from './AdobeDimension.svelte';
-import TempleOS from './TempleOS.svelte';
-import Strings from './Strings.svelte';
-import Mapbox from './Mapbox.svelte';
-import RISCV from './RISCV.svelte';
-import Dia from './Dia.svelte';
-import PHPUnit from './PHPUnit.svelte';
-import Flutter from './Flutter.svelte';
-import Tipe from './Tipe.svelte';
-import TestGo from './TestGo.svelte';
-import Brotli from './Brotli.svelte';
-import Miranda from './Miranda.svelte';
-import WarcraftIII from './WarcraftIII.svelte';
-import Telegram from './Telegram.svelte';
-import ApacheANT from './ApacheANT.svelte';
-import Clarion from './Clarion.svelte';
-import Hyper from './Hyper.svelte';
-import Bundler from './Bundler.svelte';
-import CLIPS from './CLIPS.svelte';
-import AssemblyIntel from './AssemblyIntel.svelte';
-import Magit from './Magit.svelte';
-import ChartJS from './ChartJS.svelte';
-import PogoScript from './PogoScript.svelte';
-import Motorola from './Motorola.svelte';
-import EJS from './EJS.svelte';
-import Groovy from './Groovy.svelte';
-import Cabal from './Cabal.svelte';
-import MicrosoftExcel from './MicrosoftExcel.svelte';
-import V8Turbofan from './V8Turbofan.svelte';
-import Doclets from './Doclets.svelte';
-import LaTeX from './LaTeX.svelte';
-import Graphite from './Graphite.svelte';
-import MicrosoftVisio from './MicrosoftVisio.svelte';
-import Expo from './Expo.svelte';
-import Bloc from './Bloc.svelte';
-import PlatformIO from './PlatformIO.svelte';
-import NASM from './NASM.svelte';
-import LiveScript from './LiveScript.svelte';
-import Avro from './Avro.svelte';
-import AsymptoteAlt from './AsymptoteAlt.svelte';
-import A3DSMax from './A3DSMax.svelte';
-import Rmarkdown from './Rmarkdown.svelte';
-import Zilog from './Zilog.svelte';
-import AlpineLinux from './AlpineLinux.svelte';
-import OpenCL from './OpenCL.svelte';
-import MiniZinc from './MiniZinc.svelte';
-import LLVM from './LLVM.svelte';
-import Hugo from './Hugo.svelte';
-import Meteor from './Meteor.svelte';
-import Gnuplot from './Gnuplot.svelte';
-import Ada from './Ada.svelte';
-import Caddy from './Caddy.svelte';
-import Prettier from './Prettier.svelte';
-import LilyPond from './LilyPond.svelte';
-import Golo from './Golo.svelte';
-import Vyper from './Vyper.svelte';
-import Nimble from './Nimble.svelte';
-import WDL from './WDL.svelte';
-import Snapcraft from './Snapcraft.svelte';
-import Spacengine from './Spacengine.svelte';
-import ForTheRecord from './ForTheRecord.svelte';
-import GF from './GF.svelte';
-import AssemblyARM from './AssemblyARM.svelte';
-import AdobeXD from './AdobeXD.svelte';
-import Ioke from './Ioke.svelte';
-import Gradle from './Gradle.svelte';
-import San from './San.svelte';
-import Diff from './Diff.svelte';
-import QT from './QT.svelte';
-import Dogescript from './Dogescript.svelte';
-import Bikeshed from './Bikeshed.svelte';
-import ReasonStudios from './ReasonStudios.svelte';
-import Mono from './Mono.svelte';
-import Logtalk from './Logtalk.svelte';
-import Biml from './Biml.svelte';
-import Yarn from './Yarn.svelte';
-import ZorinOS from './ZorinOS.svelte';
-import Jasmine from './Jasmine.svelte';
-import ECLiPSeLang from './ECLiPSeLang.svelte';
-import Delphi from './Delphi.svelte';
-import TFS from './TFS.svelte';
-import FOSSA from './FOSSA.svelte';
-import Ember from './Ember.svelte';
-import AssemblyAVR from './AssemblyAVR.svelte';
-import Bison from './Bison.svelte';
-import Twine from './Twine.svelte';
-import Crystal from './Crystal.svelte';
-import X10 from './X10.svelte';
-import Max from './Max.svelte';
-import Cairo from './Cairo.svelte';
-import Nunjucks from './Nunjucks.svelte';
-import Monotone from './Monotone.svelte';
-import HIE from './HIE.svelte';
-import Mercury from './Mercury.svelte';
-import NSRI from './NSRI.svelte';
-import Stylable from './Stylable.svelte';
-import A1CAlt from './A1CAlt.svelte';
-import Behat from './Behat.svelte';
-import RSpec from './RSpec.svelte';
-import Scheme from './Scheme.svelte';
-import Nano from './Nano.svelte';
-import Meson from './Meson.svelte';
-import CPlusPlus from './CPlusPlus.svelte';
-import BYOND from './BYOND.svelte';
-import CocoaPods from './CocoaPods.svelte';
-import Papyrus from './Papyrus.svelte';
-import REALbasic from './REALbasic.svelte';
-import Nmap from './Nmap.svelte';
-import Aeternity from './Aeternity.svelte';
-import ReadTheDocs from './ReadTheDocs.svelte';
-import PineScript from './PineScript.svelte';
-import HewlettPackard from './HewlettPackard.svelte';
-import PullApprove from './PullApprove.svelte';
-import Mathematica from './Mathematica.svelte';
-import Webhint from './Webhint.svelte';
-import Lerna from './Lerna.svelte';
-import AdobeInDesign from './AdobeInDesign.svelte';
-import ConfigReact from './ConfigReact.svelte';
-import Browserslist from './Browserslist.svelte';
-import Nemerle from './Nemerle.svelte';
-import TinyMCE from './TinyMCE.svelte';
-import Tcl from './Tcl.svelte';
-import ShellCheck from './ShellCheck.svelte';
-import PICO8 from './PICO8.svelte';
-import Antwar from './Antwar.svelte';
-import WinUI from './WinUI.svelte';
-import Wallaby from './Wallaby.svelte';
-import YAMLAlt2 from './YAMLAlt2.svelte';
-import Moustache from './Moustache.svelte';
-import Processing from './Processing.svelte';
-import Eagle from './Eagle.svelte';
-import HaxeDevelop from './HaxeDevelop.svelte';
-import AssemblyAGC from './AssemblyAGC.svelte';
-import Spacemacs from './Spacemacs.svelte';
-import FontOutline from './FontOutline.svelte';
-import DOSBox from './DOSBox.svelte';
-import LightWave from './LightWave.svelte';
-import Alex from './Alex.svelte';
-import AssemblyHitachi from './AssemblyHitachi.svelte';
-import GNU from './GNU.svelte';
-import Hop from './Hop.svelte';
-import FreeMat from './FreeMat.svelte';
-import Stitches from './Stitches.svelte';
-import Mako from './Mako.svelte';
-import Gulp from './Gulp.svelte';
-import Asciidoctor from './Asciidoctor.svelte';
-import Netlify from './Netlify.svelte';
-import AMPL from './AMPL.svelte';
-import CASC from './CASC.svelte';
-import QSharp from './QSharp.svelte';
-import AssemblyATT from './AssemblyATT.svelte';
-import Propeller from './Propeller.svelte';
-import OS2 from './OS2.svelte';
-import AdobeInCopy from './AdobeInCopy.svelte';
-import Illumos from './Illumos.svelte';
-import Snyk from './Snyk.svelte';
-import PostScript from './PostScript.svelte';
-import Chef from './Chef.svelte';
-import AmigaOS from './AmigaOS.svelte';
-import Creole from './Creole.svelte';
-import Dotenv from './Dotenv.svelte';
-import ShadowCLJS from './ShadowCLJS.svelte';
-import ZBrush from './ZBrush.svelte';
-import OpenAPI from './OpenAPI.svelte';
-import NewRelic from './NewRelic.svelte';
-import QlikView from './QlikView.svelte';
-import ConfigCoffeeScript from './ConfigCoffeeScript.svelte';
-import RiotOld from './RiotOld.svelte';
-import Pike from './Pike.svelte';
-import ReStructuredText from './ReStructuredText.svelte';
-import Frege from './Frege.svelte';
-import Cirru from './Cirru.svelte';
-import Vue from './Vue.svelte';
-import Tailwind from './Tailwind.svelte';
-import MacVim from './MacVim.svelte';
-import VMware from './VMware.svelte';
-import AssemblyGeneric from './AssemblyGeneric.svelte';
-import Bazel from './Bazel.svelte';
-import Janet from './Janet.svelte';
-import PROS from './PROS.svelte';
-import Fountain from './Fountain.svelte';
-import AdobePremiereRush from './AdobePremiereRush.svelte';
-import Spray from './Spray.svelte';
-import GraphQLCodeGenerator from './GraphQLCodeGenerator.svelte';
-import Sentry from './Sentry.svelte';
-import Jupyter from './Jupyter.svelte';
-import DOSBoxAlt from './DOSBoxAlt.svelte';
-import Jison from './Jison.svelte';
-import PowerShell from './PowerShell.svelte';
-import Hoplon from './Hoplon.svelte';
-import TortoiseSVN from './TortoiseSVN.svelte';
-import Composer from './Composer.svelte';
-import PyUp from './PyUp.svelte';
-import Binder from './Binder.svelte';
-import Factor from './Factor.svelte';
-import Neko from './Neko.svelte';
-import IDL from './IDL.svelte';
-import CodeMirror from './CodeMirror.svelte';
-import W3C from './W3C.svelte';
-import Video from './Video.svelte';
-import OpenCV from './OpenCV.svelte';
-import Apollo from './Apollo.svelte';
-import JSON2 from './JSON2.svelte';
-import Faust from './Faust.svelte';
-import ClojureJS from './ClojureJS.svelte';
-import Lime from './Lime.svelte';
-import Ceylon from './Ceylon.svelte';
-import Haxe from './Haxe.svelte';
-import Coveralls from './Coveralls.svelte';
-import AngelScript from './AngelScript.svelte';
-import Unicode from './Unicode.svelte';
-import KOS from './KOS.svelte';
-import WASI from './WASI.svelte';
-import V from './V.svelte';
-import VertexShader from './VertexShader.svelte';
-import Remark from './Remark.svelte';
-import CommitLint from './CommitLint.svelte';
-import ICU from './ICU.svelte';
-import MJML from './MJML.svelte';
-import AutoIt from './AutoIt.svelte';
-import Pyret from './Pyret.svelte';
-import EasyBuild from './EasyBuild.svelte';
-import LexAlt from './LexAlt.svelte';
-import Asymptote from './Asymptote.svelte';
-import Glade from './Glade.svelte';
-import CpcdosCPlus from './CpcdosCPlus.svelte';
-import Kusto from './Kusto.svelte';
-import TestRust from './TestRust.svelte';
-import Nimrod from './Nimrod.svelte';
-import CKEditor from './CKEditor.svelte';
-import Calva from './Calva.svelte';
-import BNF from './BNF.svelte';
-import Lektor from './Lektor.svelte';
-import Nuxt from './Nuxt.svelte';
-import MicrosoftPowerPoint from './MicrosoftPowerPoint.svelte';
-import Wenyan from './Wenyan.svelte';
-import ANTLR from './ANTLR.svelte';
-import Metal from './Metal.svelte';
-import CraftTweaker from './CraftTweaker.svelte';
-import MesonOld from './MesonOld.svelte';
-import PureBasic from './PureBasic.svelte';
-import GDB from './GDB.svelte';
-import FuelUX from './FuelUX.svelte';
-import V8 from './V8.svelte';
-import BibTeX from './BibTeX.svelte';
-import Sinatra from './Sinatra.svelte';
-import Gitpod from './Gitpod.svelte';
-import Appveyor from './Appveyor.svelte';
-import ImbaAlt from './ImbaAlt.svelte';
-import NumPy from './NumPy.svelte';
-import Keybase from './Keybase.svelte';
-import Leiningen from './Leiningen.svelte';
-import Nextflow from './Nextflow.svelte';
-import Analytica from './Analytica.svelte';
-import Sketch from './Sketch.svelte';
-import Fexl from './Fexl.svelte';
-import Shopify from './Shopify.svelte';
-import Pickle from './Pickle.svelte';
-import OpenGL from './OpenGL.svelte';
-import MELPA from './MELPA.svelte';
-import LefthookAlt from './LefthookAlt.svelte';
-import Fortran from './Fortran.svelte';
-import JSXAtom from './JSXAtom.svelte';
-import Keynote from './Keynote.svelte';
-import Chapel from './Chapel.svelte';
-import FreeDOS from './FreeDOS.svelte';
-import NgRx from './NgRx.svelte';
-import Flask from './Flask.svelte';
-import Conda from './Conda.svelte';
-import Unibeautify from './Unibeautify.svelte';
-import Rsync from './Rsync.svelte';
-import Racket from './Racket.svelte';
-import XPages from './XPages.svelte';
-import A1C from './A1C.svelte';
-import VRay from './VRay.svelte';
-import Dragula from './Dragula.svelte';
-import InnoSetup from './InnoSetup.svelte';
-import Haml from './Haml.svelte';
-import Ansible from './Ansible.svelte';
-import Hitachi from './Hitachi.svelte';
-import Yandex from './Yandex.svelte';
-import IcoMoon from './IcoMoon.svelte';
-import Pytest from './Pytest.svelte';
-import ESLintOld from './ESLintOld.svelte';
-import OpenBSDAlt from './OpenBSDAlt.svelte';
-import Tmux from './Tmux.svelte';
-import MicrosoftWord from './MicrosoftWord.svelte';
-import FreeMarker from './FreeMarker.svelte';
-import AdobeBridge from './AdobeBridge.svelte';
-import GraphViz from './GraphViz.svelte';
-import AdobeFuse from './AdobeFuse.svelte';
-import PegJS from './PegJS.svelte';
-import NDepend from './NDepend.svelte';
-import TextMate from './TextMate.svelte';
-import CPAN from './CPAN.svelte';
-import Watchman from './Watchman.svelte';
-import ObjectiveJ from './ObjectiveJ.svelte';
-import Oxygene from './Oxygene.svelte';
-import EQ from './EQ.svelte';
-import Scilab from './Scilab.svelte';
-import VirtualBox from './VirtualBox.svelte';
-import Codecov from './Codecov.svelte';
-import Stata from './Stata.svelte';
-import Stencil from './Stencil.svelte';
-import AnimeStudio from './AnimeStudio.svelte';
-import Pony from './Pony.svelte';
-import Typings from './Typings.svelte';
-import Grapher from './Grapher.svelte';
-import MATLAB from './MATLAB.svelte';
-import ServiceFabric from './ServiceFabric.svelte';
-import Buck from './Buck.svelte';
-import Brainfuck from './Brainfuck.svelte';
-import KRL from './KRL.svelte';
-import MarkdownLint from './MarkdownLint.svelte';
-import TSX from './TSX.svelte';
-import Zephir from './Zephir.svelte';
-import TypeDoc from './TypeDoc.svelte';
-import Eiffel from './Eiffel.svelte';
-import AdobeMediaEncoder from './AdobeMediaEncoder.svelte';
-import Scratch from './Scratch.svelte';
-import Mint from './Mint.svelte';
-import Image from './Image.svelte';
-import Modelica from './Modelica.svelte';
-import Tern from './Tern.svelte';
-import VirtualBoxAlt from './VirtualBoxAlt.svelte';
-import Bluespec from './Bluespec.svelte';
-import APlus from './APlus.svelte';
-import GravitDesigner from './GravitDesigner.svelte';
-import Brakeman from './Brakeman.svelte';
-import Solidity from './Solidity.svelte';
-import PicoLisp from './PicoLisp.svelte';
-import Imba from './Imba.svelte';
-import JSONLD1 from './JSONLD1.svelte';
-import MetaPost from './MetaPost.svelte';
-import WiX from './WiX.svelte';
-import Floobits from './Floobits.svelte';
-import Lex from './Lex.svelte';
-import ReasonStudiosAlt from './ReasonStudiosAlt.svelte';
-import SystemVerilog from './SystemVerilog.svelte';
-import UrWeb from './UrWeb.svelte';
-import Commitizen from './Commitizen.svelte';
-import Glyphs from './Glyphs.svelte';
-import Lisp from './Lisp.svelte';
-import RubyGems from './RubyGems.svelte';
-import Bro from './Bro.svelte';
-import ConfigRust from './ConfigRust.svelte';
-import Ballerina from './Ballerina.svelte';
-import OpenSolaris from './OpenSolaris.svelte';
-import PHP from './PHP.svelte';
-import Go from './Go.svelte';
-import Modula2 from './Modula2.svelte';
-import AdobePhotoshop from './AdobePhotoshop.svelte';
-import Oberon from './Oberon.svelte';
-import Thor from './Thor.svelte';
-import SketchUpMake from './SketchUpMake.svelte';
-import Swagger from './Swagger.svelte';
-import ActionScript from './ActionScript.svelte';
-import Cakefile from './Cakefile.svelte';
-import BlitzBasic from './BlitzBasic.svelte';
-import NumPyOld from './NumPyOld.svelte';
-import Buildkite from './Buildkite.svelte';
-import Jsonnet from './Jsonnet.svelte';
-import RegEx from './RegEx.svelte';
-import ColdFusion from './ColdFusion.svelte';
-import CakePHP from './CakePHP.svelte';
-import GoReleaser from './GoReleaser.svelte';
-import ComponentPascal from './ComponentPascal.svelte';
-import Greenkeeper from './Greenkeeper.svelte';
-import VSCode from './VSCode.svelte';
-import CSound from './CSound.svelte';
-import Precommit from './Precommit.svelte';
-import Twig from './Twig.svelte';
-import Polymer from './Polymer.svelte';
-import ClosureTemplate from './ClosureTemplate.svelte';
-import SPARC from './SPARC.svelte';
-import Docz from './Docz.svelte';
-import Knockout from './Knockout.svelte';
-import SAS from './SAS.svelte';
-import Lark from './Lark.svelte';
-import Aurelia from './Aurelia.svelte';
-import Fantom from './Fantom.svelte';
-import Zork from './Zork.svelte';
-import ModernWeb from './ModernWeb.svelte';
-import TSXAlt from './TSXAlt.svelte';
-import SilverStripe from './SilverStripe.svelte';
-import CurlLang from './CurlLang.svelte';
-import FontBitmap from './FontBitmap.svelte';
-import JSX from './JSX.svelte';
-import SuperCollider from './SuperCollider.svelte';
-import Phalcon from './Phalcon.svelte';
-import Progress from './Progress.svelte';
-import InfluxData from './InfluxData.svelte';
-import CodeKit from './CodeKit.svelte';
-import Windi from './Windi.svelte';
-import Audacity from './Audacity.svelte';
-import Tilt from './Tilt.svelte';
-import Perl6 from './Perl6.svelte';
-import Augeas from './Augeas.svelte';
-import NXC from './NXC.svelte';
-import CNAB from './CNAB.svelte';
-import MDX from './MDX.svelte';
-import Jinja from './Jinja.svelte';
-import AMD from './AMD.svelte';
-import Jest from './Jest.svelte';
-import Stan from './Stan.svelte';
-import Marko from './Marko.svelte';
-import AlacrittyAlt from './AlacrittyAlt.svelte';
-import Reason from './Reason.svelte';
-import Wget from './Wget.svelte';
-import POVRay from './POVRay.svelte';
-import Mixin from './Mixin.svelte';
-import Renovate from './Renovate.svelte';
-import NVIDIA from './NVIDIA.svelte';
-import AdobePremiere from './AdobePremiere.svelte';
-import FinalDraft from './FinalDraft.svelte';
-import Velocity from './Velocity.svelte';
-import YUI from './YUI.svelte';
-import StylusS from './StylusS.svelte';
-import YANG from './YANG.svelte';
-import EmberScript from './EmberScript.svelte';
-import MicrosoftInfoPath from './MicrosoftInfoPath.svelte';
-import Sails from './Sails.svelte';
-import A4D from './A4D.svelte';
-import OpenStack from './OpenStack.svelte';
-import Nuclide from './Nuclide.svelte';
-import Gentoo from './Gentoo.svelte';
-import Ghostscript from './Ghostscript.svelte';
-import CodeMeta from './CodeMeta.svelte';
-import JSON5 from './JSON5.svelte';
-import E from './E.svelte';
-import NPM from './NPM.svelte';
-import APIBlueprint from './APIBlueprint.svelte';
-import Carthage from './Carthage.svelte';
-import Isabelle from './Isabelle.svelte';
-import ESDoc from './ESDoc.svelte';
-import AdobeAcrobat from './AdobeAcrobat.svelte';
-import A3DModel from './A3DModel.svelte';
-import OpenOffice from './OpenOffice.svelte';
-import Awk from './Awk.svelte';
-import Hygen from './Hygen.svelte';
-import Bors from './Bors.svelte';
-import XMOS from './XMOS.svelte';
-import ConfigGo from './ConfigGo.svelte';
-import FtHTML from './FtHTML.svelte';
-import OpenIndiana from './OpenIndiana.svelte';
-import AnsibleAlt from './AnsibleAlt.svelte';
-import TestCoffeeScript from './TestCoffeeScript.svelte';
-import LookML from './LookML.svelte';
-import VAX from './VAX.svelte';
-import AdobeLightroom from './AdobeLightroom.svelte';
-import Boo from './Boo.svelte';
-import Opa from './Opa.svelte';
-import Elm from './Elm.svelte';
-import GenStat from './GenStat.svelte';
-import Kaitai from './Kaitai.svelte';
-import OWL from './OWL.svelte';
-import Junos from './Junos.svelte';
-import Razzle from './Razzle.svelte';
-import MicrosoftOneNote from './MicrosoftOneNote.svelte';
-import Pascal from './Pascal.svelte';
-import Nix from './Nix.svelte';
-import Svelte from './Svelte.svelte';
-import NestJS from './NestJS.svelte';
-import ConfigPython from './ConfigPython.svelte';
-import Lighthouse from './Lighthouse.svelte';
-import Maya from './Maya.svelte';
-import Tag from './Tag.svelte';
-import IonicProject from './IonicProject.svelte';
-import EC from './EC.svelte';
-import NWScript from './NWScript.svelte';
-import Dafny from './Dafny.svelte';
-import Alloy from './Alloy.svelte';
-import Rexx from './Rexx.svelte';
-import Helix from './Helix.svelte';
-import Cordova from './Cordova.svelte';
-import TestHaskell from './TestHaskell.svelte';
-import Mruby from './Mruby.svelte';
-import Homebrew from './Homebrew.svelte';
-import Apple from './Apple.svelte';
-import SQF from './SQF.svelte';
-import Nintendo64 from './Nintendo64.svelte';
-import Dotjs from './Dotjs.svelte';
-import BrotliOld from './BrotliOld.svelte';
-import DoneJS from './DoneJS.svelte';
-import Hack from './Hack.svelte';
-import ElementaryOS from './ElementaryOS.svelte';
-import LSL from './LSL.svelte';
-import Sorbet from './Sorbet.svelte';
-import Red from './Red.svelte';
-import Scrutinizer from './Scrutinizer.svelte';
-import Prisma from './Prisma.svelte';
-import Vagrant from './Vagrant.svelte';
-import Futhark from './Futhark.svelte';
-import Xtend from './Xtend.svelte';
-import Walt from './Walt.svelte';
-import Nit from './Nit.svelte';
-import Harbour from './Harbour.svelte';
-import MediaWiki from './MediaWiki.svelte';
-import BEM from './BEM.svelte';
-import AdobeCreativeCloud from './AdobeCreativeCloud.svelte';
-import Storybook from './Storybook.svelte';
-import AdobeFlash from './AdobeFlash.svelte';
-import CWL from './CWL.svelte';
-import GoOld from './GoOld.svelte';
-import Yasm from './Yasm.svelte';
-import GameMaker from './GameMaker.svelte';
-import LOLCODE from './LOLCODE.svelte';
-import Zimpl from './Zimpl.svelte';
-import Patch from './Patch.svelte';
-import Fauna from './Fauna.svelte';
-import Odin from './Odin.svelte';
-import ESLint from './ESLint.svelte';
-import ConfigRuby from './ConfigRuby.svelte';
-import Pipenv from './Pipenv.svelte';
-import APLOld from './APLOld.svelte';
-import DragonflyBSD from './DragonflyBSD.svelte';
-import APIExtractor from './APIExtractor.svelte';
-import Curry from './Curry.svelte';
-import Font from './Font.svelte';
-import OOC from './OOC.svelte';
-import Octave from './Octave.svelte';
-import SAC from './SAC.svelte';
-import ChucK from './ChucK.svelte';
-import YAMLAlt1 from './YAMLAlt1.svelte';
-import Shipit from './Shipit.svelte';
-import CakePHPOld from './CakePHPOld.svelte';
-import RollupOld from './RollupOld.svelte';
-import Webpack from './Webpack.svelte';
-import Codacy from './Codacy.svelte';
-import NPMOld from './NPMOld.svelte';
-import Riot from './Riot.svelte';
-import ArtText from './ArtText.svelte';
-import Lasso from './Lasso.svelte';
-import CaddyOld from './CaddyOld.svelte';
-import GIMP from './GIMP.svelte';
-import Verilog from './Verilog.svelte';
-import Quasar from './Quasar.svelte';
-import Xamarin from './Xamarin.svelte';
-import VCL from './VCL.svelte';
-import Emacs from './Emacs.svelte';
-import SaltStack from './SaltStack.svelte';
-import ConfigPerl from './ConfigPerl.svelte';
-import VSTS from './VSTS.svelte';
-import GlTF from './GlTF.svelte';
-import Gridsome from './Gridsome.svelte';
-import Agda from './Agda.svelte';
-import Digdag from './Digdag.svelte';
-import NetLinx from './NetLinx.svelte';
-import Qiskit from './Qiskit.svelte';
-import RedOld from './RedOld.svelte';
-import MuPAD from './MuPAD.svelte';
-import Sigils from './Sigils.svelte';
-import CodeClimate from './CodeClimate.svelte';
-import Istanbul from './Istanbul.svelte';
-import TLAPlus from './TLAPlus.svelte';
-import Alacritty from './Alacritty.svelte';
-import Normalise from './Normalise.svelte';
-import CorelDRAW from './CorelDRAW.svelte';
-import FFmpeg from './FFmpeg.svelte';
-import TestDirectory from './TestDirectory.svelte';
-import Glide from './Glide.svelte';
-import Config from './Config.svelte';
-import GitLab from './GitLab.svelte';
-import Sequelize from './Sequelize.svelte';
-import Conan from './Conan.svelte';
-import GAMS from './GAMS.svelte';
-import OpensCAD from './OpensCAD.svelte';
-import LabVIEW from './LabVIEW.svelte';
-import Latino from './Latino.svelte';
-import JSON1 from './JSON1.svelte';
-import Firebase from './Firebase.svelte';
-import RData from './RData.svelte';
-import Mirah from './Mirah.svelte';
-import PCD from './PCD.svelte';
-import OrgMode from './OrgMode.svelte';
-import SQLite from './SQLite.svelte';
-import Idris from './Idris.svelte';
-import Nginx from './Nginx.svelte';
-import AdobeAnimate from './AdobeAnimate.svelte';
-import DNA from './DNA.svelte';
-import Atoum from './Atoum.svelte';
-import D3 from './D3.svelte';
-import DeviceTree from './DeviceTree.svelte';
-import Galaxy from './Galaxy.svelte';
-import Mermaid from './Mermaid.svelte';
-import CURL from './CURL.svelte';
-import Stylelint from './Stylelint.svelte';
-import Yorick from './Yorick.svelte';
-import Broccoli from './Broccoli.svelte';
-import Grunt from './Grunt.svelte';
-import Flow from './Flow.svelte';
-import Puppet from './Puppet.svelte';
-import MicrosoftProject from './MicrosoftProject.svelte';
-import Jade from './Jade.svelte';
-import Scilla from './Scilla.svelte';
-import ATS from './ATS.svelte';
-import Intel from './Intel.svelte';
-import Ogone from './Ogone.svelte';
-import ConfigHaskell from './ConfigHaskell.svelte';
-import Pan from './Pan.svelte';
-import AzurePipelines from './AzurePipelines.svelte';
-import Caffe2 from './Caffe2.svelte';
-import Libuv from './Libuv.svelte';
-import AssemblyRISCV from './AssemblyRISCV.svelte';
-import Nessus from './Nessus.svelte';
-import Slash from './Slash.svelte';
-import Arduino from './Arduino.svelte';
-import Click from './Click.svelte';
-import CommonLisp from './CommonLisp.svelte';
-import AdobeAudition from './AdobeAudition.svelte';
-import PowerPC from './PowerPC.svelte';
-import Sandbox from './Sandbox.svelte';
-import Self from './Self.svelte';
-import Dhall from './Dhall.svelte';
-import Lefthook from './Lefthook.svelte';
-import APL from './APL.svelte';
-import AssemblyAMD from './AssemblyAMD.svelte';
-import Robots from './Robots.svelte';
-import Karma from './Karma.svelte';
-import AffectScript from './AffectScript.svelte';
-import HashiCorp from './HashiCorp.svelte';
-import HoundCI from './HoundCI.svelte';
-import DOM from './DOM.svelte';
-import AssemblyZilog from './AssemblyZilog.svelte';
-import Cake from './Cake.svelte';
-import AdobeDreamweaver from './AdobeDreamweaver.svelte';
-import Sage from './Sage.svelte';
-import Redux from './Redux.svelte';
-import Mocha from './Mocha.svelte';
-import Husky from './Husky.svelte';
-import AsciiDoc from './AsciiDoc.svelte';
-import Default from './Default.svelte';
-import OmniGraffle from './OmniGraffle.svelte';
-import Kx from './Kx.svelte';
-import OpenVMS from './OpenVMS.svelte';
-import Solidarity from './Solidarity.svelte';
-import Jakefile from './Jakefile.svelte';
-import PNPM from './PNPM.svelte';
-import Coq from './Coq.svelte';
-import Godot from './Godot.svelte';
-import Shen from './Shen.svelte';
-import NSIS from './NSIS.svelte';
-import Dashboard from './Dashboard.svelte';
-import Proselint from './Proselint.svelte';
-import Chocolatey from './Chocolatey.svelte';
-import Galen from './Galen.svelte';
-import OpenZFS from './OpenZFS.svelte';
-import TypeScript from './TypeScript.svelte';
-import Wolfram from './Wolfram.svelte';
-import PointWise from './PointWise.svelte';
-import BinTray from './BinTray.svelte';
-import TXL from './TXL.svelte';
-import Doxygen from './Doxygen.svelte';
-import Julia from './Julia.svelte';
-import Deno from './Deno.svelte';
-import TOML from './TOML.svelte';
-import Kibo from './Kibo.svelte';
-import StdlibJS from './StdlibJS.svelte';
-import EditorConfig from './EditorConfig.svelte';
-import HJSON from './HJSON.svelte';
-import PureScript from './PureScript.svelte';
-import DyLib from './DyLib.svelte';
-import Ensime from './Ensime.svelte';
-import FuseBox from './FuseBox.svelte';
-import SketchUpLayOut from './SketchUpLayOut.svelte';
-import Fancy from './Fancy.svelte';
-import Rubocop from './Rubocop.svelte';
-import RestQL from './RestQL.svelte';
-import DevContainer from './DevContainer.svelte';
-import Monkey from './Monkey.svelte';
-import AutoHotkey from './AutoHotkey.svelte';
-import Flux from './Flux.svelte';
-import Draw_io from './Draw_io.svelte';
-import IGORPro from './IGORPro.svelte';
-import AssemblyVAX from './AssemblyVAX.svelte';
-import AffinityDesigner from './AffinityDesigner.svelte';
-import Ink from './Ink.svelte';
-import GraphQL from './GraphQL.svelte';
-import Lua from './Lua.svelte';
-import RobotFrameworkOld from './RobotFrameworkOld.svelte';
-import LINQPad from './LINQPad.svelte';
-import KNIME from './KNIME.svelte';
-import Sublime from './Sublime.svelte';
-import KiCad from './KiCad.svelte';
-import Wine from './Wine.svelte';
-import YAMLAlt3 from './YAMLAlt3.svelte';
-import Matroska from './Matroska.svelte';
-import Terser from './Terser.svelte';
-import Manpage from './Manpage.svelte';
-import Caffe from './Caffe.svelte';
-import Kivy from './Kivy.svelte';
-import Finder from './Finder.svelte';
-import Imgbot from './Imgbot.svelte';
-import Moho from './Moho.svelte';
-import Nib from './Nib.svelte';
-import Fossil from './Fossil.svelte';
-import RobotFramework from './RobotFramework.svelte';
-import Snort from './Snort.svelte';
-import NextJS from './NextJS.svelte';
-import Storyist from './Storyist.svelte';
-import TTCN3 from './TTCN3.svelte';
-import ReScript from './ReScript.svelte';
-import Browsersync from './Browsersync.svelte';
-import Parrot from './Parrot.svelte';
-import NAnt from './NAnt.svelte';
-import Zeit from './Zeit.svelte';
-import TemplateToolkit from './TemplateToolkit.svelte';
-import Edge from './Edge.svelte';
-import MomentTimezone from './MomentTimezone.svelte';
-import Dub from './Dub.svelte';
-import YARA from './YARA.svelte';
-import TestJS from './TestJS.svelte';
-import PowerBuilder from './PowerBuilder.svelte';
-import CSharp from './CSharp.svelte';
-import MSDOS from './MSDOS.svelte';
-import CorelDRAWAlt from './CorelDRAWAlt.svelte';
-import Cython from './Cython.svelte';
-export {
-	Jscpd,
-	KustoAlt,
-	TestCafe,
-	ABAP,
-	ConfigJS,
-	SmartOS,
-	Phoenix,
-	Fabric,
-	RDoc,
-	Vite,
-	KitchenCI,
-	Bazaar,
-	Clean,
-	Macaulay2,
-	BuildBoot,
-	Turing,
-	Kotlin,
-	NetLogo,
-	RStudio,
-	Source,
-	Truffle,
-	Wurst,
-	Rascal,
-	Nanoc,
-	MicrosoftLync,
-	Nokogiri,
-	Precision,
-	SmartOSAlt,
-	AssemblySPARC,
-	StyledComponents,
-	Chai,
-	BitHound,
-	Fabfile,
-	NuGet,
-	AssemblyPowerPC,
-	DocBook,
-	TypeScriptAlt,
-	YAMLLint,
-	VHDL,
-	Jolie,
-	Pure,
-	StylishHaskell,
-	UNO,
-	DataWeave,
-	AdobeAfterEffects,
-	R,
-	Cmake,
-	Textile,
-	Falcon,
-	Moment,
-	Vala,
-	COBOL,
-	StylusOrb,
-	PhotoRec,
-	Fork,
-	PostCSS,
-	CircleCI,
-	Genshi,
-	Nx,
-	Xubuntu,
-	MicrosoftPublisher,
-	AnyScript,
-	UnrealScript,
-	AdobeCharacterAnimator,
-	Blender,
-	OpenBSD,
-	Modo,
-	Workbox,
-	ProgressOld,
-	OpenPolicyAgent,
-	Oz,
-	FBX,
-	TestTypeScript,
-	Snowpack,
-	Minecraft,
-	JSXAlt,
-	Pkgsrc,
-	ARM,
-	ABIF,
-	PyPi,
-	Rollup,
-	Akka,
-	Brunch,
-	GAUSS,
-	J,
-	Terminal,
-	Nightwatch,
-	Cheetah3D,
-	TestReact,
-	CSharpScript,
-	PAWN,
-	RAML,
-	Kubernetes,
-	SemanticRelease,
-	AVR,
-	MIRC,
-	TestGeneric,
-	AssemblyMotorola,
-	MicrosoftAccess,
-	BazelOld,
-	ConfigTypeScript,
-	Ox,
-	ATT,
-	OCaml,
-	Zig,
-	Nomad,
-	MicrosoftOutlook,
-	TOTVS,
-	Cubit,
-	Nodemon,
-	Drone,
-	CloudFoundry,
-	PM2,
-	WebAssembly,
-	Cucumber,
-	Pug,
-	YAML,
-	AdobeIllustrator,
-	ImbaOld,
-	NEON,
-	ArchLinux,
-	Figma,
-	Sophia,
-	Hy,
-	Bosque,
-	FreeDesktop,
-	Dyalog,
-	Lean,
-	PugOld,
-	Electron,
-	ReactOS,
-	Xmake,
-	Babel,
-	Franca,
-	Arc,
-	Ring,
-	Io,
-	Neo4J,
-	P4,
-	Shuriken,
-	Rhino3D,
-	Leaflet,
-	GAP,
-	Dependabot,
-	SketchUpStyleBuilder,
-	Reek,
-	FontForge,
-	CodeShip,
-	DocPad,
-	WebGL,
-	Inform7,
-	AGC,
-	Khronos,
-	WebpackOld,
-	Serverless,
-	TestRuby,
-	Cuneiform,
-	DBASE,
-	Jenkins,
-	AdobePrelude,
-	WebVTT,
-	Patreon,
-	PhraseApp,
-	Ecere,
-	Shippable,
-	CoNLL,
-	SiliconGraphics,
-	Docker,
-	LFE,
-	Noon,
-	Protractor,
-	DVC,
-	OpenVPN,
-	Gosu,
-	SVN,
-	Manjaro,
-	NSRIAlt,
-	TestPerl,
-	Gatsby,
-	Nickle,
-	Laravel,
-	CVS,
-	UFO,
-	Wercker,
-	Crowdin,
-	JSONLD2,
-	Terraform,
-	Fiddle,
-	Pod,
-	TestPython,
-	OpenEXR,
-	YAMLAlt4,
-	Inkscape,
-	AdonisJS,
-	Acre,
-	Modula3,
-	FirebaseBolt,
-	GN,
-	DarcsPatch,
-	Adobe,
-	CDF,
-	NSISOld,
-	ArtText4,
-	AmuseWiki,
-	MathJax,
-	Houdini,
-	Mercurial,
-	Moleculer,
-	LGTM,
-	Stylus,
-	SBT,
-	Automator,
-	Rebol,
-	SquareSpace,
-	AdobeDimension,
-	TempleOS,
-	Strings,
-	Mapbox,
-	RISCV,
-	Dia,
-	PHPUnit,
-	Flutter,
-	Tipe,
-	TestGo,
-	Brotli,
-	Miranda,
-	WarcraftIII,
-	Telegram,
-	ApacheANT,
-	Clarion,
-	Hyper,
-	Bundler,
-	CLIPS,
-	AssemblyIntel,
-	Magit,
-	ChartJS,
-	PogoScript,
-	Motorola,
-	EJS,
-	Groovy,
-	Cabal,
-	MicrosoftExcel,
-	V8Turbofan,
-	Doclets,
-	LaTeX,
-	Graphite,
-	MicrosoftVisio,
-	Expo,
-	Bloc,
-	PlatformIO,
-	NASM,
-	LiveScript,
-	Avro,
-	AsymptoteAlt,
-	A3DSMax,
-	Rmarkdown,
-	Zilog,
-	AlpineLinux,
-	OpenCL,
-	MiniZinc,
-	LLVM,
-	Hugo,
-	Meteor,
-	Gnuplot,
-	Ada,
-	Caddy,
-	Prettier,
-	LilyPond,
-	Golo,
-	Vyper,
-	Nimble,
-	WDL,
-	Snapcraft,
-	Spacengine,
-	ForTheRecord,
-	GF,
-	AssemblyARM,
-	AdobeXD,
-	Ioke,
-	Gradle,
-	San,
-	Diff,
-	QT,
-	Dogescript,
-	Bikeshed,
-	ReasonStudios,
-	Mono,
-	Logtalk,
-	Biml,
-	Yarn,
-	ZorinOS,
-	Jasmine,
-	ECLiPSeLang,
-	Delphi,
-	TFS,
-	FOSSA,
-	Ember,
-	AssemblyAVR,
-	Bison,
-	Twine,
-	Crystal,
-	X10,
-	Max,
-	Cairo,
-	Nunjucks,
-	Monotone,
-	HIE,
-	Mercury,
-	NSRI,
-	Stylable,
-	A1CAlt,
-	Behat,
-	RSpec,
-	Scheme,
-	Nano,
-	Meson,
-	CPlusPlus,
-	BYOND,
-	CocoaPods,
-	Papyrus,
-	REALbasic,
-	Nmap,
-	Aeternity,
-	ReadTheDocs,
-	PineScript,
-	HewlettPackard,
-	PullApprove,
-	Mathematica,
-	Webhint,
-	Lerna,
-	AdobeInDesign,
-	ConfigReact,
-	Browserslist,
-	Nemerle,
-	TinyMCE,
-	Tcl,
-	ShellCheck,
-	PICO8,
-	Antwar,
-	WinUI,
-	Wallaby,
-	YAMLAlt2,
-	Moustache,
-	Processing,
-	Eagle,
-	HaxeDevelop,
-	AssemblyAGC,
-	Spacemacs,
-	FontOutline,
-	DOSBox,
-	LightWave,
-	Alex,
-	AssemblyHitachi,
-	GNU,
-	Hop,
-	FreeMat,
-	Stitches,
-	Mako,
-	Gulp,
-	Asciidoctor,
-	Netlify,
-	AMPL,
-	CASC,
-	QSharp,
-	AssemblyATT,
-	Propeller,
-	OS2,
-	AdobeInCopy,
-	Illumos,
-	Snyk,
-	PostScript,
-	Chef,
-	AmigaOS,
-	Creole,
-	Dotenv,
-	ShadowCLJS,
-	ZBrush,
-	OpenAPI,
-	NewRelic,
-	QlikView,
-	ConfigCoffeeScript,
-	RiotOld,
-	Pike,
-	ReStructuredText,
-	Frege,
-	Cirru,
-	Vue,
-	Tailwind,
-	MacVim,
-	VMware,
-	AssemblyGeneric,
-	Bazel,
-	Janet,
-	PROS,
-	Fountain,
-	AdobePremiereRush,
-	Spray,
-	GraphQLCodeGenerator,
-	Sentry,
-	Jupyter,
-	DOSBoxAlt,
-	Jison,
-	PowerShell,
-	Hoplon,
-	TortoiseSVN,
-	Composer,
-	PyUp,
-	Binder,
-	Factor,
-	Neko,
-	IDL,
-	CodeMirror,
-	W3C,
-	Video,
-	OpenCV,
-	Apollo,
-	JSON2,
-	Faust,
-	ClojureJS,
-	Lime,
-	Ceylon,
-	Haxe,
-	Coveralls,
-	AngelScript,
-	Unicode,
-	KOS,
-	WASI,
-	V,
-	VertexShader,
-	Remark,
-	CommitLint,
-	ICU,
-	MJML,
-	AutoIt,
-	Pyret,
-	EasyBuild,
-	LexAlt,
-	Asymptote,
-	Glade,
-	CpcdosCPlus,
-	Kusto,
-	TestRust,
-	Nimrod,
-	CKEditor,
-	Calva,
-	BNF,
-	Lektor,
-	Nuxt,
-	MicrosoftPowerPoint,
-	Wenyan,
-	ANTLR,
-	Metal,
-	CraftTweaker,
-	MesonOld,
-	PureBasic,
-	GDB,
-	FuelUX,
-	V8,
-	BibTeX,
-	Sinatra,
-	Gitpod,
-	Appveyor,
-	ImbaAlt,
-	NumPy,
-	Keybase,
-	Leiningen,
-	Nextflow,
-	Analytica,
-	Sketch,
-	Fexl,
-	Shopify,
-	Pickle,
-	OpenGL,
-	MELPA,
-	LefthookAlt,
-	Fortran,
-	JSXAtom,
-	Keynote,
-	Chapel,
-	FreeDOS,
-	NgRx,
-	Flask,
-	Conda,
-	Unibeautify,
-	Rsync,
-	Racket,
-	XPages,
-	A1C,
-	VRay,
-	Dragula,
-	InnoSetup,
-	Haml,
-	Ansible,
-	Hitachi,
-	Yandex,
-	IcoMoon,
-	Pytest,
-	ESLintOld,
-	OpenBSDAlt,
-	Tmux,
-	MicrosoftWord,
-	FreeMarker,
-	AdobeBridge,
-	GraphViz,
-	AdobeFuse,
-	PegJS,
-	NDepend,
-	TextMate,
-	CPAN,
-	Watchman,
-	ObjectiveJ,
-	Oxygene,
-	EQ,
-	Scilab,
-	VirtualBox,
-	Codecov,
-	Stata,
-	Stencil,
-	AnimeStudio,
-	Pony,
-	Typings,
-	Grapher,
-	MATLAB,
-	ServiceFabric,
-	Buck,
-	Brainfuck,
-	KRL,
-	MarkdownLint,
-	TSX,
-	Zephir,
-	TypeDoc,
-	Eiffel,
-	AdobeMediaEncoder,
-	Scratch,
-	Mint,
-	Image,
-	Modelica,
-	Tern,
-	VirtualBoxAlt,
-	Bluespec,
-	APlus,
-	GravitDesigner,
-	Brakeman,
-	Solidity,
-	PicoLisp,
-	Imba,
-	JSONLD1,
-	MetaPost,
-	WiX,
-	Floobits,
-	Lex,
-	ReasonStudiosAlt,
-	SystemVerilog,
-	UrWeb,
-	Commitizen,
-	Glyphs,
-	Lisp,
-	RubyGems,
-	Bro,
-	ConfigRust,
-	Ballerina,
-	OpenSolaris,
-	PHP,
-	Go,
-	Modula2,
-	AdobePhotoshop,
-	Oberon,
-	Thor,
-	SketchUpMake,
-	Swagger,
-	ActionScript,
-	Cakefile,
-	BlitzBasic,
-	NumPyOld,
-	Buildkite,
-	Jsonnet,
-	RegEx,
-	ColdFusion,
-	CakePHP,
-	GoReleaser,
-	ComponentPascal,
-	Greenkeeper,
-	VSCode,
-	CSound,
-	Precommit,
-	Twig,
-	Polymer,
-	ClosureTemplate,
-	SPARC,
-	Docz,
-	Knockout,
-	SAS,
-	Lark,
-	Aurelia,
-	Fantom,
-	Zork,
-	ModernWeb,
-	TSXAlt,
-	SilverStripe,
-	CurlLang,
-	FontBitmap,
-	JSX,
-	SuperCollider,
-	Phalcon,
-	Progress,
-	InfluxData,
-	CodeKit,
-	Windi,
-	Audacity,
-	Tilt,
-	Perl6,
-	Augeas,
-	NXC,
-	CNAB,
-	MDX,
-	Jinja,
-	AMD,
-	Jest,
-	Stan,
-	Marko,
-	AlacrittyAlt,
-	Reason,
-	Wget,
-	POVRay,
-	Mixin,
-	Renovate,
-	NVIDIA,
-	AdobePremiere,
-	FinalDraft,
-	Velocity,
-	YUI,
-	StylusS,
-	YANG,
-	EmberScript,
-	MicrosoftInfoPath,
-	Sails,
-	A4D,
-	OpenStack,
-	Nuclide,
-	Gentoo,
-	Ghostscript,
-	CodeMeta,
-	JSON5,
-	E,
-	NPM,
-	APIBlueprint,
-	Carthage,
-	Isabelle,
-	ESDoc,
-	AdobeAcrobat,
-	A3DModel,
-	OpenOffice,
-	Awk,
-	Hygen,
-	Bors,
-	XMOS,
-	ConfigGo,
-	FtHTML,
-	OpenIndiana,
-	AnsibleAlt,
-	TestCoffeeScript,
-	LookML,
-	VAX,
-	AdobeLightroom,
-	Boo,
-	Opa,
-	Elm,
-	GenStat,
-	Kaitai,
-	OWL,
-	Junos,
-	Razzle,
-	MicrosoftOneNote,
-	Pascal,
-	Nix,
-	Svelte,
-	NestJS,
-	ConfigPython,
-	Lighthouse,
-	Maya,
-	Tag,
-	IonicProject,
-	EC,
-	NWScript,
-	Dafny,
-	Alloy,
-	Rexx,
-	Helix,
-	Cordova,
-	TestHaskell,
-	Mruby,
-	Homebrew,
-	Apple,
-	SQF,
-	Nintendo64,
-	Dotjs,
-	BrotliOld,
-	DoneJS,
-	Hack,
-	ElementaryOS,
-	LSL,
-	Sorbet,
-	Red,
-	Scrutinizer,
-	Prisma,
-	Vagrant,
-	Futhark,
-	Xtend,
-	Walt,
-	Nit,
-	Harbour,
-	MediaWiki,
-	BEM,
-	AdobeCreativeCloud,
-	Storybook,
-	AdobeFlash,
-	CWL,
-	GoOld,
-	Yasm,
-	GameMaker,
-	LOLCODE,
-	Zimpl,
-	Patch,
-	Fauna,
-	Odin,
-	ESLint,
-	ConfigRuby,
-	Pipenv,
-	APLOld,
-	DragonflyBSD,
-	APIExtractor,
-	Curry,
-	Font,
-	OOC,
-	Octave,
-	SAC,
-	ChucK,
-	YAMLAlt1,
-	Shipit,
-	CakePHPOld,
-	RollupOld,
-	Webpack,
-	Codacy,
-	NPMOld,
-	Riot,
-	ArtText,
-	Lasso,
-	CaddyOld,
-	GIMP,
-	Verilog,
-	Quasar,
-	Xamarin,
-	VCL,
-	Emacs,
-	SaltStack,
-	ConfigPerl,
-	VSTS,
-	GlTF,
-	Gridsome,
-	Agda,
-	Digdag,
-	NetLinx,
-	Qiskit,
-	RedOld,
-	MuPAD,
-	Sigils,
-	CodeClimate,
-	Istanbul,
-	TLAPlus,
-	Alacritty,
-	Normalise,
-	CorelDRAW,
-	FFmpeg,
-	TestDirectory,
-	Glide,
-	Config,
-	GitLab,
-	Sequelize,
-	Conan,
-	GAMS,
-	OpensCAD,
-	LabVIEW,
-	Latino,
-	JSON1,
-	Firebase,
-	RData,
-	Mirah,
-	PCD,
-	OrgMode,
-	SQLite,
-	Idris,
-	Nginx,
-	AdobeAnimate,
-	DNA,
-	Atoum,
-	D3,
-	DeviceTree,
-	Galaxy,
-	Mermaid,
-	CURL,
-	Stylelint,
-	Yorick,
-	Broccoli,
-	Grunt,
-	Flow,
-	Puppet,
-	MicrosoftProject,
-	Jade,
-	Scilla,
-	ATS,
-	Intel,
-	Ogone,
-	ConfigHaskell,
-	Pan,
-	AzurePipelines,
-	Caffe2,
-	Libuv,
-	AssemblyRISCV,
-	Nessus,
-	Slash,
-	Arduino,
-	Click,
-	CommonLisp,
-	AdobeAudition,
-	PowerPC,
-	Sandbox,
-	Self,
-	Dhall,
-	Lefthook,
-	APL,
-	AssemblyAMD,
-	Robots,
-	Karma,
-	AffectScript,
-	HashiCorp,
-	HoundCI,
-	DOM,
-	AssemblyZilog,
-	Cake,
-	AdobeDreamweaver,
-	Sage,
-	Redux,
-	Mocha,
-	Husky,
-	AsciiDoc,
-	Default,
-	OmniGraffle,
-	Kx,
-	OpenVMS,
-	Solidarity,
-	Jakefile,
-	PNPM,
-	Coq,
-	Godot,
-	Shen,
-	NSIS,
-	Dashboard,
-	Proselint,
-	Chocolatey,
-	Galen,
-	OpenZFS,
-	TypeScript,
-	Wolfram,
-	PointWise,
-	BinTray,
-	TXL,
-	Doxygen,
-	Julia,
-	Deno,
-	TOML,
-	Kibo,
-	StdlibJS,
-	EditorConfig,
-	HJSON,
-	PureScript,
-	DyLib,
-	Ensime,
-	FuseBox,
-	SketchUpLayOut,
-	Fancy,
-	Rubocop,
-	RestQL,
-	DevContainer,
-	Monkey,
-	AutoHotkey,
-	Flux,
-	Draw_io,
-	IGORPro,
-	AssemblyVAX,
-	AffinityDesigner,
-	Ink,
-	GraphQL,
-	Lua,
-	RobotFrameworkOld,
-	LINQPad,
-	KNIME,
-	Sublime,
-	KiCad,
-	Wine,
-	YAMLAlt3,
-	Matroska,
-	Terser,
-	Manpage,
-	Caffe,
-	Kivy,
-	Finder,
-	Imgbot,
-	Moho,
-	Nib,
-	Fossil,
-	RobotFramework,
-	Snort,
-	NextJS,
-	Storyist,
-	TTCN3,
-	ReScript,
-	Browsersync,
-	Parrot,
-	NAnt,
-	Zeit,
-	TemplateToolkit,
-	Edge,
-	MomentTimezone,
-	Dub,
-	YARA,
-	TestJS,
-	PowerBuilder,
-	CSharp,
-	MSDOS,
-	CorelDRAWAlt,
-	Cython
-};
+export { default as A1C } from './A1C.svelte';
+export { default as A1CAlt } from './A1CAlt.svelte';
+export { default as A3DModel } from './A3DModel.svelte';
+export { default as A3DSMax } from './A3DSMax.svelte';
+export { default as A4D } from './A4D.svelte';
+export { default as ABAP } from './ABAP.svelte';
+export { default as ABIF } from './ABIF.svelte';
+export { default as AGC } from './AGC.svelte';
+export { default as AMD } from './AMD.svelte';
+export { default as AMPL } from './AMPL.svelte';
+export { default as ANTLR } from './ANTLR.svelte';
+export { default as APIBlueprint } from './APIBlueprint.svelte';
+export { default as APIExtractor } from './APIExtractor.svelte';
+export { default as APL } from './APL.svelte';
+export { default as APLOld } from './APLOld.svelte';
+export { default as APlus } from './APlus.svelte';
+export { default as ARM } from './ARM.svelte';
+export { default as ATS } from './ATS.svelte';
+export { default as ATT } from './ATT.svelte';
+export { default as AVR } from './AVR.svelte';
+export { default as Acre } from './Acre.svelte';
+export { default as ActionScript } from './ActionScript.svelte';
+export { default as Ada } from './Ada.svelte';
+export { default as Adobe } from './Adobe.svelte';
+export { default as AdobeAcrobat } from './AdobeAcrobat.svelte';
+export { default as AdobeAfterEffects } from './AdobeAfterEffects.svelte';
+export { default as AdobeAnimate } from './AdobeAnimate.svelte';
+export { default as AdobeAudition } from './AdobeAudition.svelte';
+export { default as AdobeBridge } from './AdobeBridge.svelte';
+export { default as AdobeCharacterAnimator } from './AdobeCharacterAnimator.svelte';
+export { default as AdobeCreativeCloud } from './AdobeCreativeCloud.svelte';
+export { default as AdobeDimension } from './AdobeDimension.svelte';
+export { default as AdobeDreamweaver } from './AdobeDreamweaver.svelte';
+export { default as AdobeFlash } from './AdobeFlash.svelte';
+export { default as AdobeFuse } from './AdobeFuse.svelte';
+export { default as AdobeIllustrator } from './AdobeIllustrator.svelte';
+export { default as AdobeInCopy } from './AdobeInCopy.svelte';
+export { default as AdobeInDesign } from './AdobeInDesign.svelte';
+export { default as AdobeLightroom } from './AdobeLightroom.svelte';
+export { default as AdobeMediaEncoder } from './AdobeMediaEncoder.svelte';
+export { default as AdobePhotoshop } from './AdobePhotoshop.svelte';
+export { default as AdobePrelude } from './AdobePrelude.svelte';
+export { default as AdobePremiere } from './AdobePremiere.svelte';
+export { default as AdobePremiereRush } from './AdobePremiereRush.svelte';
+export { default as AdobeXD } from './AdobeXD.svelte';
+export { default as AdonisJS } from './AdonisJS.svelte';
+export { default as Aeternity } from './Aeternity.svelte';
+export { default as AffectScript } from './AffectScript.svelte';
+export { default as AffinityDesigner } from './AffinityDesigner.svelte';
+export { default as Agda } from './Agda.svelte';
+export { default as Akka } from './Akka.svelte';
+export { default as Alacritty } from './Alacritty.svelte';
+export { default as AlacrittyAlt } from './AlacrittyAlt.svelte';
+export { default as Alex } from './Alex.svelte';
+export { default as Alloy } from './Alloy.svelte';
+export { default as AlpineLinux } from './AlpineLinux.svelte';
+export { default as AmigaOS } from './AmigaOS.svelte';
+export { default as AmuseWiki } from './AmuseWiki.svelte';
+export { default as Analytica } from './Analytica.svelte';
+export { default as AngelScript } from './AngelScript.svelte';
+export { default as AnimeStudio } from './AnimeStudio.svelte';
+export { default as Ansible } from './Ansible.svelte';
+export { default as AnsibleAlt } from './AnsibleAlt.svelte';
+export { default as Antwar } from './Antwar.svelte';
+export { default as AnyScript } from './AnyScript.svelte';
+export { default as ApacheANT } from './ApacheANT.svelte';
+export { default as Apollo } from './Apollo.svelte';
+export { default as Apple } from './Apple.svelte';
+export { default as Appveyor } from './Appveyor.svelte';
+export { default as Arc } from './Arc.svelte';
+export { default as ArchLinux } from './ArchLinux.svelte';
+export { default as Arduino } from './Arduino.svelte';
+export { default as ArtText } from './ArtText.svelte';
+export { default as ArtText4 } from './ArtText4.svelte';
+export { default as AsciiDoc } from './AsciiDoc.svelte';
+export { default as Asciidoctor } from './Asciidoctor.svelte';
+export { default as AssemblyAGC } from './AssemblyAGC.svelte';
+export { default as AssemblyAMD } from './AssemblyAMD.svelte';
+export { default as AssemblyARM } from './AssemblyARM.svelte';
+export { default as AssemblyATT } from './AssemblyATT.svelte';
+export { default as AssemblyAVR } from './AssemblyAVR.svelte';
+export { default as AssemblyGeneric } from './AssemblyGeneric.svelte';
+export { default as AssemblyHitachi } from './AssemblyHitachi.svelte';
+export { default as AssemblyIntel } from './AssemblyIntel.svelte';
+export { default as AssemblyMotorola } from './AssemblyMotorola.svelte';
+export { default as AssemblyPowerPC } from './AssemblyPowerPC.svelte';
+export { default as AssemblyRISCV } from './AssemblyRISCV.svelte';
+export { default as AssemblySPARC } from './AssemblySPARC.svelte';
+export { default as AssemblyVAX } from './AssemblyVAX.svelte';
+export { default as AssemblyZilog } from './AssemblyZilog.svelte';
+export { default as Asymptote } from './Asymptote.svelte';
+export { default as AsymptoteAlt } from './AsymptoteAlt.svelte';
+export { default as Atoum } from './Atoum.svelte';
+export { default as Audacity } from './Audacity.svelte';
+export { default as Augeas } from './Augeas.svelte';
+export { default as Aurelia } from './Aurelia.svelte';
+export { default as AutoHotkey } from './AutoHotkey.svelte';
+export { default as AutoIt } from './AutoIt.svelte';
+export { default as Automator } from './Automator.svelte';
+export { default as Avro } from './Avro.svelte';
+export { default as Awk } from './Awk.svelte';
+export { default as AzurePipelines } from './AzurePipelines.svelte';
+export { default as BEM } from './BEM.svelte';
+export { default as BNF } from './BNF.svelte';
+export { default as BYOND } from './BYOND.svelte';
+export { default as Babel } from './Babel.svelte';
+export { default as Ballerina } from './Ballerina.svelte';
+export { default as Bazaar } from './Bazaar.svelte';
+export { default as Bazel } from './Bazel.svelte';
+export { default as BazelOld } from './BazelOld.svelte';
+export { default as Behat } from './Behat.svelte';
+export { default as BibTeX } from './BibTeX.svelte';
+export { default as Bikeshed } from './Bikeshed.svelte';
+export { default as Biml } from './Biml.svelte';
+export { default as BinTray } from './BinTray.svelte';
+export { default as Binder } from './Binder.svelte';
+export { default as Bison } from './Bison.svelte';
+export { default as BitHound } from './BitHound.svelte';
+export { default as Blender } from './Blender.svelte';
+export { default as BlitzBasic } from './BlitzBasic.svelte';
+export { default as Bloc } from './Bloc.svelte';
+export { default as Bluespec } from './Bluespec.svelte';
+export { default as Boo } from './Boo.svelte';
+export { default as Bors } from './Bors.svelte';
+export { default as Bosque } from './Bosque.svelte';
+export { default as Brainfuck } from './Brainfuck.svelte';
+export { default as Brakeman } from './Brakeman.svelte';
+export { default as Bro } from './Bro.svelte';
+export { default as Broccoli } from './Broccoli.svelte';
+export { default as Brotli } from './Brotli.svelte';
+export { default as BrotliOld } from './BrotliOld.svelte';
+export { default as Browserslist } from './Browserslist.svelte';
+export { default as Browsersync } from './Browsersync.svelte';
+export { default as Brunch } from './Brunch.svelte';
+export { default as Buck } from './Buck.svelte';
+export { default as BuildBoot } from './BuildBoot.svelte';
+export { default as Buildkite } from './Buildkite.svelte';
+export { default as Bundler } from './Bundler.svelte';
+export { default as CASC } from './CASC.svelte';
+export { default as CDF } from './CDF.svelte';
+export { default as CKEditor } from './CKEditor.svelte';
+export { default as CLIPS } from './CLIPS.svelte';
+export { default as CNAB } from './CNAB.svelte';
+export { default as COBOL } from './COBOL.svelte';
+export { default as CPAN } from './CPAN.svelte';
+export { default as CPlusPlus } from './CPlusPlus.svelte';
+export { default as CSharp } from './CSharp.svelte';
+export { default as CSharpScript } from './CSharpScript.svelte';
+export { default as CSound } from './CSound.svelte';
+export { default as CURL } from './CURL.svelte';
+export { default as CVS } from './CVS.svelte';
+export { default as CWL } from './CWL.svelte';
+export { default as Cabal } from './Cabal.svelte';
+export { default as Caddy } from './Caddy.svelte';
+export { default as CaddyOld } from './CaddyOld.svelte';
+export { default as Caffe } from './Caffe.svelte';
+export { default as Caffe2 } from './Caffe2.svelte';
+export { default as Cairo } from './Cairo.svelte';
+export { default as Cake } from './Cake.svelte';
+export { default as CakePHP } from './CakePHP.svelte';
+export { default as CakePHPOld } from './CakePHPOld.svelte';
+export { default as Cakefile } from './Cakefile.svelte';
+export { default as Calva } from './Calva.svelte';
+export { default as Carthage } from './Carthage.svelte';
+export { default as Ceylon } from './Ceylon.svelte';
+export { default as Chai } from './Chai.svelte';
+export { default as Chapel } from './Chapel.svelte';
+export { default as ChartJS } from './ChartJS.svelte';
+export { default as Cheetah3D } from './Cheetah3D.svelte';
+export { default as Chef } from './Chef.svelte';
+export { default as Chocolatey } from './Chocolatey.svelte';
+export { default as ChucK } from './ChucK.svelte';
+export { default as CircleCI } from './CircleCI.svelte';
+export { default as Cirru } from './Cirru.svelte';
+export { default as Clarion } from './Clarion.svelte';
+export { default as Clean } from './Clean.svelte';
+export { default as Click } from './Click.svelte';
+export { default as ClojureJS } from './ClojureJS.svelte';
+export { default as ClosureTemplate } from './ClosureTemplate.svelte';
+export { default as CloudFoundry } from './CloudFoundry.svelte';
+export { default as Cmake } from './Cmake.svelte';
+export { default as CoNLL } from './CoNLL.svelte';
+export { default as CocoaPods } from './CocoaPods.svelte';
+export { default as Codacy } from './Codacy.svelte';
+export { default as CodeClimate } from './CodeClimate.svelte';
+export { default as CodeKit } from './CodeKit.svelte';
+export { default as CodeMeta } from './CodeMeta.svelte';
+export { default as CodeMirror } from './CodeMirror.svelte';
+export { default as CodeShip } from './CodeShip.svelte';
+export { default as Codecov } from './Codecov.svelte';
+export { default as ColdFusion } from './ColdFusion.svelte';
+export { default as CommitLint } from './CommitLint.svelte';
+export { default as Commitizen } from './Commitizen.svelte';
+export { default as CommonLisp } from './CommonLisp.svelte';
+export { default as ComponentPascal } from './ComponentPascal.svelte';
+export { default as Composer } from './Composer.svelte';
+export { default as Conan } from './Conan.svelte';
+export { default as Conda } from './Conda.svelte';
+export { default as Config } from './Config.svelte';
+export { default as ConfigCoffeeScript } from './ConfigCoffeeScript.svelte';
+export { default as ConfigGo } from './ConfigGo.svelte';
+export { default as ConfigHaskell } from './ConfigHaskell.svelte';
+export { default as ConfigJS } from './ConfigJS.svelte';
+export { default as ConfigPerl } from './ConfigPerl.svelte';
+export { default as ConfigPython } from './ConfigPython.svelte';
+export { default as ConfigReact } from './ConfigReact.svelte';
+export { default as ConfigRuby } from './ConfigRuby.svelte';
+export { default as ConfigRust } from './ConfigRust.svelte';
+export { default as ConfigTypeScript } from './ConfigTypeScript.svelte';
+export { default as Coq } from './Coq.svelte';
+export { default as Cordova } from './Cordova.svelte';
+export { default as CorelDRAW } from './CorelDRAW.svelte';
+export { default as CorelDRAWAlt } from './CorelDRAWAlt.svelte';
+export { default as Coveralls } from './Coveralls.svelte';
+export { default as CpcdosCPlus } from './CpcdosCPlus.svelte';
+export { default as CraftTweaker } from './CraftTweaker.svelte';
+export { default as Creole } from './Creole.svelte';
+export { default as Crowdin } from './Crowdin.svelte';
+export { default as Crystal } from './Crystal.svelte';
+export { default as Cubit } from './Cubit.svelte';
+export { default as Cucumber } from './Cucumber.svelte';
+export { default as Cuneiform } from './Cuneiform.svelte';
+export { default as CurlLang } from './CurlLang.svelte';
+export { default as Curry } from './Curry.svelte';
+export { default as Cython } from './Cython.svelte';
+export { default as D3 } from './D3.svelte';
+export { default as DBASE } from './DBASE.svelte';
+export { default as DNA } from './DNA.svelte';
+export { default as DOM } from './DOM.svelte';
+export { default as DOSBox } from './DOSBox.svelte';
+export { default as DOSBoxAlt } from './DOSBoxAlt.svelte';
+export { default as DVC } from './DVC.svelte';
+export { default as Dafny } from './Dafny.svelte';
+export { default as DarcsPatch } from './DarcsPatch.svelte';
+export { default as Dashboard } from './Dashboard.svelte';
+export { default as DataWeave } from './DataWeave.svelte';
+export { default as Default } from './Default.svelte';
+export { default as Delphi } from './Delphi.svelte';
+export { default as Deno } from './Deno.svelte';
+export { default as Dependabot } from './Dependabot.svelte';
+export { default as DevContainer } from './DevContainer.svelte';
+export { default as DeviceTree } from './DeviceTree.svelte';
+export { default as Dhall } from './Dhall.svelte';
+export { default as Dia } from './Dia.svelte';
+export { default as Diff } from './Diff.svelte';
+export { default as Digdag } from './Digdag.svelte';
+export { default as DocBook } from './DocBook.svelte';
+export { default as DocPad } from './DocPad.svelte';
+export { default as Docker } from './Docker.svelte';
+export { default as Doclets } from './Doclets.svelte';
+export { default as Docz } from './Docz.svelte';
+export { default as Dogescript } from './Dogescript.svelte';
+export { default as DoneJS } from './DoneJS.svelte';
+export { default as Dotenv } from './Dotenv.svelte';
+export { default as Dotjs } from './Dotjs.svelte';
+export { default as Doxygen } from './Doxygen.svelte';
+export { default as DragonflyBSD } from './DragonflyBSD.svelte';
+export { default as Dragula } from './Dragula.svelte';
+export { default as Draw_io } from './Draw_io.svelte';
+export { default as Drone } from './Drone.svelte';
+export { default as Dub } from './Dub.svelte';
+export { default as DyLib } from './DyLib.svelte';
+export { default as Dyalog } from './Dyalog.svelte';
+export { default as E } from './E.svelte';
+export { default as EC } from './EC.svelte';
+export { default as ECLiPSeLang } from './ECLiPSeLang.svelte';
+export { default as EJS } from './EJS.svelte';
+export { default as EQ } from './EQ.svelte';
+export { default as ESDoc } from './ESDoc.svelte';
+export { default as ESLint } from './ESLint.svelte';
+export { default as ESLintOld } from './ESLintOld.svelte';
+export { default as Eagle } from './Eagle.svelte';
+export { default as EasyBuild } from './EasyBuild.svelte';
+export { default as Ecere } from './Ecere.svelte';
+export { default as Edge } from './Edge.svelte';
+export { default as EditorConfig } from './EditorConfig.svelte';
+export { default as Eiffel } from './Eiffel.svelte';
+export { default as Electron } from './Electron.svelte';
+export { default as ElementaryOS } from './ElementaryOS.svelte';
+export { default as Elm } from './Elm.svelte';
+export { default as Emacs } from './Emacs.svelte';
+export { default as Ember } from './Ember.svelte';
+export { default as EmberScript } from './EmberScript.svelte';
+export { default as Ensime } from './Ensime.svelte';
+export { default as Expo } from './Expo.svelte';
+export { default as FBX } from './FBX.svelte';
+export { default as FFmpeg } from './FFmpeg.svelte';
+export { default as FOSSA } from './FOSSA.svelte';
+export { default as Fabfile } from './Fabfile.svelte';
+export { default as Fabric } from './Fabric.svelte';
+export { default as Factor } from './Factor.svelte';
+export { default as Falcon } from './Falcon.svelte';
+export { default as Fancy } from './Fancy.svelte';
+export { default as Fantom } from './Fantom.svelte';
+export { default as Fauna } from './Fauna.svelte';
+export { default as Faust } from './Faust.svelte';
+export { default as Fexl } from './Fexl.svelte';
+export { default as Fiddle } from './Fiddle.svelte';
+export { default as Figma } from './Figma.svelte';
+export { default as FinalDraft } from './FinalDraft.svelte';
+export { default as Finder } from './Finder.svelte';
+export { default as Firebase } from './Firebase.svelte';
+export { default as FirebaseBolt } from './FirebaseBolt.svelte';
+export { default as Flask } from './Flask.svelte';
+export { default as Floobits } from './Floobits.svelte';
+export { default as Flow } from './Flow.svelte';
+export { default as Flutter } from './Flutter.svelte';
+export { default as Flux } from './Flux.svelte';
+export { default as Font } from './Font.svelte';
+export { default as FontBitmap } from './FontBitmap.svelte';
+export { default as FontForge } from './FontForge.svelte';
+export { default as FontOutline } from './FontOutline.svelte';
+export { default as ForTheRecord } from './ForTheRecord.svelte';
+export { default as Fork } from './Fork.svelte';
+export { default as Fortran } from './Fortran.svelte';
+export { default as Fossil } from './Fossil.svelte';
+export { default as Fountain } from './Fountain.svelte';
+export { default as Franca } from './Franca.svelte';
+export { default as FreeDOS } from './FreeDOS.svelte';
+export { default as FreeDesktop } from './FreeDesktop.svelte';
+export { default as FreeMarker } from './FreeMarker.svelte';
+export { default as FreeMat } from './FreeMat.svelte';
+export { default as Frege } from './Frege.svelte';
+export { default as FtHTML } from './FtHTML.svelte';
+export { default as FuelUX } from './FuelUX.svelte';
+export { default as FuseBox } from './FuseBox.svelte';
+export { default as Futhark } from './Futhark.svelte';
+export { default as GAMS } from './GAMS.svelte';
+export { default as GAP } from './GAP.svelte';
+export { default as GAUSS } from './GAUSS.svelte';
+export { default as GDB } from './GDB.svelte';
+export { default as GF } from './GF.svelte';
+export { default as GIMP } from './GIMP.svelte';
+export { default as GN } from './GN.svelte';
+export { default as GNU } from './GNU.svelte';
+export { default as Galaxy } from './Galaxy.svelte';
+export { default as Galen } from './Galen.svelte';
+export { default as GameMaker } from './GameMaker.svelte';
+export { default as Gatsby } from './Gatsby.svelte';
+export { default as GenStat } from './GenStat.svelte';
+export { default as Genshi } from './Genshi.svelte';
+export { default as Gentoo } from './Gentoo.svelte';
+export { default as Ghostscript } from './Ghostscript.svelte';
+export { default as GitLab } from './GitLab.svelte';
+export { default as Gitpod } from './Gitpod.svelte';
+export { default as GlTF } from './GlTF.svelte';
+export { default as Glade } from './Glade.svelte';
+export { default as Glide } from './Glide.svelte';
+export { default as Glyphs } from './Glyphs.svelte';
+export { default as Gnuplot } from './Gnuplot.svelte';
+export { default as Go } from './Go.svelte';
+export { default as GoOld } from './GoOld.svelte';
+export { default as GoReleaser } from './GoReleaser.svelte';
+export { default as Godot } from './Godot.svelte';
+export { default as Golo } from './Golo.svelte';
+export { default as Gosu } from './Gosu.svelte';
+export { default as Gradle } from './Gradle.svelte';
+export { default as GraphQL } from './GraphQL.svelte';
+export { default as GraphQLCodeGenerator } from './GraphQLCodeGenerator.svelte';
+export { default as GraphViz } from './GraphViz.svelte';
+export { default as Grapher } from './Grapher.svelte';
+export { default as Graphite } from './Graphite.svelte';
+export { default as GravitDesigner } from './GravitDesigner.svelte';
+export { default as Greenkeeper } from './Greenkeeper.svelte';
+export { default as Gridsome } from './Gridsome.svelte';
+export { default as Groovy } from './Groovy.svelte';
+export { default as Grunt } from './Grunt.svelte';
+export { default as Gulp } from './Gulp.svelte';
+export { default as HIE } from './HIE.svelte';
+export { default as HJSON } from './HJSON.svelte';
+export { default as Hack } from './Hack.svelte';
+export { default as Haml } from './Haml.svelte';
+export { default as Harbour } from './Harbour.svelte';
+export { default as HashiCorp } from './HashiCorp.svelte';
+export { default as Haxe } from './Haxe.svelte';
+export { default as HaxeDevelop } from './HaxeDevelop.svelte';
+export { default as Helix } from './Helix.svelte';
+export { default as HewlettPackard } from './HewlettPackard.svelte';
+export { default as Hitachi } from './Hitachi.svelte';
+export { default as Homebrew } from './Homebrew.svelte';
+export { default as Hop } from './Hop.svelte';
+export { default as Hoplon } from './Hoplon.svelte';
+export { default as Houdini } from './Houdini.svelte';
+export { default as HoundCI } from './HoundCI.svelte';
+export { default as Hugo } from './Hugo.svelte';
+export { default as Husky } from './Husky.svelte';
+export { default as Hy } from './Hy.svelte';
+export { default as Hygen } from './Hygen.svelte';
+export { default as Hyper } from './Hyper.svelte';
+export { default as ICU } from './ICU.svelte';
+export { default as IDL } from './IDL.svelte';
+export { default as IGORPro } from './IGORPro.svelte';
+export { default as IcoMoon } from './IcoMoon.svelte';
+export { default as Idris } from './Idris.svelte';
+export { default as Illumos } from './Illumos.svelte';
+export { default as Image } from './Image.svelte';
+export { default as Imba } from './Imba.svelte';
+export { default as ImbaAlt } from './ImbaAlt.svelte';
+export { default as ImbaOld } from './ImbaOld.svelte';
+export { default as Imgbot } from './Imgbot.svelte';
+export { default as InfluxData } from './InfluxData.svelte';
+export { default as Inform7 } from './Inform7.svelte';
+export { default as Ink } from './Ink.svelte';
+export { default as Inkscape } from './Inkscape.svelte';
+export { default as InnoSetup } from './InnoSetup.svelte';
+export { default as Intel } from './Intel.svelte';
+export { default as Io } from './Io.svelte';
+export { default as Ioke } from './Ioke.svelte';
+export { default as IonicProject } from './IonicProject.svelte';
+export { default as Isabelle } from './Isabelle.svelte';
+export { default as Istanbul } from './Istanbul.svelte';
+export { default as J } from './J.svelte';
+export { default as JSON1 } from './JSON1.svelte';
+export { default as JSON2 } from './JSON2.svelte';
+export { default as JSON5 } from './JSON5.svelte';
+export { default as JSONLD1 } from './JSONLD1.svelte';
+export { default as JSONLD2 } from './JSONLD2.svelte';
+export { default as JSX } from './JSX.svelte';
+export { default as JSXAlt } from './JSXAlt.svelte';
+export { default as JSXAtom } from './JSXAtom.svelte';
+export { default as Jade } from './Jade.svelte';
+export { default as Jakefile } from './Jakefile.svelte';
+export { default as Janet } from './Janet.svelte';
+export { default as Jasmine } from './Jasmine.svelte';
+export { default as Jenkins } from './Jenkins.svelte';
+export { default as Jest } from './Jest.svelte';
+export { default as Jinja } from './Jinja.svelte';
+export { default as Jison } from './Jison.svelte';
+export { default as Jolie } from './Jolie.svelte';
+export { default as Jscpd } from './Jscpd.svelte';
+export { default as Jsonnet } from './Jsonnet.svelte';
+export { default as Julia } from './Julia.svelte';
+export { default as Junos } from './Junos.svelte';
+export { default as Jupyter } from './Jupyter.svelte';
+export { default as KNIME } from './KNIME.svelte';
+export { default as KOS } from './KOS.svelte';
+export { default as KRL } from './KRL.svelte';
+export { default as Kaitai } from './Kaitai.svelte';
+export { default as Karma } from './Karma.svelte';
+export { default as Keybase } from './Keybase.svelte';
+export { default as Keynote } from './Keynote.svelte';
+export { default as Khronos } from './Khronos.svelte';
+export { default as KiCad } from './KiCad.svelte';
+export { default as Kibo } from './Kibo.svelte';
+export { default as KitchenCI } from './KitchenCI.svelte';
+export { default as Kivy } from './Kivy.svelte';
+export { default as Knockout } from './Knockout.svelte';
+export { default as Kotlin } from './Kotlin.svelte';
+export { default as Kubernetes } from './Kubernetes.svelte';
+export { default as Kusto } from './Kusto.svelte';
+export { default as KustoAlt } from './KustoAlt.svelte';
+export { default as Kx } from './Kx.svelte';
+export { default as LFE } from './LFE.svelte';
+export { default as LGTM } from './LGTM.svelte';
+export { default as LINQPad } from './LINQPad.svelte';
+export { default as LLVM } from './LLVM.svelte';
+export { default as LOLCODE } from './LOLCODE.svelte';
+export { default as LSL } from './LSL.svelte';
+export { default as LaTeX } from './LaTeX.svelte';
+export { default as LabVIEW } from './LabVIEW.svelte';
+export { default as Laravel } from './Laravel.svelte';
+export { default as Lark } from './Lark.svelte';
+export { default as Lasso } from './Lasso.svelte';
+export { default as Latino } from './Latino.svelte';
+export { default as Leaflet } from './Leaflet.svelte';
+export { default as Lean } from './Lean.svelte';
+export { default as Lefthook } from './Lefthook.svelte';
+export { default as LefthookAlt } from './LefthookAlt.svelte';
+export { default as Leiningen } from './Leiningen.svelte';
+export { default as Lektor } from './Lektor.svelte';
+export { default as Lerna } from './Lerna.svelte';
+export { default as Lex } from './Lex.svelte';
+export { default as LexAlt } from './LexAlt.svelte';
+export { default as Libuv } from './Libuv.svelte';
+export { default as LightWave } from './LightWave.svelte';
+export { default as Lighthouse } from './Lighthouse.svelte';
+export { default as LilyPond } from './LilyPond.svelte';
+export { default as Lime } from './Lime.svelte';
+export { default as Lisp } from './Lisp.svelte';
+export { default as LiveScript } from './LiveScript.svelte';
+export { default as Logtalk } from './Logtalk.svelte';
+export { default as LookML } from './LookML.svelte';
+export { default as Lua } from './Lua.svelte';
+export { default as MATLAB } from './MATLAB.svelte';
+export { default as MDX } from './MDX.svelte';
+export { default as MELPA } from './MELPA.svelte';
+export { default as MIRC } from './MIRC.svelte';
+export { default as MJML } from './MJML.svelte';
+export { default as MSDOS } from './MSDOS.svelte';
+export { default as MacVim } from './MacVim.svelte';
+export { default as Macaulay2 } from './Macaulay2.svelte';
+export { default as Magit } from './Magit.svelte';
+export { default as Mako } from './Mako.svelte';
+export { default as Manjaro } from './Manjaro.svelte';
+export { default as Manpage } from './Manpage.svelte';
+export { default as Mapbox } from './Mapbox.svelte';
+export { default as MarkdownLint } from './MarkdownLint.svelte';
+export { default as Marko } from './Marko.svelte';
+export { default as MathJax } from './MathJax.svelte';
+export { default as Mathematica } from './Mathematica.svelte';
+export { default as Matroska } from './Matroska.svelte';
+export { default as Max } from './Max.svelte';
+export { default as Maya } from './Maya.svelte';
+export { default as MediaWiki } from './MediaWiki.svelte';
+export { default as Mercurial } from './Mercurial.svelte';
+export { default as Mercury } from './Mercury.svelte';
+export { default as Mermaid } from './Mermaid.svelte';
+export { default as Meson } from './Meson.svelte';
+export { default as MesonOld } from './MesonOld.svelte';
+export { default as MetaPost } from './MetaPost.svelte';
+export { default as Metal } from './Metal.svelte';
+export { default as Meteor } from './Meteor.svelte';
+export { default as MicrosoftAccess } from './MicrosoftAccess.svelte';
+export { default as MicrosoftExcel } from './MicrosoftExcel.svelte';
+export { default as MicrosoftInfoPath } from './MicrosoftInfoPath.svelte';
+export { default as MicrosoftLync } from './MicrosoftLync.svelte';
+export { default as MicrosoftOneNote } from './MicrosoftOneNote.svelte';
+export { default as MicrosoftOutlook } from './MicrosoftOutlook.svelte';
+export { default as MicrosoftPowerPoint } from './MicrosoftPowerPoint.svelte';
+export { default as MicrosoftProject } from './MicrosoftProject.svelte';
+export { default as MicrosoftPublisher } from './MicrosoftPublisher.svelte';
+export { default as MicrosoftVisio } from './MicrosoftVisio.svelte';
+export { default as MicrosoftWord } from './MicrosoftWord.svelte';
+export { default as Minecraft } from './Minecraft.svelte';
+export { default as MiniZinc } from './MiniZinc.svelte';
+export { default as Mint } from './Mint.svelte';
+export { default as Mirah } from './Mirah.svelte';
+export { default as Miranda } from './Miranda.svelte';
+export { default as Mixin } from './Mixin.svelte';
+export { default as Mocha } from './Mocha.svelte';
+export { default as Modelica } from './Modelica.svelte';
+export { default as ModernWeb } from './ModernWeb.svelte';
+export { default as Modo } from './Modo.svelte';
+export { default as Modula2 } from './Modula2.svelte';
+export { default as Modula3 } from './Modula3.svelte';
+export { default as Moho } from './Moho.svelte';
+export { default as Moleculer } from './Moleculer.svelte';
+export { default as Moment } from './Moment.svelte';
+export { default as MomentTimezone } from './MomentTimezone.svelte';
+export { default as Monkey } from './Monkey.svelte';
+export { default as Mono } from './Mono.svelte';
+export { default as Monotone } from './Monotone.svelte';
+export { default as Motorola } from './Motorola.svelte';
+export { default as Moustache } from './Moustache.svelte';
+export { default as Mruby } from './Mruby.svelte';
+export { default as MuPAD } from './MuPAD.svelte';
+export { default as NASM } from './NASM.svelte';
+export { default as NAnt } from './NAnt.svelte';
+export { default as NDepend } from './NDepend.svelte';
+export { default as NEON } from './NEON.svelte';
+export { default as NPM } from './NPM.svelte';
+export { default as NPMOld } from './NPMOld.svelte';
+export { default as NSIS } from './NSIS.svelte';
+export { default as NSISOld } from './NSISOld.svelte';
+export { default as NSRI } from './NSRI.svelte';
+export { default as NSRIAlt } from './NSRIAlt.svelte';
+export { default as NVIDIA } from './NVIDIA.svelte';
+export { default as NWScript } from './NWScript.svelte';
+export { default as NXC } from './NXC.svelte';
+export { default as Nano } from './Nano.svelte';
+export { default as Nanoc } from './Nanoc.svelte';
+export { default as Neko } from './Neko.svelte';
+export { default as Nemerle } from './Nemerle.svelte';
+export { default as Neo4J } from './Neo4J.svelte';
+export { default as Nessus } from './Nessus.svelte';
+export { default as NestJS } from './NestJS.svelte';
+export { default as NetLinx } from './NetLinx.svelte';
+export { default as NetLogo } from './NetLogo.svelte';
+export { default as Netlify } from './Netlify.svelte';
+export { default as NewRelic } from './NewRelic.svelte';
+export { default as NextJS } from './NextJS.svelte';
+export { default as Nextflow } from './Nextflow.svelte';
+export { default as NgRx } from './NgRx.svelte';
+export { default as Nginx } from './Nginx.svelte';
+export { default as Nib } from './Nib.svelte';
+export { default as Nickle } from './Nickle.svelte';
+export { default as Nightwatch } from './Nightwatch.svelte';
+export { default as Nimble } from './Nimble.svelte';
+export { default as Nimrod } from './Nimrod.svelte';
+export { default as Nintendo64 } from './Nintendo64.svelte';
+export { default as Nit } from './Nit.svelte';
+export { default as Nix } from './Nix.svelte';
+export { default as Nmap } from './Nmap.svelte';
+export { default as Nodemon } from './Nodemon.svelte';
+export { default as Nokogiri } from './Nokogiri.svelte';
+export { default as Nomad } from './Nomad.svelte';
+export { default as Noon } from './Noon.svelte';
+export { default as Normalise } from './Normalise.svelte';
+export { default as NuGet } from './NuGet.svelte';
+export { default as Nuclide } from './Nuclide.svelte';
+export { default as NumPy } from './NumPy.svelte';
+export { default as NumPyOld } from './NumPyOld.svelte';
+export { default as Nunjucks } from './Nunjucks.svelte';
+export { default as Nuxt } from './Nuxt.svelte';
+export { default as Nx } from './Nx.svelte';
+export { default as OCaml } from './OCaml.svelte';
+export { default as OOC } from './OOC.svelte';
+export { default as OS2 } from './OS2.svelte';
+export { default as OWL } from './OWL.svelte';
+export { default as Oberon } from './Oberon.svelte';
+export { default as ObjectiveJ } from './ObjectiveJ.svelte';
+export { default as Octave } from './Octave.svelte';
+export { default as Odin } from './Odin.svelte';
+export { default as Ogone } from './Ogone.svelte';
+export { default as OmniGraffle } from './OmniGraffle.svelte';
+export { default as Opa } from './Opa.svelte';
+export { default as OpenAPI } from './OpenAPI.svelte';
+export { default as OpenBSD } from './OpenBSD.svelte';
+export { default as OpenBSDAlt } from './OpenBSDAlt.svelte';
+export { default as OpenCL } from './OpenCL.svelte';
+export { default as OpenCV } from './OpenCV.svelte';
+export { default as OpenEXR } from './OpenEXR.svelte';
+export { default as OpenGL } from './OpenGL.svelte';
+export { default as OpenIndiana } from './OpenIndiana.svelte';
+export { default as OpenOffice } from './OpenOffice.svelte';
+export { default as OpenPolicyAgent } from './OpenPolicyAgent.svelte';
+export { default as OpenSolaris } from './OpenSolaris.svelte';
+export { default as OpenStack } from './OpenStack.svelte';
+export { default as OpenVMS } from './OpenVMS.svelte';
+export { default as OpenVPN } from './OpenVPN.svelte';
+export { default as OpenZFS } from './OpenZFS.svelte';
+export { default as OpensCAD } from './OpensCAD.svelte';
+export { default as OrgMode } from './OrgMode.svelte';
+export { default as Ox } from './Ox.svelte';
+export { default as Oxygene } from './Oxygene.svelte';
+export { default as Oz } from './Oz.svelte';
+export { default as P4 } from './P4.svelte';
+export { default as PAWN } from './PAWN.svelte';
+export { default as PCD } from './PCD.svelte';
+export { default as PHP } from './PHP.svelte';
+export { default as PHPUnit } from './PHPUnit.svelte';
+export { default as PICO8 } from './PICO8.svelte';
+export { default as PM2 } from './PM2.svelte';
+export { default as PNPM } from './PNPM.svelte';
+export { default as POVRay } from './POVRay.svelte';
+export { default as PROS } from './PROS.svelte';
+export { default as Pan } from './Pan.svelte';
+export { default as Papyrus } from './Papyrus.svelte';
+export { default as Parrot } from './Parrot.svelte';
+export { default as Pascal } from './Pascal.svelte';
+export { default as Patch } from './Patch.svelte';
+export { default as Patreon } from './Patreon.svelte';
+export { default as PegJS } from './PegJS.svelte';
+export { default as Perl6 } from './Perl6.svelte';
+export { default as Phalcon } from './Phalcon.svelte';
+export { default as Phoenix } from './Phoenix.svelte';
+export { default as PhotoRec } from './PhotoRec.svelte';
+export { default as PhraseApp } from './PhraseApp.svelte';
+export { default as Pickle } from './Pickle.svelte';
+export { default as PicoLisp } from './PicoLisp.svelte';
+export { default as Pike } from './Pike.svelte';
+export { default as PineScript } from './PineScript.svelte';
+export { default as Pipenv } from './Pipenv.svelte';
+export { default as Pkgsrc } from './Pkgsrc.svelte';
+export { default as PlatformIO } from './PlatformIO.svelte';
+export { default as Pod } from './Pod.svelte';
+export { default as PogoScript } from './PogoScript.svelte';
+export { default as PointWise } from './PointWise.svelte';
+export { default as Polymer } from './Polymer.svelte';
+export { default as Pony } from './Pony.svelte';
+export { default as PostCSS } from './PostCSS.svelte';
+export { default as PostScript } from './PostScript.svelte';
+export { default as PowerBuilder } from './PowerBuilder.svelte';
+export { default as PowerPC } from './PowerPC.svelte';
+export { default as PowerShell } from './PowerShell.svelte';
+export { default as Precision } from './Precision.svelte';
+export { default as Precommit } from './Precommit.svelte';
+export { default as Prettier } from './Prettier.svelte';
+export { default as Prisma } from './Prisma.svelte';
+export { default as Processing } from './Processing.svelte';
+export { default as Progress } from './Progress.svelte';
+export { default as ProgressOld } from './ProgressOld.svelte';
+export { default as Propeller } from './Propeller.svelte';
+export { default as Proselint } from './Proselint.svelte';
+export { default as Protractor } from './Protractor.svelte';
+export { default as Pug } from './Pug.svelte';
+export { default as PugOld } from './PugOld.svelte';
+export { default as PullApprove } from './PullApprove.svelte';
+export { default as Puppet } from './Puppet.svelte';
+export { default as Pure } from './Pure.svelte';
+export { default as PureBasic } from './PureBasic.svelte';
+export { default as PureScript } from './PureScript.svelte';
+export { default as PyPi } from './PyPi.svelte';
+export { default as PyUp } from './PyUp.svelte';
+export { default as Pyret } from './Pyret.svelte';
+export { default as Pytest } from './Pytest.svelte';
+export { default as QSharp } from './QSharp.svelte';
+export { default as QT } from './QT.svelte';
+export { default as Qiskit } from './Qiskit.svelte';
+export { default as QlikView } from './QlikView.svelte';
+export { default as Quasar } from './Quasar.svelte';
+export { default as R } from './R.svelte';
+export { default as RAML } from './RAML.svelte';
+export { default as RData } from './RData.svelte';
+export { default as RDoc } from './RDoc.svelte';
+export { default as REALbasic } from './REALbasic.svelte';
+export { default as RISCV } from './RISCV.svelte';
+export { default as RSpec } from './RSpec.svelte';
+export { default as RStudio } from './RStudio.svelte';
+export { default as Racket } from './Racket.svelte';
+export { default as Rascal } from './Rascal.svelte';
+export { default as Razzle } from './Razzle.svelte';
+export { default as ReScript } from './ReScript.svelte';
+export { default as ReStructuredText } from './ReStructuredText.svelte';
+export { default as ReactOS } from './ReactOS.svelte';
+export { default as ReadTheDocs } from './ReadTheDocs.svelte';
+export { default as Reason } from './Reason.svelte';
+export { default as ReasonStudios } from './ReasonStudios.svelte';
+export { default as ReasonStudiosAlt } from './ReasonStudiosAlt.svelte';
+export { default as Rebol } from './Rebol.svelte';
+export { default as Red } from './Red.svelte';
+export { default as RedOld } from './RedOld.svelte';
+export { default as Redux } from './Redux.svelte';
+export { default as Reek } from './Reek.svelte';
+export { default as RegEx } from './RegEx.svelte';
+export { default as Remark } from './Remark.svelte';
+export { default as Renovate } from './Renovate.svelte';
+export { default as RestQL } from './RestQL.svelte';
+export { default as Rexx } from './Rexx.svelte';
+export { default as Rhino3D } from './Rhino3D.svelte';
+export { default as Ring } from './Ring.svelte';
+export { default as Riot } from './Riot.svelte';
+export { default as RiotOld } from './RiotOld.svelte';
+export { default as Rmarkdown } from './Rmarkdown.svelte';
+export { default as RobotFramework } from './RobotFramework.svelte';
+export { default as RobotFrameworkOld } from './RobotFrameworkOld.svelte';
+export { default as Robots } from './Robots.svelte';
+export { default as Rollup } from './Rollup.svelte';
+export { default as RollupOld } from './RollupOld.svelte';
+export { default as Rsync } from './Rsync.svelte';
+export { default as Rubocop } from './Rubocop.svelte';
+export { default as RubyGems } from './RubyGems.svelte';
+export { default as SAC } from './SAC.svelte';
+export { default as SAS } from './SAS.svelte';
+export { default as SBT } from './SBT.svelte';
+export { default as SPARC } from './SPARC.svelte';
+export { default as SQF } from './SQF.svelte';
+export { default as SQLite } from './SQLite.svelte';
+export { default as SVN } from './SVN.svelte';
+export { default as Sage } from './Sage.svelte';
+export { default as Sails } from './Sails.svelte';
+export { default as SaltStack } from './SaltStack.svelte';
+export { default as San } from './San.svelte';
+export { default as Sandbox } from './Sandbox.svelte';
+export { default as Scheme } from './Scheme.svelte';
+export { default as Scilab } from './Scilab.svelte';
+export { default as Scilla } from './Scilla.svelte';
+export { default as Scratch } from './Scratch.svelte';
+export { default as Scrutinizer } from './Scrutinizer.svelte';
+export { default as Self } from './Self.svelte';
+export { default as SemanticRelease } from './SemanticRelease.svelte';
+export { default as Sentry } from './Sentry.svelte';
+export { default as Sequelize } from './Sequelize.svelte';
+export { default as Serverless } from './Serverless.svelte';
+export { default as ServiceFabric } from './ServiceFabric.svelte';
+export { default as ShadowCLJS } from './ShadowCLJS.svelte';
+export { default as ShellCheck } from './ShellCheck.svelte';
+export { default as Shen } from './Shen.svelte';
+export { default as Shipit } from './Shipit.svelte';
+export { default as Shippable } from './Shippable.svelte';
+export { default as Shopify } from './Shopify.svelte';
+export { default as Shuriken } from './Shuriken.svelte';
+export { default as Sigils } from './Sigils.svelte';
+export { default as SiliconGraphics } from './SiliconGraphics.svelte';
+export { default as SilverStripe } from './SilverStripe.svelte';
+export { default as Sinatra } from './Sinatra.svelte';
+export { default as Sketch } from './Sketch.svelte';
+export { default as SketchUpLayOut } from './SketchUpLayOut.svelte';
+export { default as SketchUpMake } from './SketchUpMake.svelte';
+export { default as SketchUpStyleBuilder } from './SketchUpStyleBuilder.svelte';
+export { default as Slash } from './Slash.svelte';
+export { default as SmartOS } from './SmartOS.svelte';
+export { default as SmartOSAlt } from './SmartOSAlt.svelte';
+export { default as Snapcraft } from './Snapcraft.svelte';
+export { default as Snort } from './Snort.svelte';
+export { default as Snowpack } from './Snowpack.svelte';
+export { default as Snyk } from './Snyk.svelte';
+export { default as Solidarity } from './Solidarity.svelte';
+export { default as Solidity } from './Solidity.svelte';
+export { default as Sophia } from './Sophia.svelte';
+export { default as Sorbet } from './Sorbet.svelte';
+export { default as Source } from './Source.svelte';
+export { default as Spacemacs } from './Spacemacs.svelte';
+export { default as Spacengine } from './Spacengine.svelte';
+export { default as Spray } from './Spray.svelte';
+export { default as SquareSpace } from './SquareSpace.svelte';
+export { default as Stan } from './Stan.svelte';
+export { default as Stata } from './Stata.svelte';
+export { default as StdlibJS } from './StdlibJS.svelte';
+export { default as Stencil } from './Stencil.svelte';
+export { default as Stitches } from './Stitches.svelte';
+export { default as Storybook } from './Storybook.svelte';
+export { default as Storyist } from './Storyist.svelte';
+export { default as Strings } from './Strings.svelte';
+export { default as Stylable } from './Stylable.svelte';
+export { default as StyledComponents } from './StyledComponents.svelte';
+export { default as Stylelint } from './Stylelint.svelte';
+export { default as StylishHaskell } from './StylishHaskell.svelte';
+export { default as Stylus } from './Stylus.svelte';
+export { default as StylusOrb } from './StylusOrb.svelte';
+export { default as StylusS } from './StylusS.svelte';
+export { default as Sublime } from './Sublime.svelte';
+export { default as SuperCollider } from './SuperCollider.svelte';
+export { default as Svelte } from './Svelte.svelte';
+export { default as Swagger } from './Swagger.svelte';
+export { default as SystemVerilog } from './SystemVerilog.svelte';
+export { default as TFS } from './TFS.svelte';
+export { default as TLAPlus } from './TLAPlus.svelte';
+export { default as TOML } from './TOML.svelte';
+export { default as TOTVS } from './TOTVS.svelte';
+export { default as TSX } from './TSX.svelte';
+export { default as TSXAlt } from './TSXAlt.svelte';
+export { default as TTCN3 } from './TTCN3.svelte';
+export { default as TXL } from './TXL.svelte';
+export { default as Tag } from './Tag.svelte';
+export { default as Tailwind } from './Tailwind.svelte';
+export { default as Tcl } from './Tcl.svelte';
+export { default as Telegram } from './Telegram.svelte';
+export { default as TemplateToolkit } from './TemplateToolkit.svelte';
+export { default as TempleOS } from './TempleOS.svelte';
+export { default as Terminal } from './Terminal.svelte';
+export { default as Tern } from './Tern.svelte';
+export { default as Terraform } from './Terraform.svelte';
+export { default as Terser } from './Terser.svelte';
+export { default as TestCafe } from './TestCafe.svelte';
+export { default as TestCoffeeScript } from './TestCoffeeScript.svelte';
+export { default as TestDirectory } from './TestDirectory.svelte';
+export { default as TestGeneric } from './TestGeneric.svelte';
+export { default as TestGo } from './TestGo.svelte';
+export { default as TestHaskell } from './TestHaskell.svelte';
+export { default as TestJS } from './TestJS.svelte';
+export { default as TestPerl } from './TestPerl.svelte';
+export { default as TestPython } from './TestPython.svelte';
+export { default as TestReact } from './TestReact.svelte';
+export { default as TestRuby } from './TestRuby.svelte';
+export { default as TestRust } from './TestRust.svelte';
+export { default as TestTypeScript } from './TestTypeScript.svelte';
+export { default as TextMate } from './TextMate.svelte';
+export { default as Textile } from './Textile.svelte';
+export { default as Thor } from './Thor.svelte';
+export { default as Tilt } from './Tilt.svelte';
+export { default as TinyMCE } from './TinyMCE.svelte';
+export { default as Tipe } from './Tipe.svelte';
+export { default as Tmux } from './Tmux.svelte';
+export { default as TortoiseSVN } from './TortoiseSVN.svelte';
+export { default as Truffle } from './Truffle.svelte';
+export { default as Turing } from './Turing.svelte';
+export { default as Twig } from './Twig.svelte';
+export { default as Twine } from './Twine.svelte';
+export { default as TypeDoc } from './TypeDoc.svelte';
+export { default as TypeScript } from './TypeScript.svelte';
+export { default as TypeScriptAlt } from './TypeScriptAlt.svelte';
+export { default as Typings } from './Typings.svelte';
+export { default as UFO } from './UFO.svelte';
+export { default as UNO } from './UNO.svelte';
+export { default as Unibeautify } from './Unibeautify.svelte';
+export { default as Unicode } from './Unicode.svelte';
+export { default as UnrealScript } from './UnrealScript.svelte';
+export { default as UrWeb } from './UrWeb.svelte';
+export { default as V } from './V.svelte';
+export { default as V8 } from './V8.svelte';
+export { default as V8Turbofan } from './V8Turbofan.svelte';
+export { default as VAX } from './VAX.svelte';
+export { default as VCL } from './VCL.svelte';
+export { default as VHDL } from './VHDL.svelte';
+export { default as VMware } from './VMware.svelte';
+export { default as VRay } from './VRay.svelte';
+export { default as VSCode } from './VSCode.svelte';
+export { default as VSTS } from './VSTS.svelte';
+export { default as Vagrant } from './Vagrant.svelte';
+export { default as Vala } from './Vala.svelte';
+export { default as Velocity } from './Velocity.svelte';
+export { default as Verilog } from './Verilog.svelte';
+export { default as VertexShader } from './VertexShader.svelte';
+export { default as Video } from './Video.svelte';
+export { default as VirtualBox } from './VirtualBox.svelte';
+export { default as VirtualBoxAlt } from './VirtualBoxAlt.svelte';
+export { default as Vite } from './Vite.svelte';
+export { default as Vue } from './Vue.svelte';
+export { default as Vyper } from './Vyper.svelte';
+export { default as W3C } from './W3C.svelte';
+export { default as WASI } from './WASI.svelte';
+export { default as WDL } from './WDL.svelte';
+export { default as Wallaby } from './Wallaby.svelte';
+export { default as Walt } from './Walt.svelte';
+export { default as WarcraftIII } from './WarcraftIII.svelte';
+export { default as Watchman } from './Watchman.svelte';
+export { default as WebAssembly } from './WebAssembly.svelte';
+export { default as WebGL } from './WebGL.svelte';
+export { default as WebVTT } from './WebVTT.svelte';
+export { default as Webhint } from './Webhint.svelte';
+export { default as Webpack } from './Webpack.svelte';
+export { default as WebpackOld } from './WebpackOld.svelte';
+export { default as Wenyan } from './Wenyan.svelte';
+export { default as Wercker } from './Wercker.svelte';
+export { default as Wget } from './Wget.svelte';
+export { default as WiX } from './WiX.svelte';
+export { default as WinUI } from './WinUI.svelte';
+export { default as Windi } from './Windi.svelte';
+export { default as Wine } from './Wine.svelte';
+export { default as Wolfram } from './Wolfram.svelte';
+export { default as Workbox } from './Workbox.svelte';
+export { default as Wurst } from './Wurst.svelte';
+export { default as X10 } from './X10.svelte';
+export { default as XMOS } from './XMOS.svelte';
+export { default as XPages } from './XPages.svelte';
+export { default as Xamarin } from './Xamarin.svelte';
+export { default as Xmake } from './Xmake.svelte';
+export { default as Xtend } from './Xtend.svelte';
+export { default as Xubuntu } from './Xubuntu.svelte';
+export { default as YAML } from './YAML.svelte';
+export { default as YAMLAlt1 } from './YAMLAlt1.svelte';
+export { default as YAMLAlt2 } from './YAMLAlt2.svelte';
+export { default as YAMLAlt3 } from './YAMLAlt3.svelte';
+export { default as YAMLAlt4 } from './YAMLAlt4.svelte';
+export { default as YAMLLint } from './YAMLLint.svelte';
+export { default as YANG } from './YANG.svelte';
+export { default as YARA } from './YARA.svelte';
+export { default as YUI } from './YUI.svelte';
+export { default as Yandex } from './Yandex.svelte';
+export { default as Yarn } from './Yarn.svelte';
+export { default as Yasm } from './Yasm.svelte';
+export { default as Yorick } from './Yorick.svelte';
+export { default as ZBrush } from './ZBrush.svelte';
+export { default as Zeit } from './Zeit.svelte';
+export { default as Zephir } from './Zephir.svelte';
+export { default as Zig } from './Zig.svelte';
+export { default as Zilog } from './Zilog.svelte';
+export { default as Zimpl } from './Zimpl.svelte';
+export { default as ZorinOS } from './ZorinOS.svelte';
+export { default as Zork } from './Zork.svelte';
