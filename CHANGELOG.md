@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.1](https://github.com/shinokada/svelte-file-icons/compare/v0.2.1...v0.3.1) (2023-02-22)
+
+
+### Features
+
+* add microsoft webmaster tools meta tag ([eb0961a](https://github.com/shinokada/svelte-file-icons/commit/eb0961acf33c79032b3926e352dc1a9aedc01724))
+
+
+### Bug Fixes
+
+* update index.html ([925cd38](https://github.com/shinokada/svelte-file-icons/commit/925cd383e3ed9cd232156e65652cca5df255a146))
+
 ### [0.2.1](https://github.com/shinokada/svelte-file-icons/compare/v0.2.0...v0.2.1) (2023-02-03)
 
 ## [0.2.0](https://github.com/shinokada/svelte-file-icons/compare/v0.1.15...v0.2.0) (2023-02-03)
