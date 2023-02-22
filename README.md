@@ -40,7 +40,7 @@ In a svelte file:
 
 ```html
 <script>
-	import { Vite, Config, D3, Sublime, Svelte, VSCode, EJS } from 'svelte-file-icons';
+  import { Vite, Config, D3, Sublime, Svelte, VSCode, EJS } from 'svelte-file-icons';
 </script>
 
 <Vite />
@@ -123,7 +123,7 @@ You can pass other attibutes as well.
 
 ```html
 <script>
-	import { Svelte } from 'svelte-file-icons';
+  import { Svelte } from 'svelte-file-icons';
 </script>
 
 <svelte:component this="{Svelte}" />
@@ -133,15 +133,15 @@ You can pass other attibutes as well.
 
 ```html
 <script>
-	import { Svelte } from 'svelte-file-icons';
-	import { onMount } from 'svelte';
-	const props = {
-		size: '50',
-		color: '#ff0000'
-	};
-	onMount(() => {
-		const icon = new Svelte({ target: document.body, props });
-	});
+  import { Svelte } from 'svelte-file-icons';
+  import { onMount } from 'svelte';
+  const props = {
+    size: '50',
+    color: '#ff0000'
+  };
+  onMount(() => {
+    const icon = new Svelte({ target: document.body, props });
+  });
 </script>
 ```
 
@@ -151,7 +151,7 @@ Use `import * as Icon from 'svelte-file-icons`.
 
 ```html
 <script>
-	import * as Icon from 'svelte-file-icons';
+  import * as Icon from 'svelte-file-icons';
 </script>
 
 <Icon.Svelte />
