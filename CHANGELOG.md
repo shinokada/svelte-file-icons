@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.2](https://github.com/shinokada/svelte-file-icons/compare/v0.3.1...v0.3.2) (2023-02-22)
+
+
+### Features
+
+* new svelte packaging system 2 ([ad18408](https://github.com/shinokada/svelte-file-icons/commit/ad184084da6a073af681720aeead4212911d5dca))
+
 ### [0.3.1](https://github.com/shinokada/svelte-file-icons/compare/v0.2.1...v0.3.1) (2023-02-22)
 
 ### Features
