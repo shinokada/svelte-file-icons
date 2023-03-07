@@ -52,7 +52,6 @@ In a svelte file:
 <EJS />
 ```
 
-
 ## Faster compiling
 
 For faster compilation, you can import the icon directly.
@@ -149,9 +148,8 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 ```html
-<Us tabindex="-1" />
+<Svelte tabindex="-1" />
 ```
-
 
 ## Passing down other attributes
 

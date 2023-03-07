@@ -30,6 +30,3730 @@
     ".": {
       "types": "./dist/index.d.ts",
       "svelte": "./dist/index.js"
+    },
+    "./A1C.svelte": {
+      "types": "./dist/A1C.svelte.d.ts",
+      "svelte": "./dist/A1C.svelte"
+    },
+    "./A1CAlt.svelte": {
+      "types": "./dist/A1CAlt.svelte.d.ts",
+      "svelte": "./dist/A1CAlt.svelte"
+    },
+    "./A3DModel.svelte": {
+      "types": "./dist/A3DModel.svelte.d.ts",
+      "svelte": "./dist/A3DModel.svelte"
+    },
+    "./A3DSMax.svelte": {
+      "types": "./dist/A3DSMax.svelte.d.ts",
+      "svelte": "./dist/A3DSMax.svelte"
+    },
+    "./A4D.svelte": {
+      "types": "./dist/A4D.svelte.d.ts",
+      "svelte": "./dist/A4D.svelte"
+    },
+    "./ABAP.svelte": {
+      "types": "./dist/ABAP.svelte.d.ts",
+      "svelte": "./dist/ABAP.svelte"
+    },
+    "./ABIF.svelte": {
+      "types": "./dist/ABIF.svelte.d.ts",
+      "svelte": "./dist/ABIF.svelte"
+    },
+    "./AGC.svelte": {
+      "types": "./dist/AGC.svelte.d.ts",
+      "svelte": "./dist/AGC.svelte"
+    },
+    "./AMD.svelte": {
+      "types": "./dist/AMD.svelte.d.ts",
+      "svelte": "./dist/AMD.svelte"
+    },
+    "./AMPL.svelte": {
+      "types": "./dist/AMPL.svelte.d.ts",
+      "svelte": "./dist/AMPL.svelte"
+    },
+    "./ANTLR.svelte": {
+      "types": "./dist/ANTLR.svelte.d.ts",
+      "svelte": "./dist/ANTLR.svelte"
+    },
+    "./APIBlueprint.svelte": {
+      "types": "./dist/APIBlueprint.svelte.d.ts",
+      "svelte": "./dist/APIBlueprint.svelte"
+    },
+    "./APIExtractor.svelte": {
+      "types": "./dist/APIExtractor.svelte.d.ts",
+      "svelte": "./dist/APIExtractor.svelte"
+    },
+    "./APL.svelte": {
+      "types": "./dist/APL.svelte.d.ts",
+      "svelte": "./dist/APL.svelte"
+    },
+    "./APLOld.svelte": {
+      "types": "./dist/APLOld.svelte.d.ts",
+      "svelte": "./dist/APLOld.svelte"
+    },
+    "./APlus.svelte": {
+      "types": "./dist/APlus.svelte.d.ts",
+      "svelte": "./dist/APlus.svelte"
+    },
+    "./ARM.svelte": {
+      "types": "./dist/ARM.svelte.d.ts",
+      "svelte": "./dist/ARM.svelte"
+    },
+    "./ATS.svelte": {
+      "types": "./dist/ATS.svelte.d.ts",
+      "svelte": "./dist/ATS.svelte"
+    },
+    "./ATT.svelte": {
+      "types": "./dist/ATT.svelte.d.ts",
+      "svelte": "./dist/ATT.svelte"
+    },
+    "./AVR.svelte": {
+      "types": "./dist/AVR.svelte.d.ts",
+      "svelte": "./dist/AVR.svelte"
+    },
+    "./Acre.svelte": {
+      "types": "./dist/Acre.svelte.d.ts",
+      "svelte": "./dist/Acre.svelte"
+    },
+    "./ActionScript.svelte": {
+      "types": "./dist/ActionScript.svelte.d.ts",
+      "svelte": "./dist/ActionScript.svelte"
+    },
+    "./Ada.svelte": {
+      "types": "./dist/Ada.svelte.d.ts",
+      "svelte": "./dist/Ada.svelte"
+    },
+    "./Adobe.svelte": {
+      "types": "./dist/Adobe.svelte.d.ts",
+      "svelte": "./dist/Adobe.svelte"
+    },
+    "./AdobeAcrobat.svelte": {
+      "types": "./dist/AdobeAcrobat.svelte.d.ts",
+      "svelte": "./dist/AdobeAcrobat.svelte"
+    },
+    "./AdobeAfterEffects.svelte": {
+      "types": "./dist/AdobeAfterEffects.svelte.d.ts",
+      "svelte": "./dist/AdobeAfterEffects.svelte"
+    },
+    "./AdobeAnimate.svelte": {
+      "types": "./dist/AdobeAnimate.svelte.d.ts",
+      "svelte": "./dist/AdobeAnimate.svelte"
+    },
+    "./AdobeAudition.svelte": {
+      "types": "./dist/AdobeAudition.svelte.d.ts",
+      "svelte": "./dist/AdobeAudition.svelte"
+    },
+    "./AdobeBridge.svelte": {
+      "types": "./dist/AdobeBridge.svelte.d.ts",
+      "svelte": "./dist/AdobeBridge.svelte"
+    },
+    "./AdobeCharacterAnimator.svelte": {
+      "types": "./dist/AdobeCharacterAnimator.svelte.d.ts",
+      "svelte": "./dist/AdobeCharacterAnimator.svelte"
+    },
+    "./AdobeCreativeCloud.svelte": {
+      "types": "./dist/AdobeCreativeCloud.svelte.d.ts",
+      "svelte": "./dist/AdobeCreativeCloud.svelte"
+    },
+    "./AdobeDimension.svelte": {
+      "types": "./dist/AdobeDimension.svelte.d.ts",
+      "svelte": "./dist/AdobeDimension.svelte"
+    },
+    "./AdobeDreamweaver.svelte": {
+      "types": "./dist/AdobeDreamweaver.svelte.d.ts",
+      "svelte": "./dist/AdobeDreamweaver.svelte"
+    },
+    "./AdobeFlash.svelte": {
+      "types": "./dist/AdobeFlash.svelte.d.ts",
+      "svelte": "./dist/AdobeFlash.svelte"
+    },
+    "./AdobeFuse.svelte": {
+      "types": "./dist/AdobeFuse.svelte.d.ts",
+      "svelte": "./dist/AdobeFuse.svelte"
+    },
+    "./AdobeIllustrator.svelte": {
+      "types": "./dist/AdobeIllustrator.svelte.d.ts",
+      "svelte": "./dist/AdobeIllustrator.svelte"
+    },
+    "./AdobeInCopy.svelte": {
+      "types": "./dist/AdobeInCopy.svelte.d.ts",
+      "svelte": "./dist/AdobeInCopy.svelte"
+    },
+    "./AdobeInDesign.svelte": {
+      "types": "./dist/AdobeInDesign.svelte.d.ts",
+      "svelte": "./dist/AdobeInDesign.svelte"
+    },
+    "./AdobeLightroom.svelte": {
+      "types": "./dist/AdobeLightroom.svelte.d.ts",
+      "svelte": "./dist/AdobeLightroom.svelte"
+    },
+    "./AdobeMediaEncoder.svelte": {
+      "types": "./dist/AdobeMediaEncoder.svelte.d.ts",
+      "svelte": "./dist/AdobeMediaEncoder.svelte"
+    },
+    "./AdobePhotoshop.svelte": {
+      "types": "./dist/AdobePhotoshop.svelte.d.ts",
+      "svelte": "./dist/AdobePhotoshop.svelte"
+    },
+    "./AdobePrelude.svelte": {
+      "types": "./dist/AdobePrelude.svelte.d.ts",
+      "svelte": "./dist/AdobePrelude.svelte"
+    },
+    "./AdobePremiere.svelte": {
+      "types": "./dist/AdobePremiere.svelte.d.ts",
+      "svelte": "./dist/AdobePremiere.svelte"
+    },
+    "./AdobePremiereRush.svelte": {
+      "types": "./dist/AdobePremiereRush.svelte.d.ts",
+      "svelte": "./dist/AdobePremiereRush.svelte"
+    },
+    "./AdobeXD.svelte": {
+      "types": "./dist/AdobeXD.svelte.d.ts",
+      "svelte": "./dist/AdobeXD.svelte"
+    },
+    "./AdonisJS.svelte": {
+      "types": "./dist/AdonisJS.svelte.d.ts",
+      "svelte": "./dist/AdonisJS.svelte"
+    },
+    "./Aeternity.svelte": {
+      "types": "./dist/Aeternity.svelte.d.ts",
+      "svelte": "./dist/Aeternity.svelte"
+    },
+    "./AffectScript.svelte": {
+      "types": "./dist/AffectScript.svelte.d.ts",
+      "svelte": "./dist/AffectScript.svelte"
+    },
+    "./AffinityDesigner.svelte": {
+      "types": "./dist/AffinityDesigner.svelte.d.ts",
+      "svelte": "./dist/AffinityDesigner.svelte"
+    },
+    "./Agda.svelte": {
+      "types": "./dist/Agda.svelte.d.ts",
+      "svelte": "./dist/Agda.svelte"
+    },
+    "./Akka.svelte": {
+      "types": "./dist/Akka.svelte.d.ts",
+      "svelte": "./dist/Akka.svelte"
+    },
+    "./Alacritty.svelte": {
+      "types": "./dist/Alacritty.svelte.d.ts",
+      "svelte": "./dist/Alacritty.svelte"
+    },
+    "./AlacrittyAlt.svelte": {
+      "types": "./dist/AlacrittyAlt.svelte.d.ts",
+      "svelte": "./dist/AlacrittyAlt.svelte"
+    },
+    "./Alex.svelte": {
+      "types": "./dist/Alex.svelte.d.ts",
+      "svelte": "./dist/Alex.svelte"
+    },
+    "./Alloy.svelte": {
+      "types": "./dist/Alloy.svelte.d.ts",
+      "svelte": "./dist/Alloy.svelte"
+    },
+    "./AlpineLinux.svelte": {
+      "types": "./dist/AlpineLinux.svelte.d.ts",
+      "svelte": "./dist/AlpineLinux.svelte"
+    },
+    "./AmigaOS.svelte": {
+      "types": "./dist/AmigaOS.svelte.d.ts",
+      "svelte": "./dist/AmigaOS.svelte"
+    },
+    "./AmuseWiki.svelte": {
+      "types": "./dist/AmuseWiki.svelte.d.ts",
+      "svelte": "./dist/AmuseWiki.svelte"
+    },
+    "./Analytica.svelte": {
+      "types": "./dist/Analytica.svelte.d.ts",
+      "svelte": "./dist/Analytica.svelte"
+    },
+    "./AngelScript.svelte": {
+      "types": "./dist/AngelScript.svelte.d.ts",
+      "svelte": "./dist/AngelScript.svelte"
+    },
+    "./AnimeStudio.svelte": {
+      "types": "./dist/AnimeStudio.svelte.d.ts",
+      "svelte": "./dist/AnimeStudio.svelte"
+    },
+    "./Ansible.svelte": {
+      "types": "./dist/Ansible.svelte.d.ts",
+      "svelte": "./dist/Ansible.svelte"
+    },
+    "./AnsibleAlt.svelte": {
+      "types": "./dist/AnsibleAlt.svelte.d.ts",
+      "svelte": "./dist/AnsibleAlt.svelte"
+    },
+    "./Antwar.svelte": {
+      "types": "./dist/Antwar.svelte.d.ts",
+      "svelte": "./dist/Antwar.svelte"
+    },
+    "./AnyScript.svelte": {
+      "types": "./dist/AnyScript.svelte.d.ts",
+      "svelte": "./dist/AnyScript.svelte"
+    },
+    "./ApacheANT.svelte": {
+      "types": "./dist/ApacheANT.svelte.d.ts",
+      "svelte": "./dist/ApacheANT.svelte"
+    },
+    "./Apollo.svelte": {
+      "types": "./dist/Apollo.svelte.d.ts",
+      "svelte": "./dist/Apollo.svelte"
+    },
+    "./Apple.svelte": {
+      "types": "./dist/Apple.svelte.d.ts",
+      "svelte": "./dist/Apple.svelte"
+    },
+    "./Appveyor.svelte": {
+      "types": "./dist/Appveyor.svelte.d.ts",
+      "svelte": "./dist/Appveyor.svelte"
+    },
+    "./Arc.svelte": {
+      "types": "./dist/Arc.svelte.d.ts",
+      "svelte": "./dist/Arc.svelte"
+    },
+    "./ArchLinux.svelte": {
+      "types": "./dist/ArchLinux.svelte.d.ts",
+      "svelte": "./dist/ArchLinux.svelte"
+    },
+    "./Arduino.svelte": {
+      "types": "./dist/Arduino.svelte.d.ts",
+      "svelte": "./dist/Arduino.svelte"
+    },
+    "./ArtText.svelte": {
+      "types": "./dist/ArtText.svelte.d.ts",
+      "svelte": "./dist/ArtText.svelte"
+    },
+    "./ArtText4.svelte": {
+      "types": "./dist/ArtText4.svelte.d.ts",
+      "svelte": "./dist/ArtText4.svelte"
+    },
+    "./AsciiDoc.svelte": {
+      "types": "./dist/AsciiDoc.svelte.d.ts",
+      "svelte": "./dist/AsciiDoc.svelte"
+    },
+    "./Asciidoctor.svelte": {
+      "types": "./dist/Asciidoctor.svelte.d.ts",
+      "svelte": "./dist/Asciidoctor.svelte"
+    },
+    "./AssemblyAGC.svelte": {
+      "types": "./dist/AssemblyAGC.svelte.d.ts",
+      "svelte": "./dist/AssemblyAGC.svelte"
+    },
+    "./AssemblyAMD.svelte": {
+      "types": "./dist/AssemblyAMD.svelte.d.ts",
+      "svelte": "./dist/AssemblyAMD.svelte"
+    },
+    "./AssemblyARM.svelte": {
+      "types": "./dist/AssemblyARM.svelte.d.ts",
+      "svelte": "./dist/AssemblyARM.svelte"
+    },
+    "./AssemblyATT.svelte": {
+      "types": "./dist/AssemblyATT.svelte.d.ts",
+      "svelte": "./dist/AssemblyATT.svelte"
+    },
+    "./AssemblyAVR.svelte": {
+      "types": "./dist/AssemblyAVR.svelte.d.ts",
+      "svelte": "./dist/AssemblyAVR.svelte"
+    },
+    "./AssemblyGeneric.svelte": {
+      "types": "./dist/AssemblyGeneric.svelte.d.ts",
+      "svelte": "./dist/AssemblyGeneric.svelte"
+    },
+    "./AssemblyHitachi.svelte": {
+      "types": "./dist/AssemblyHitachi.svelte.d.ts",
+      "svelte": "./dist/AssemblyHitachi.svelte"
+    },
+    "./AssemblyIntel.svelte": {
+      "types": "./dist/AssemblyIntel.svelte.d.ts",
+      "svelte": "./dist/AssemblyIntel.svelte"
+    },
+    "./AssemblyMotorola.svelte": {
+      "types": "./dist/AssemblyMotorola.svelte.d.ts",
+      "svelte": "./dist/AssemblyMotorola.svelte"
+    },
+    "./AssemblyPowerPC.svelte": {
+      "types": "./dist/AssemblyPowerPC.svelte.d.ts",
+      "svelte": "./dist/AssemblyPowerPC.svelte"
+    },
+    "./AssemblyRISCV.svelte": {
+      "types": "./dist/AssemblyRISCV.svelte.d.ts",
+      "svelte": "./dist/AssemblyRISCV.svelte"
+    },
+    "./AssemblySPARC.svelte": {
+      "types": "./dist/AssemblySPARC.svelte.d.ts",
+      "svelte": "./dist/AssemblySPARC.svelte"
+    },
+    "./AssemblyVAX.svelte": {
+      "types": "./dist/AssemblyVAX.svelte.d.ts",
+      "svelte": "./dist/AssemblyVAX.svelte"
+    },
+    "./AssemblyZilog.svelte": {
+      "types": "./dist/AssemblyZilog.svelte.d.ts",
+      "svelte": "./dist/AssemblyZilog.svelte"
+    },
+    "./Asymptote.svelte": {
+      "types": "./dist/Asymptote.svelte.d.ts",
+      "svelte": "./dist/Asymptote.svelte"
+    },
+    "./AsymptoteAlt.svelte": {
+      "types": "./dist/AsymptoteAlt.svelte.d.ts",
+      "svelte": "./dist/AsymptoteAlt.svelte"
+    },
+    "./Atoum.svelte": {
+      "types": "./dist/Atoum.svelte.d.ts",
+      "svelte": "./dist/Atoum.svelte"
+    },
+    "./Audacity.svelte": {
+      "types": "./dist/Audacity.svelte.d.ts",
+      "svelte": "./dist/Audacity.svelte"
+    },
+    "./Augeas.svelte": {
+      "types": "./dist/Augeas.svelte.d.ts",
+      "svelte": "./dist/Augeas.svelte"
+    },
+    "./Aurelia.svelte": {
+      "types": "./dist/Aurelia.svelte.d.ts",
+      "svelte": "./dist/Aurelia.svelte"
+    },
+    "./AutoHotkey.svelte": {
+      "types": "./dist/AutoHotkey.svelte.d.ts",
+      "svelte": "./dist/AutoHotkey.svelte"
+    },
+    "./AutoIt.svelte": {
+      "types": "./dist/AutoIt.svelte.d.ts",
+      "svelte": "./dist/AutoIt.svelte"
+    },
+    "./Automator.svelte": {
+      "types": "./dist/Automator.svelte.d.ts",
+      "svelte": "./dist/Automator.svelte"
+    },
+    "./Avro.svelte": {
+      "types": "./dist/Avro.svelte.d.ts",
+      "svelte": "./dist/Avro.svelte"
+    },
+    "./Awk.svelte": {
+      "types": "./dist/Awk.svelte.d.ts",
+      "svelte": "./dist/Awk.svelte"
+    },
+    "./AzurePipelines.svelte": {
+      "types": "./dist/AzurePipelines.svelte.d.ts",
+      "svelte": "./dist/AzurePipelines.svelte"
+    },
+    "./BEM.svelte": {
+      "types": "./dist/BEM.svelte.d.ts",
+      "svelte": "./dist/BEM.svelte"
+    },
+    "./BNF.svelte": {
+      "types": "./dist/BNF.svelte.d.ts",
+      "svelte": "./dist/BNF.svelte"
+    },
+    "./BYOND.svelte": {
+      "types": "./dist/BYOND.svelte.d.ts",
+      "svelte": "./dist/BYOND.svelte"
+    },
+    "./Babel.svelte": {
+      "types": "./dist/Babel.svelte.d.ts",
+      "svelte": "./dist/Babel.svelte"
+    },
+    "./Ballerina.svelte": {
+      "types": "./dist/Ballerina.svelte.d.ts",
+      "svelte": "./dist/Ballerina.svelte"
+    },
+    "./Bazaar.svelte": {
+      "types": "./dist/Bazaar.svelte.d.ts",
+      "svelte": "./dist/Bazaar.svelte"
+    },
+    "./Bazel.svelte": {
+      "types": "./dist/Bazel.svelte.d.ts",
+      "svelte": "./dist/Bazel.svelte"
+    },
+    "./BazelOld.svelte": {
+      "types": "./dist/BazelOld.svelte.d.ts",
+      "svelte": "./dist/BazelOld.svelte"
+    },
+    "./Behat.svelte": {
+      "types": "./dist/Behat.svelte.d.ts",
+      "svelte": "./dist/Behat.svelte"
+    },
+    "./BibTeX.svelte": {
+      "types": "./dist/BibTeX.svelte.d.ts",
+      "svelte": "./dist/BibTeX.svelte"
+    },
+    "./Bikeshed.svelte": {
+      "types": "./dist/Bikeshed.svelte.d.ts",
+      "svelte": "./dist/Bikeshed.svelte"
+    },
+    "./Biml.svelte": {
+      "types": "./dist/Biml.svelte.d.ts",
+      "svelte": "./dist/Biml.svelte"
+    },
+    "./BinTray.svelte": {
+      "types": "./dist/BinTray.svelte.d.ts",
+      "svelte": "./dist/BinTray.svelte"
+    },
+    "./Binder.svelte": {
+      "types": "./dist/Binder.svelte.d.ts",
+      "svelte": "./dist/Binder.svelte"
+    },
+    "./Bison.svelte": {
+      "types": "./dist/Bison.svelte.d.ts",
+      "svelte": "./dist/Bison.svelte"
+    },
+    "./BitHound.svelte": {
+      "types": "./dist/BitHound.svelte.d.ts",
+      "svelte": "./dist/BitHound.svelte"
+    },
+    "./Blender.svelte": {
+      "types": "./dist/Blender.svelte.d.ts",
+      "svelte": "./dist/Blender.svelte"
+    },
+    "./BlitzBasic.svelte": {
+      "types": "./dist/BlitzBasic.svelte.d.ts",
+      "svelte": "./dist/BlitzBasic.svelte"
+    },
+    "./Bloc.svelte": {
+      "types": "./dist/Bloc.svelte.d.ts",
+      "svelte": "./dist/Bloc.svelte"
+    },
+    "./Bluespec.svelte": {
+      "types": "./dist/Bluespec.svelte.d.ts",
+      "svelte": "./dist/Bluespec.svelte"
+    },
+    "./Boo.svelte": {
+      "types": "./dist/Boo.svelte.d.ts",
+      "svelte": "./dist/Boo.svelte"
+    },
+    "./Bors.svelte": {
+      "types": "./dist/Bors.svelte.d.ts",
+      "svelte": "./dist/Bors.svelte"
+    },
+    "./Bosque.svelte": {
+      "types": "./dist/Bosque.svelte.d.ts",
+      "svelte": "./dist/Bosque.svelte"
+    },
+    "./Brainfuck.svelte": {
+      "types": "./dist/Brainfuck.svelte.d.ts",
+      "svelte": "./dist/Brainfuck.svelte"
+    },
+    "./Brakeman.svelte": {
+      "types": "./dist/Brakeman.svelte.d.ts",
+      "svelte": "./dist/Brakeman.svelte"
+    },
+    "./Bro.svelte": {
+      "types": "./dist/Bro.svelte.d.ts",
+      "svelte": "./dist/Bro.svelte"
+    },
+    "./Broccoli.svelte": {
+      "types": "./dist/Broccoli.svelte.d.ts",
+      "svelte": "./dist/Broccoli.svelte"
+    },
+    "./Brotli.svelte": {
+      "types": "./dist/Brotli.svelte.d.ts",
+      "svelte": "./dist/Brotli.svelte"
+    },
+    "./BrotliOld.svelte": {
+      "types": "./dist/BrotliOld.svelte.d.ts",
+      "svelte": "./dist/BrotliOld.svelte"
+    },
+    "./Browserslist.svelte": {
+      "types": "./dist/Browserslist.svelte.d.ts",
+      "svelte": "./dist/Browserslist.svelte"
+    },
+    "./Browsersync.svelte": {
+      "types": "./dist/Browsersync.svelte.d.ts",
+      "svelte": "./dist/Browsersync.svelte"
+    },
+    "./Brunch.svelte": {
+      "types": "./dist/Brunch.svelte.d.ts",
+      "svelte": "./dist/Brunch.svelte"
+    },
+    "./Buck.svelte": {
+      "types": "./dist/Buck.svelte.d.ts",
+      "svelte": "./dist/Buck.svelte"
+    },
+    "./BuildBoot.svelte": {
+      "types": "./dist/BuildBoot.svelte.d.ts",
+      "svelte": "./dist/BuildBoot.svelte"
+    },
+    "./Buildkite.svelte": {
+      "types": "./dist/Buildkite.svelte.d.ts",
+      "svelte": "./dist/Buildkite.svelte"
+    },
+    "./Bundler.svelte": {
+      "types": "./dist/Bundler.svelte.d.ts",
+      "svelte": "./dist/Bundler.svelte"
+    },
+    "./CASC.svelte": {
+      "types": "./dist/CASC.svelte.d.ts",
+      "svelte": "./dist/CASC.svelte"
+    },
+    "./CDF.svelte": {
+      "types": "./dist/CDF.svelte.d.ts",
+      "svelte": "./dist/CDF.svelte"
+    },
+    "./CKEditor.svelte": {
+      "types": "./dist/CKEditor.svelte.d.ts",
+      "svelte": "./dist/CKEditor.svelte"
+    },
+    "./CLIPS.svelte": {
+      "types": "./dist/CLIPS.svelte.d.ts",
+      "svelte": "./dist/CLIPS.svelte"
+    },
+    "./CNAB.svelte": {
+      "types": "./dist/CNAB.svelte.d.ts",
+      "svelte": "./dist/CNAB.svelte"
+    },
+    "./COBOL.svelte": {
+      "types": "./dist/COBOL.svelte.d.ts",
+      "svelte": "./dist/COBOL.svelte"
+    },
+    "./CPAN.svelte": {
+      "types": "./dist/CPAN.svelte.d.ts",
+      "svelte": "./dist/CPAN.svelte"
+    },
+    "./CPlusPlus.svelte": {
+      "types": "./dist/CPlusPlus.svelte.d.ts",
+      "svelte": "./dist/CPlusPlus.svelte"
+    },
+    "./CSharp.svelte": {
+      "types": "./dist/CSharp.svelte.d.ts",
+      "svelte": "./dist/CSharp.svelte"
+    },
+    "./CSharpScript.svelte": {
+      "types": "./dist/CSharpScript.svelte.d.ts",
+      "svelte": "./dist/CSharpScript.svelte"
+    },
+    "./CSound.svelte": {
+      "types": "./dist/CSound.svelte.d.ts",
+      "svelte": "./dist/CSound.svelte"
+    },
+    "./CURL.svelte": {
+      "types": "./dist/CURL.svelte.d.ts",
+      "svelte": "./dist/CURL.svelte"
+    },
+    "./CVS.svelte": {
+      "types": "./dist/CVS.svelte.d.ts",
+      "svelte": "./dist/CVS.svelte"
+    },
+    "./CWL.svelte": {
+      "types": "./dist/CWL.svelte.d.ts",
+      "svelte": "./dist/CWL.svelte"
+    },
+    "./Cabal.svelte": {
+      "types": "./dist/Cabal.svelte.d.ts",
+      "svelte": "./dist/Cabal.svelte"
+    },
+    "./Caddy.svelte": {
+      "types": "./dist/Caddy.svelte.d.ts",
+      "svelte": "./dist/Caddy.svelte"
+    },
+    "./CaddyOld.svelte": {
+      "types": "./dist/CaddyOld.svelte.d.ts",
+      "svelte": "./dist/CaddyOld.svelte"
+    },
+    "./Caffe.svelte": {
+      "types": "./dist/Caffe.svelte.d.ts",
+      "svelte": "./dist/Caffe.svelte"
+    },
+    "./Caffe2.svelte": {
+      "types": "./dist/Caffe2.svelte.d.ts",
+      "svelte": "./dist/Caffe2.svelte"
+    },
+    "./Cairo.svelte": {
+      "types": "./dist/Cairo.svelte.d.ts",
+      "svelte": "./dist/Cairo.svelte"
+    },
+    "./Cake.svelte": {
+      "types": "./dist/Cake.svelte.d.ts",
+      "svelte": "./dist/Cake.svelte"
+    },
+    "./CakePHP.svelte": {
+      "types": "./dist/CakePHP.svelte.d.ts",
+      "svelte": "./dist/CakePHP.svelte"
+    },
+    "./CakePHPOld.svelte": {
+      "types": "./dist/CakePHPOld.svelte.d.ts",
+      "svelte": "./dist/CakePHPOld.svelte"
+    },
+    "./Cakefile.svelte": {
+      "types": "./dist/Cakefile.svelte.d.ts",
+      "svelte": "./dist/Cakefile.svelte"
+    },
+    "./Calva.svelte": {
+      "types": "./dist/Calva.svelte.d.ts",
+      "svelte": "./dist/Calva.svelte"
+    },
+    "./Carthage.svelte": {
+      "types": "./dist/Carthage.svelte.d.ts",
+      "svelte": "./dist/Carthage.svelte"
+    },
+    "./Ceylon.svelte": {
+      "types": "./dist/Ceylon.svelte.d.ts",
+      "svelte": "./dist/Ceylon.svelte"
+    },
+    "./Chai.svelte": {
+      "types": "./dist/Chai.svelte.d.ts",
+      "svelte": "./dist/Chai.svelte"
+    },
+    "./Chapel.svelte": {
+      "types": "./dist/Chapel.svelte.d.ts",
+      "svelte": "./dist/Chapel.svelte"
+    },
+    "./ChartJS.svelte": {
+      "types": "./dist/ChartJS.svelte.d.ts",
+      "svelte": "./dist/ChartJS.svelte"
+    },
+    "./Cheetah3D.svelte": {
+      "types": "./dist/Cheetah3D.svelte.d.ts",
+      "svelte": "./dist/Cheetah3D.svelte"
+    },
+    "./Chef.svelte": {
+      "types": "./dist/Chef.svelte.d.ts",
+      "svelte": "./dist/Chef.svelte"
+    },
+    "./Chocolatey.svelte": {
+      "types": "./dist/Chocolatey.svelte.d.ts",
+      "svelte": "./dist/Chocolatey.svelte"
+    },
+    "./ChucK.svelte": {
+      "types": "./dist/ChucK.svelte.d.ts",
+      "svelte": "./dist/ChucK.svelte"
+    },
+    "./CircleCI.svelte": {
+      "types": "./dist/CircleCI.svelte.d.ts",
+      "svelte": "./dist/CircleCI.svelte"
+    },
+    "./Cirru.svelte": {
+      "types": "./dist/Cirru.svelte.d.ts",
+      "svelte": "./dist/Cirru.svelte"
+    },
+    "./Clarion.svelte": {
+      "types": "./dist/Clarion.svelte.d.ts",
+      "svelte": "./dist/Clarion.svelte"
+    },
+    "./Clean.svelte": {
+      "types": "./dist/Clean.svelte.d.ts",
+      "svelte": "./dist/Clean.svelte"
+    },
+    "./Click.svelte": {
+      "types": "./dist/Click.svelte.d.ts",
+      "svelte": "./dist/Click.svelte"
+    },
+    "./ClojureJS.svelte": {
+      "types": "./dist/ClojureJS.svelte.d.ts",
+      "svelte": "./dist/ClojureJS.svelte"
+    },
+    "./ClosureTemplate.svelte": {
+      "types": "./dist/ClosureTemplate.svelte.d.ts",
+      "svelte": "./dist/ClosureTemplate.svelte"
+    },
+    "./CloudFoundry.svelte": {
+      "types": "./dist/CloudFoundry.svelte.d.ts",
+      "svelte": "./dist/CloudFoundry.svelte"
+    },
+    "./Cmake.svelte": {
+      "types": "./dist/Cmake.svelte.d.ts",
+      "svelte": "./dist/Cmake.svelte"
+    },
+    "./CoNLL.svelte": {
+      "types": "./dist/CoNLL.svelte.d.ts",
+      "svelte": "./dist/CoNLL.svelte"
+    },
+    "./CocoaPods.svelte": {
+      "types": "./dist/CocoaPods.svelte.d.ts",
+      "svelte": "./dist/CocoaPods.svelte"
+    },
+    "./Codacy.svelte": {
+      "types": "./dist/Codacy.svelte.d.ts",
+      "svelte": "./dist/Codacy.svelte"
+    },
+    "./CodeClimate.svelte": {
+      "types": "./dist/CodeClimate.svelte.d.ts",
+      "svelte": "./dist/CodeClimate.svelte"
+    },
+    "./CodeKit.svelte": {
+      "types": "./dist/CodeKit.svelte.d.ts",
+      "svelte": "./dist/CodeKit.svelte"
+    },
+    "./CodeMeta.svelte": {
+      "types": "./dist/CodeMeta.svelte.d.ts",
+      "svelte": "./dist/CodeMeta.svelte"
+    },
+    "./CodeMirror.svelte": {
+      "types": "./dist/CodeMirror.svelte.d.ts",
+      "svelte": "./dist/CodeMirror.svelte"
+    },
+    "./CodeShip.svelte": {
+      "types": "./dist/CodeShip.svelte.d.ts",
+      "svelte": "./dist/CodeShip.svelte"
+    },
+    "./Codecov.svelte": {
+      "types": "./dist/Codecov.svelte.d.ts",
+      "svelte": "./dist/Codecov.svelte"
+    },
+    "./ColdFusion.svelte": {
+      "types": "./dist/ColdFusion.svelte.d.ts",
+      "svelte": "./dist/ColdFusion.svelte"
+    },
+    "./CommitLint.svelte": {
+      "types": "./dist/CommitLint.svelte.d.ts",
+      "svelte": "./dist/CommitLint.svelte"
+    },
+    "./Commitizen.svelte": {
+      "types": "./dist/Commitizen.svelte.d.ts",
+      "svelte": "./dist/Commitizen.svelte"
+    },
+    "./CommonLisp.svelte": {
+      "types": "./dist/CommonLisp.svelte.d.ts",
+      "svelte": "./dist/CommonLisp.svelte"
+    },
+    "./ComponentPascal.svelte": {
+      "types": "./dist/ComponentPascal.svelte.d.ts",
+      "svelte": "./dist/ComponentPascal.svelte"
+    },
+    "./Composer.svelte": {
+      "types": "./dist/Composer.svelte.d.ts",
+      "svelte": "./dist/Composer.svelte"
+    },
+    "./Conan.svelte": {
+      "types": "./dist/Conan.svelte.d.ts",
+      "svelte": "./dist/Conan.svelte"
+    },
+    "./Conda.svelte": {
+      "types": "./dist/Conda.svelte.d.ts",
+      "svelte": "./dist/Conda.svelte"
+    },
+    "./Config.svelte": {
+      "types": "./dist/Config.svelte.d.ts",
+      "svelte": "./dist/Config.svelte"
+    },
+    "./ConfigCoffeeScript.svelte": {
+      "types": "./dist/ConfigCoffeeScript.svelte.d.ts",
+      "svelte": "./dist/ConfigCoffeeScript.svelte"
+    },
+    "./ConfigGo.svelte": {
+      "types": "./dist/ConfigGo.svelte.d.ts",
+      "svelte": "./dist/ConfigGo.svelte"
+    },
+    "./ConfigHaskell.svelte": {
+      "types": "./dist/ConfigHaskell.svelte.d.ts",
+      "svelte": "./dist/ConfigHaskell.svelte"
+    },
+    "./ConfigJS.svelte": {
+      "types": "./dist/ConfigJS.svelte.d.ts",
+      "svelte": "./dist/ConfigJS.svelte"
+    },
+    "./ConfigPerl.svelte": {
+      "types": "./dist/ConfigPerl.svelte.d.ts",
+      "svelte": "./dist/ConfigPerl.svelte"
+    },
+    "./ConfigPython.svelte": {
+      "types": "./dist/ConfigPython.svelte.d.ts",
+      "svelte": "./dist/ConfigPython.svelte"
+    },
+    "./ConfigReact.svelte": {
+      "types": "./dist/ConfigReact.svelte.d.ts",
+      "svelte": "./dist/ConfigReact.svelte"
+    },
+    "./ConfigRuby.svelte": {
+      "types": "./dist/ConfigRuby.svelte.d.ts",
+      "svelte": "./dist/ConfigRuby.svelte"
+    },
+    "./ConfigRust.svelte": {
+      "types": "./dist/ConfigRust.svelte.d.ts",
+      "svelte": "./dist/ConfigRust.svelte"
+    },
+    "./ConfigTypeScript.svelte": {
+      "types": "./dist/ConfigTypeScript.svelte.d.ts",
+      "svelte": "./dist/ConfigTypeScript.svelte"
+    },
+    "./Coq.svelte": {
+      "types": "./dist/Coq.svelte.d.ts",
+      "svelte": "./dist/Coq.svelte"
+    },
+    "./Cordova.svelte": {
+      "types": "./dist/Cordova.svelte.d.ts",
+      "svelte": "./dist/Cordova.svelte"
+    },
+    "./CorelDRAW.svelte": {
+      "types": "./dist/CorelDRAW.svelte.d.ts",
+      "svelte": "./dist/CorelDRAW.svelte"
+    },
+    "./CorelDRAWAlt.svelte": {
+      "types": "./dist/CorelDRAWAlt.svelte.d.ts",
+      "svelte": "./dist/CorelDRAWAlt.svelte"
+    },
+    "./Coveralls.svelte": {
+      "types": "./dist/Coveralls.svelte.d.ts",
+      "svelte": "./dist/Coveralls.svelte"
+    },
+    "./CpcdosCPlus.svelte": {
+      "types": "./dist/CpcdosCPlus.svelte.d.ts",
+      "svelte": "./dist/CpcdosCPlus.svelte"
+    },
+    "./CraftTweaker.svelte": {
+      "types": "./dist/CraftTweaker.svelte.d.ts",
+      "svelte": "./dist/CraftTweaker.svelte"
+    },
+    "./Creole.svelte": {
+      "types": "./dist/Creole.svelte.d.ts",
+      "svelte": "./dist/Creole.svelte"
+    },
+    "./Crowdin.svelte": {
+      "types": "./dist/Crowdin.svelte.d.ts",
+      "svelte": "./dist/Crowdin.svelte"
+    },
+    "./Crystal.svelte": {
+      "types": "./dist/Crystal.svelte.d.ts",
+      "svelte": "./dist/Crystal.svelte"
+    },
+    "./Cubit.svelte": {
+      "types": "./dist/Cubit.svelte.d.ts",
+      "svelte": "./dist/Cubit.svelte"
+    },
+    "./Cucumber.svelte": {
+      "types": "./dist/Cucumber.svelte.d.ts",
+      "svelte": "./dist/Cucumber.svelte"
+    },
+    "./Cuneiform.svelte": {
+      "types": "./dist/Cuneiform.svelte.d.ts",
+      "svelte": "./dist/Cuneiform.svelte"
+    },
+    "./CurlLang.svelte": {
+      "types": "./dist/CurlLang.svelte.d.ts",
+      "svelte": "./dist/CurlLang.svelte"
+    },
+    "./Curry.svelte": {
+      "types": "./dist/Curry.svelte.d.ts",
+      "svelte": "./dist/Curry.svelte"
+    },
+    "./Cython.svelte": {
+      "types": "./dist/Cython.svelte.d.ts",
+      "svelte": "./dist/Cython.svelte"
+    },
+    "./D3.svelte": {
+      "types": "./dist/D3.svelte.d.ts",
+      "svelte": "./dist/D3.svelte"
+    },
+    "./DBASE.svelte": {
+      "types": "./dist/DBASE.svelte.d.ts",
+      "svelte": "./dist/DBASE.svelte"
+    },
+    "./DNA.svelte": {
+      "types": "./dist/DNA.svelte.d.ts",
+      "svelte": "./dist/DNA.svelte"
+    },
+    "./DOM.svelte": {
+      "types": "./dist/DOM.svelte.d.ts",
+      "svelte": "./dist/DOM.svelte"
+    },
+    "./DOSBox.svelte": {
+      "types": "./dist/DOSBox.svelte.d.ts",
+      "svelte": "./dist/DOSBox.svelte"
+    },
+    "./DOSBoxAlt.svelte": {
+      "types": "./dist/DOSBoxAlt.svelte.d.ts",
+      "svelte": "./dist/DOSBoxAlt.svelte"
+    },
+    "./DVC.svelte": {
+      "types": "./dist/DVC.svelte.d.ts",
+      "svelte": "./dist/DVC.svelte"
+    },
+    "./Dafny.svelte": {
+      "types": "./dist/Dafny.svelte.d.ts",
+      "svelte": "./dist/Dafny.svelte"
+    },
+    "./DarcsPatch.svelte": {
+      "types": "./dist/DarcsPatch.svelte.d.ts",
+      "svelte": "./dist/DarcsPatch.svelte"
+    },
+    "./Dashboard.svelte": {
+      "types": "./dist/Dashboard.svelte.d.ts",
+      "svelte": "./dist/Dashboard.svelte"
+    },
+    "./DataWeave.svelte": {
+      "types": "./dist/DataWeave.svelte.d.ts",
+      "svelte": "./dist/DataWeave.svelte"
+    },
+    "./Default.svelte": {
+      "types": "./dist/Default.svelte.d.ts",
+      "svelte": "./dist/Default.svelte"
+    },
+    "./Delphi.svelte": {
+      "types": "./dist/Delphi.svelte.d.ts",
+      "svelte": "./dist/Delphi.svelte"
+    },
+    "./Deno.svelte": {
+      "types": "./dist/Deno.svelte.d.ts",
+      "svelte": "./dist/Deno.svelte"
+    },
+    "./Dependabot.svelte": {
+      "types": "./dist/Dependabot.svelte.d.ts",
+      "svelte": "./dist/Dependabot.svelte"
+    },
+    "./DevContainer.svelte": {
+      "types": "./dist/DevContainer.svelte.d.ts",
+      "svelte": "./dist/DevContainer.svelte"
+    },
+    "./DeviceTree.svelte": {
+      "types": "./dist/DeviceTree.svelte.d.ts",
+      "svelte": "./dist/DeviceTree.svelte"
+    },
+    "./Dhall.svelte": {
+      "types": "./dist/Dhall.svelte.d.ts",
+      "svelte": "./dist/Dhall.svelte"
+    },
+    "./Dia.svelte": {
+      "types": "./dist/Dia.svelte.d.ts",
+      "svelte": "./dist/Dia.svelte"
+    },
+    "./Diff.svelte": {
+      "types": "./dist/Diff.svelte.d.ts",
+      "svelte": "./dist/Diff.svelte"
+    },
+    "./Digdag.svelte": {
+      "types": "./dist/Digdag.svelte.d.ts",
+      "svelte": "./dist/Digdag.svelte"
+    },
+    "./DocBook.svelte": {
+      "types": "./dist/DocBook.svelte.d.ts",
+      "svelte": "./dist/DocBook.svelte"
+    },
+    "./DocPad.svelte": {
+      "types": "./dist/DocPad.svelte.d.ts",
+      "svelte": "./dist/DocPad.svelte"
+    },
+    "./Docker.svelte": {
+      "types": "./dist/Docker.svelte.d.ts",
+      "svelte": "./dist/Docker.svelte"
+    },
+    "./Doclets.svelte": {
+      "types": "./dist/Doclets.svelte.d.ts",
+      "svelte": "./dist/Doclets.svelte"
+    },
+    "./Docz.svelte": {
+      "types": "./dist/Docz.svelte.d.ts",
+      "svelte": "./dist/Docz.svelte"
+    },
+    "./Dogescript.svelte": {
+      "types": "./dist/Dogescript.svelte.d.ts",
+      "svelte": "./dist/Dogescript.svelte"
+    },
+    "./DoneJS.svelte": {
+      "types": "./dist/DoneJS.svelte.d.ts",
+      "svelte": "./dist/DoneJS.svelte"
+    },
+    "./Dotenv.svelte": {
+      "types": "./dist/Dotenv.svelte.d.ts",
+      "svelte": "./dist/Dotenv.svelte"
+    },
+    "./Dotjs.svelte": {
+      "types": "./dist/Dotjs.svelte.d.ts",
+      "svelte": "./dist/Dotjs.svelte"
+    },
+    "./Doxygen.svelte": {
+      "types": "./dist/Doxygen.svelte.d.ts",
+      "svelte": "./dist/Doxygen.svelte"
+    },
+    "./DragonflyBSD.svelte": {
+      "types": "./dist/DragonflyBSD.svelte.d.ts",
+      "svelte": "./dist/DragonflyBSD.svelte"
+    },
+    "./Dragula.svelte": {
+      "types": "./dist/Dragula.svelte.d.ts",
+      "svelte": "./dist/Dragula.svelte"
+    },
+    "./Draw_io.svelte": {
+      "types": "./dist/Draw_io.svelte.d.ts",
+      "svelte": "./dist/Draw_io.svelte"
+    },
+    "./Drone.svelte": {
+      "types": "./dist/Drone.svelte.d.ts",
+      "svelte": "./dist/Drone.svelte"
+    },
+    "./Dub.svelte": {
+      "types": "./dist/Dub.svelte.d.ts",
+      "svelte": "./dist/Dub.svelte"
+    },
+    "./DyLib.svelte": {
+      "types": "./dist/DyLib.svelte.d.ts",
+      "svelte": "./dist/DyLib.svelte"
+    },
+    "./Dyalog.svelte": {
+      "types": "./dist/Dyalog.svelte.d.ts",
+      "svelte": "./dist/Dyalog.svelte"
+    },
+    "./E.svelte": {
+      "types": "./dist/E.svelte.d.ts",
+      "svelte": "./dist/E.svelte"
+    },
+    "./EC.svelte": {
+      "types": "./dist/EC.svelte.d.ts",
+      "svelte": "./dist/EC.svelte"
+    },
+    "./ECLiPSeLang.svelte": {
+      "types": "./dist/ECLiPSeLang.svelte.d.ts",
+      "svelte": "./dist/ECLiPSeLang.svelte"
+    },
+    "./EJS.svelte": {
+      "types": "./dist/EJS.svelte.d.ts",
+      "svelte": "./dist/EJS.svelte"
+    },
+    "./EQ.svelte": {
+      "types": "./dist/EQ.svelte.d.ts",
+      "svelte": "./dist/EQ.svelte"
+    },
+    "./ESDoc.svelte": {
+      "types": "./dist/ESDoc.svelte.d.ts",
+      "svelte": "./dist/ESDoc.svelte"
+    },
+    "./ESLint.svelte": {
+      "types": "./dist/ESLint.svelte.d.ts",
+      "svelte": "./dist/ESLint.svelte"
+    },
+    "./ESLintOld.svelte": {
+      "types": "./dist/ESLintOld.svelte.d.ts",
+      "svelte": "./dist/ESLintOld.svelte"
+    },
+    "./Eagle.svelte": {
+      "types": "./dist/Eagle.svelte.d.ts",
+      "svelte": "./dist/Eagle.svelte"
+    },
+    "./EasyBuild.svelte": {
+      "types": "./dist/EasyBuild.svelte.d.ts",
+      "svelte": "./dist/EasyBuild.svelte"
+    },
+    "./Ecere.svelte": {
+      "types": "./dist/Ecere.svelte.d.ts",
+      "svelte": "./dist/Ecere.svelte"
+    },
+    "./Edge.svelte": {
+      "types": "./dist/Edge.svelte.d.ts",
+      "svelte": "./dist/Edge.svelte"
+    },
+    "./EditorConfig.svelte": {
+      "types": "./dist/EditorConfig.svelte.d.ts",
+      "svelte": "./dist/EditorConfig.svelte"
+    },
+    "./Eiffel.svelte": {
+      "types": "./dist/Eiffel.svelte.d.ts",
+      "svelte": "./dist/Eiffel.svelte"
+    },
+    "./Electron.svelte": {
+      "types": "./dist/Electron.svelte.d.ts",
+      "svelte": "./dist/Electron.svelte"
+    },
+    "./ElementaryOS.svelte": {
+      "types": "./dist/ElementaryOS.svelte.d.ts",
+      "svelte": "./dist/ElementaryOS.svelte"
+    },
+    "./Elm.svelte": {
+      "types": "./dist/Elm.svelte.d.ts",
+      "svelte": "./dist/Elm.svelte"
+    },
+    "./Emacs.svelte": {
+      "types": "./dist/Emacs.svelte.d.ts",
+      "svelte": "./dist/Emacs.svelte"
+    },
+    "./Ember.svelte": {
+      "types": "./dist/Ember.svelte.d.ts",
+      "svelte": "./dist/Ember.svelte"
+    },
+    "./EmberScript.svelte": {
+      "types": "./dist/EmberScript.svelte.d.ts",
+      "svelte": "./dist/EmberScript.svelte"
+    },
+    "./Ensime.svelte": {
+      "types": "./dist/Ensime.svelte.d.ts",
+      "svelte": "./dist/Ensime.svelte"
+    },
+    "./Expo.svelte": {
+      "types": "./dist/Expo.svelte.d.ts",
+      "svelte": "./dist/Expo.svelte"
+    },
+    "./FBX.svelte": {
+      "types": "./dist/FBX.svelte.d.ts",
+      "svelte": "./dist/FBX.svelte"
+    },
+    "./FFmpeg.svelte": {
+      "types": "./dist/FFmpeg.svelte.d.ts",
+      "svelte": "./dist/FFmpeg.svelte"
+    },
+    "./FOSSA.svelte": {
+      "types": "./dist/FOSSA.svelte.d.ts",
+      "svelte": "./dist/FOSSA.svelte"
+    },
+    "./Fabfile.svelte": {
+      "types": "./dist/Fabfile.svelte.d.ts",
+      "svelte": "./dist/Fabfile.svelte"
+    },
+    "./Fabric.svelte": {
+      "types": "./dist/Fabric.svelte.d.ts",
+      "svelte": "./dist/Fabric.svelte"
+    },
+    "./Factor.svelte": {
+      "types": "./dist/Factor.svelte.d.ts",
+      "svelte": "./dist/Factor.svelte"
+    },
+    "./Falcon.svelte": {
+      "types": "./dist/Falcon.svelte.d.ts",
+      "svelte": "./dist/Falcon.svelte"
+    },
+    "./Fancy.svelte": {
+      "types": "./dist/Fancy.svelte.d.ts",
+      "svelte": "./dist/Fancy.svelte"
+    },
+    "./Fantom.svelte": {
+      "types": "./dist/Fantom.svelte.d.ts",
+      "svelte": "./dist/Fantom.svelte"
+    },
+    "./Fauna.svelte": {
+      "types": "./dist/Fauna.svelte.d.ts",
+      "svelte": "./dist/Fauna.svelte"
+    },
+    "./Faust.svelte": {
+      "types": "./dist/Faust.svelte.d.ts",
+      "svelte": "./dist/Faust.svelte"
+    },
+    "./Fexl.svelte": {
+      "types": "./dist/Fexl.svelte.d.ts",
+      "svelte": "./dist/Fexl.svelte"
+    },
+    "./Fiddle.svelte": {
+      "types": "./dist/Fiddle.svelte.d.ts",
+      "svelte": "./dist/Fiddle.svelte"
+    },
+    "./Figma.svelte": {
+      "types": "./dist/Figma.svelte.d.ts",
+      "svelte": "./dist/Figma.svelte"
+    },
+    "./FinalDraft.svelte": {
+      "types": "./dist/FinalDraft.svelte.d.ts",
+      "svelte": "./dist/FinalDraft.svelte"
+    },
+    "./Finder.svelte": {
+      "types": "./dist/Finder.svelte.d.ts",
+      "svelte": "./dist/Finder.svelte"
+    },
+    "./Firebase.svelte": {
+      "types": "./dist/Firebase.svelte.d.ts",
+      "svelte": "./dist/Firebase.svelte"
+    },
+    "./FirebaseBolt.svelte": {
+      "types": "./dist/FirebaseBolt.svelte.d.ts",
+      "svelte": "./dist/FirebaseBolt.svelte"
+    },
+    "./Flask.svelte": {
+      "types": "./dist/Flask.svelte.d.ts",
+      "svelte": "./dist/Flask.svelte"
+    },
+    "./Floobits.svelte": {
+      "types": "./dist/Floobits.svelte.d.ts",
+      "svelte": "./dist/Floobits.svelte"
+    },
+    "./Flow.svelte": {
+      "types": "./dist/Flow.svelte.d.ts",
+      "svelte": "./dist/Flow.svelte"
+    },
+    "./Flutter.svelte": {
+      "types": "./dist/Flutter.svelte.d.ts",
+      "svelte": "./dist/Flutter.svelte"
+    },
+    "./Flux.svelte": {
+      "types": "./dist/Flux.svelte.d.ts",
+      "svelte": "./dist/Flux.svelte"
+    },
+    "./Font.svelte": {
+      "types": "./dist/Font.svelte.d.ts",
+      "svelte": "./dist/Font.svelte"
+    },
+    "./FontBitmap.svelte": {
+      "types": "./dist/FontBitmap.svelte.d.ts",
+      "svelte": "./dist/FontBitmap.svelte"
+    },
+    "./FontForge.svelte": {
+      "types": "./dist/FontForge.svelte.d.ts",
+      "svelte": "./dist/FontForge.svelte"
+    },
+    "./FontOutline.svelte": {
+      "types": "./dist/FontOutline.svelte.d.ts",
+      "svelte": "./dist/FontOutline.svelte"
+    },
+    "./ForTheRecord.svelte": {
+      "types": "./dist/ForTheRecord.svelte.d.ts",
+      "svelte": "./dist/ForTheRecord.svelte"
+    },
+    "./Fork.svelte": {
+      "types": "./dist/Fork.svelte.d.ts",
+      "svelte": "./dist/Fork.svelte"
+    },
+    "./Fortran.svelte": {
+      "types": "./dist/Fortran.svelte.d.ts",
+      "svelte": "./dist/Fortran.svelte"
+    },
+    "./Fossil.svelte": {
+      "types": "./dist/Fossil.svelte.d.ts",
+      "svelte": "./dist/Fossil.svelte"
+    },
+    "./Fountain.svelte": {
+      "types": "./dist/Fountain.svelte.d.ts",
+      "svelte": "./dist/Fountain.svelte"
+    },
+    "./Franca.svelte": {
+      "types": "./dist/Franca.svelte.d.ts",
+      "svelte": "./dist/Franca.svelte"
+    },
+    "./FreeDOS.svelte": {
+      "types": "./dist/FreeDOS.svelte.d.ts",
+      "svelte": "./dist/FreeDOS.svelte"
+    },
+    "./FreeDesktop.svelte": {
+      "types": "./dist/FreeDesktop.svelte.d.ts",
+      "svelte": "./dist/FreeDesktop.svelte"
+    },
+    "./FreeMarker.svelte": {
+      "types": "./dist/FreeMarker.svelte.d.ts",
+      "svelte": "./dist/FreeMarker.svelte"
+    },
+    "./FreeMat.svelte": {
+      "types": "./dist/FreeMat.svelte.d.ts",
+      "svelte": "./dist/FreeMat.svelte"
+    },
+    "./Frege.svelte": {
+      "types": "./dist/Frege.svelte.d.ts",
+      "svelte": "./dist/Frege.svelte"
+    },
+    "./FtHTML.svelte": {
+      "types": "./dist/FtHTML.svelte.d.ts",
+      "svelte": "./dist/FtHTML.svelte"
+    },
+    "./FuelUX.svelte": {
+      "types": "./dist/FuelUX.svelte.d.ts",
+      "svelte": "./dist/FuelUX.svelte"
+    },
+    "./FuseBox.svelte": {
+      "types": "./dist/FuseBox.svelte.d.ts",
+      "svelte": "./dist/FuseBox.svelte"
+    },
+    "./Futhark.svelte": {
+      "types": "./dist/Futhark.svelte.d.ts",
+      "svelte": "./dist/Futhark.svelte"
+    },
+    "./GAMS.svelte": {
+      "types": "./dist/GAMS.svelte.d.ts",
+      "svelte": "./dist/GAMS.svelte"
+    },
+    "./GAP.svelte": {
+      "types": "./dist/GAP.svelte.d.ts",
+      "svelte": "./dist/GAP.svelte"
+    },
+    "./GAUSS.svelte": {
+      "types": "./dist/GAUSS.svelte.d.ts",
+      "svelte": "./dist/GAUSS.svelte"
+    },
+    "./GDB.svelte": {
+      "types": "./dist/GDB.svelte.d.ts",
+      "svelte": "./dist/GDB.svelte"
+    },
+    "./GF.svelte": {
+      "types": "./dist/GF.svelte.d.ts",
+      "svelte": "./dist/GF.svelte"
+    },
+    "./GIMP.svelte": {
+      "types": "./dist/GIMP.svelte.d.ts",
+      "svelte": "./dist/GIMP.svelte"
+    },
+    "./GN.svelte": {
+      "types": "./dist/GN.svelte.d.ts",
+      "svelte": "./dist/GN.svelte"
+    },
+    "./GNU.svelte": {
+      "types": "./dist/GNU.svelte.d.ts",
+      "svelte": "./dist/GNU.svelte"
+    },
+    "./Galaxy.svelte": {
+      "types": "./dist/Galaxy.svelte.d.ts",
+      "svelte": "./dist/Galaxy.svelte"
+    },
+    "./Galen.svelte": {
+      "types": "./dist/Galen.svelte.d.ts",
+      "svelte": "./dist/Galen.svelte"
+    },
+    "./GameMaker.svelte": {
+      "types": "./dist/GameMaker.svelte.d.ts",
+      "svelte": "./dist/GameMaker.svelte"
+    },
+    "./Gatsby.svelte": {
+      "types": "./dist/Gatsby.svelte.d.ts",
+      "svelte": "./dist/Gatsby.svelte"
+    },
+    "./GenStat.svelte": {
+      "types": "./dist/GenStat.svelte.d.ts",
+      "svelte": "./dist/GenStat.svelte"
+    },
+    "./Genshi.svelte": {
+      "types": "./dist/Genshi.svelte.d.ts",
+      "svelte": "./dist/Genshi.svelte"
+    },
+    "./Gentoo.svelte": {
+      "types": "./dist/Gentoo.svelte.d.ts",
+      "svelte": "./dist/Gentoo.svelte"
+    },
+    "./Ghostscript.svelte": {
+      "types": "./dist/Ghostscript.svelte.d.ts",
+      "svelte": "./dist/Ghostscript.svelte"
+    },
+    "./GitLab.svelte": {
+      "types": "./dist/GitLab.svelte.d.ts",
+      "svelte": "./dist/GitLab.svelte"
+    },
+    "./Gitpod.svelte": {
+      "types": "./dist/Gitpod.svelte.d.ts",
+      "svelte": "./dist/Gitpod.svelte"
+    },
+    "./GlTF.svelte": {
+      "types": "./dist/GlTF.svelte.d.ts",
+      "svelte": "./dist/GlTF.svelte"
+    },
+    "./Glade.svelte": {
+      "types": "./dist/Glade.svelte.d.ts",
+      "svelte": "./dist/Glade.svelte"
+    },
+    "./Glide.svelte": {
+      "types": "./dist/Glide.svelte.d.ts",
+      "svelte": "./dist/Glide.svelte"
+    },
+    "./Glyphs.svelte": {
+      "types": "./dist/Glyphs.svelte.d.ts",
+      "svelte": "./dist/Glyphs.svelte"
+    },
+    "./Gnuplot.svelte": {
+      "types": "./dist/Gnuplot.svelte.d.ts",
+      "svelte": "./dist/Gnuplot.svelte"
+    },
+    "./Go.svelte": {
+      "types": "./dist/Go.svelte.d.ts",
+      "svelte": "./dist/Go.svelte"
+    },
+    "./GoOld.svelte": {
+      "types": "./dist/GoOld.svelte.d.ts",
+      "svelte": "./dist/GoOld.svelte"
+    },
+    "./GoReleaser.svelte": {
+      "types": "./dist/GoReleaser.svelte.d.ts",
+      "svelte": "./dist/GoReleaser.svelte"
+    },
+    "./Godot.svelte": {
+      "types": "./dist/Godot.svelte.d.ts",
+      "svelte": "./dist/Godot.svelte"
+    },
+    "./Golo.svelte": {
+      "types": "./dist/Golo.svelte.d.ts",
+      "svelte": "./dist/Golo.svelte"
+    },
+    "./Gosu.svelte": {
+      "types": "./dist/Gosu.svelte.d.ts",
+      "svelte": "./dist/Gosu.svelte"
+    },
+    "./Gradle.svelte": {
+      "types": "./dist/Gradle.svelte.d.ts",
+      "svelte": "./dist/Gradle.svelte"
+    },
+    "./GraphQL.svelte": {
+      "types": "./dist/GraphQL.svelte.d.ts",
+      "svelte": "./dist/GraphQL.svelte"
+    },
+    "./GraphQLCodeGenerator.svelte": {
+      "types": "./dist/GraphQLCodeGenerator.svelte.d.ts",
+      "svelte": "./dist/GraphQLCodeGenerator.svelte"
+    },
+    "./GraphViz.svelte": {
+      "types": "./dist/GraphViz.svelte.d.ts",
+      "svelte": "./dist/GraphViz.svelte"
+    },
+    "./Grapher.svelte": {
+      "types": "./dist/Grapher.svelte.d.ts",
+      "svelte": "./dist/Grapher.svelte"
+    },
+    "./Graphite.svelte": {
+      "types": "./dist/Graphite.svelte.d.ts",
+      "svelte": "./dist/Graphite.svelte"
+    },
+    "./GravitDesigner.svelte": {
+      "types": "./dist/GravitDesigner.svelte.d.ts",
+      "svelte": "./dist/GravitDesigner.svelte"
+    },
+    "./Greenkeeper.svelte": {
+      "types": "./dist/Greenkeeper.svelte.d.ts",
+      "svelte": "./dist/Greenkeeper.svelte"
+    },
+    "./Gridsome.svelte": {
+      "types": "./dist/Gridsome.svelte.d.ts",
+      "svelte": "./dist/Gridsome.svelte"
+    },
+    "./Groovy.svelte": {
+      "types": "./dist/Groovy.svelte.d.ts",
+      "svelte": "./dist/Groovy.svelte"
+    },
+    "./Grunt.svelte": {
+      "types": "./dist/Grunt.svelte.d.ts",
+      "svelte": "./dist/Grunt.svelte"
+    },
+    "./Gulp.svelte": {
+      "types": "./dist/Gulp.svelte.d.ts",
+      "svelte": "./dist/Gulp.svelte"
+    },
+    "./HIE.svelte": {
+      "types": "./dist/HIE.svelte.d.ts",
+      "svelte": "./dist/HIE.svelte"
+    },
+    "./HJSON.svelte": {
+      "types": "./dist/HJSON.svelte.d.ts",
+      "svelte": "./dist/HJSON.svelte"
+    },
+    "./Hack.svelte": {
+      "types": "./dist/Hack.svelte.d.ts",
+      "svelte": "./dist/Hack.svelte"
+    },
+    "./Haml.svelte": {
+      "types": "./dist/Haml.svelte.d.ts",
+      "svelte": "./dist/Haml.svelte"
+    },
+    "./Harbour.svelte": {
+      "types": "./dist/Harbour.svelte.d.ts",
+      "svelte": "./dist/Harbour.svelte"
+    },
+    "./HashiCorp.svelte": {
+      "types": "./dist/HashiCorp.svelte.d.ts",
+      "svelte": "./dist/HashiCorp.svelte"
+    },
+    "./Haxe.svelte": {
+      "types": "./dist/Haxe.svelte.d.ts",
+      "svelte": "./dist/Haxe.svelte"
+    },
+    "./HaxeDevelop.svelte": {
+      "types": "./dist/HaxeDevelop.svelte.d.ts",
+      "svelte": "./dist/HaxeDevelop.svelte"
+    },
+    "./Helix.svelte": {
+      "types": "./dist/Helix.svelte.d.ts",
+      "svelte": "./dist/Helix.svelte"
+    },
+    "./HewlettPackard.svelte": {
+      "types": "./dist/HewlettPackard.svelte.d.ts",
+      "svelte": "./dist/HewlettPackard.svelte"
+    },
+    "./Hitachi.svelte": {
+      "types": "./dist/Hitachi.svelte.d.ts",
+      "svelte": "./dist/Hitachi.svelte"
+    },
+    "./Homebrew.svelte": {
+      "types": "./dist/Homebrew.svelte.d.ts",
+      "svelte": "./dist/Homebrew.svelte"
+    },
+    "./Hop.svelte": {
+      "types": "./dist/Hop.svelte.d.ts",
+      "svelte": "./dist/Hop.svelte"
+    },
+    "./Hoplon.svelte": {
+      "types": "./dist/Hoplon.svelte.d.ts",
+      "svelte": "./dist/Hoplon.svelte"
+    },
+    "./Houdini.svelte": {
+      "types": "./dist/Houdini.svelte.d.ts",
+      "svelte": "./dist/Houdini.svelte"
+    },
+    "./HoundCI.svelte": {
+      "types": "./dist/HoundCI.svelte.d.ts",
+      "svelte": "./dist/HoundCI.svelte"
+    },
+    "./Hugo.svelte": {
+      "types": "./dist/Hugo.svelte.d.ts",
+      "svelte": "./dist/Hugo.svelte"
+    },
+    "./Husky.svelte": {
+      "types": "./dist/Husky.svelte.d.ts",
+      "svelte": "./dist/Husky.svelte"
+    },
+    "./Hy.svelte": {
+      "types": "./dist/Hy.svelte.d.ts",
+      "svelte": "./dist/Hy.svelte"
+    },
+    "./Hygen.svelte": {
+      "types": "./dist/Hygen.svelte.d.ts",
+      "svelte": "./dist/Hygen.svelte"
+    },
+    "./Hyper.svelte": {
+      "types": "./dist/Hyper.svelte.d.ts",
+      "svelte": "./dist/Hyper.svelte"
+    },
+    "./ICU.svelte": {
+      "types": "./dist/ICU.svelte.d.ts",
+      "svelte": "./dist/ICU.svelte"
+    },
+    "./IDL.svelte": {
+      "types": "./dist/IDL.svelte.d.ts",
+      "svelte": "./dist/IDL.svelte"
+    },
+    "./IGORPro.svelte": {
+      "types": "./dist/IGORPro.svelte.d.ts",
+      "svelte": "./dist/IGORPro.svelte"
+    },
+    "./IcoMoon.svelte": {
+      "types": "./dist/IcoMoon.svelte.d.ts",
+      "svelte": "./dist/IcoMoon.svelte"
+    },
+    "./Idris.svelte": {
+      "types": "./dist/Idris.svelte.d.ts",
+      "svelte": "./dist/Idris.svelte"
+    },
+    "./Illumos.svelte": {
+      "types": "./dist/Illumos.svelte.d.ts",
+      "svelte": "./dist/Illumos.svelte"
+    },
+    "./Image.svelte": {
+      "types": "./dist/Image.svelte.d.ts",
+      "svelte": "./dist/Image.svelte"
+    },
+    "./Imba.svelte": {
+      "types": "./dist/Imba.svelte.d.ts",
+      "svelte": "./dist/Imba.svelte"
+    },
+    "./ImbaAlt.svelte": {
+      "types": "./dist/ImbaAlt.svelte.d.ts",
+      "svelte": "./dist/ImbaAlt.svelte"
+    },
+    "./ImbaOld.svelte": {
+      "types": "./dist/ImbaOld.svelte.d.ts",
+      "svelte": "./dist/ImbaOld.svelte"
+    },
+    "./Imgbot.svelte": {
+      "types": "./dist/Imgbot.svelte.d.ts",
+      "svelte": "./dist/Imgbot.svelte"
+    },
+    "./InfluxData.svelte": {
+      "types": "./dist/InfluxData.svelte.d.ts",
+      "svelte": "./dist/InfluxData.svelte"
+    },
+    "./Inform7.svelte": {
+      "types": "./dist/Inform7.svelte.d.ts",
+      "svelte": "./dist/Inform7.svelte"
+    },
+    "./Ink.svelte": {
+      "types": "./dist/Ink.svelte.d.ts",
+      "svelte": "./dist/Ink.svelte"
+    },
+    "./Inkscape.svelte": {
+      "types": "./dist/Inkscape.svelte.d.ts",
+      "svelte": "./dist/Inkscape.svelte"
+    },
+    "./InnoSetup.svelte": {
+      "types": "./dist/InnoSetup.svelte.d.ts",
+      "svelte": "./dist/InnoSetup.svelte"
+    },
+    "./Intel.svelte": {
+      "types": "./dist/Intel.svelte.d.ts",
+      "svelte": "./dist/Intel.svelte"
+    },
+    "./Io.svelte": {
+      "types": "./dist/Io.svelte.d.ts",
+      "svelte": "./dist/Io.svelte"
+    },
+    "./Ioke.svelte": {
+      "types": "./dist/Ioke.svelte.d.ts",
+      "svelte": "./dist/Ioke.svelte"
+    },
+    "./IonicProject.svelte": {
+      "types": "./dist/IonicProject.svelte.d.ts",
+      "svelte": "./dist/IonicProject.svelte"
+    },
+    "./Isabelle.svelte": {
+      "types": "./dist/Isabelle.svelte.d.ts",
+      "svelte": "./dist/Isabelle.svelte"
+    },
+    "./Istanbul.svelte": {
+      "types": "./dist/Istanbul.svelte.d.ts",
+      "svelte": "./dist/Istanbul.svelte"
+    },
+    "./J.svelte": {
+      "types": "./dist/J.svelte.d.ts",
+      "svelte": "./dist/J.svelte"
+    },
+    "./JSON1.svelte": {
+      "types": "./dist/JSON1.svelte.d.ts",
+      "svelte": "./dist/JSON1.svelte"
+    },
+    "./JSON2.svelte": {
+      "types": "./dist/JSON2.svelte.d.ts",
+      "svelte": "./dist/JSON2.svelte"
+    },
+    "./JSON5.svelte": {
+      "types": "./dist/JSON5.svelte.d.ts",
+      "svelte": "./dist/JSON5.svelte"
+    },
+    "./JSONLD1.svelte": {
+      "types": "./dist/JSONLD1.svelte.d.ts",
+      "svelte": "./dist/JSONLD1.svelte"
+    },
+    "./JSONLD2.svelte": {
+      "types": "./dist/JSONLD2.svelte.d.ts",
+      "svelte": "./dist/JSONLD2.svelte"
+    },
+    "./JSX.svelte": {
+      "types": "./dist/JSX.svelte.d.ts",
+      "svelte": "./dist/JSX.svelte"
+    },
+    "./JSXAlt.svelte": {
+      "types": "./dist/JSXAlt.svelte.d.ts",
+      "svelte": "./dist/JSXAlt.svelte"
+    },
+    "./JSXAtom.svelte": {
+      "types": "./dist/JSXAtom.svelte.d.ts",
+      "svelte": "./dist/JSXAtom.svelte"
+    },
+    "./Jade.svelte": {
+      "types": "./dist/Jade.svelte.d.ts",
+      "svelte": "./dist/Jade.svelte"
+    },
+    "./Jakefile.svelte": {
+      "types": "./dist/Jakefile.svelte.d.ts",
+      "svelte": "./dist/Jakefile.svelte"
+    },
+    "./Janet.svelte": {
+      "types": "./dist/Janet.svelte.d.ts",
+      "svelte": "./dist/Janet.svelte"
+    },
+    "./Jasmine.svelte": {
+      "types": "./dist/Jasmine.svelte.d.ts",
+      "svelte": "./dist/Jasmine.svelte"
+    },
+    "./Jenkins.svelte": {
+      "types": "./dist/Jenkins.svelte.d.ts",
+      "svelte": "./dist/Jenkins.svelte"
+    },
+    "./Jest.svelte": {
+      "types": "./dist/Jest.svelte.d.ts",
+      "svelte": "./dist/Jest.svelte"
+    },
+    "./Jinja.svelte": {
+      "types": "./dist/Jinja.svelte.d.ts",
+      "svelte": "./dist/Jinja.svelte"
+    },
+    "./Jison.svelte": {
+      "types": "./dist/Jison.svelte.d.ts",
+      "svelte": "./dist/Jison.svelte"
+    },
+    "./Jolie.svelte": {
+      "types": "./dist/Jolie.svelte.d.ts",
+      "svelte": "./dist/Jolie.svelte"
+    },
+    "./Jscpd.svelte": {
+      "types": "./dist/Jscpd.svelte.d.ts",
+      "svelte": "./dist/Jscpd.svelte"
+    },
+    "./Jsonnet.svelte": {
+      "types": "./dist/Jsonnet.svelte.d.ts",
+      "svelte": "./dist/Jsonnet.svelte"
+    },
+    "./Julia.svelte": {
+      "types": "./dist/Julia.svelte.d.ts",
+      "svelte": "./dist/Julia.svelte"
+    },
+    "./Junos.svelte": {
+      "types": "./dist/Junos.svelte.d.ts",
+      "svelte": "./dist/Junos.svelte"
+    },
+    "./Jupyter.svelte": {
+      "types": "./dist/Jupyter.svelte.d.ts",
+      "svelte": "./dist/Jupyter.svelte"
+    },
+    "./KNIME.svelte": {
+      "types": "./dist/KNIME.svelte.d.ts",
+      "svelte": "./dist/KNIME.svelte"
+    },
+    "./KOS.svelte": {
+      "types": "./dist/KOS.svelte.d.ts",
+      "svelte": "./dist/KOS.svelte"
+    },
+    "./KRL.svelte": {
+      "types": "./dist/KRL.svelte.d.ts",
+      "svelte": "./dist/KRL.svelte"
+    },
+    "./Kaitai.svelte": {
+      "types": "./dist/Kaitai.svelte.d.ts",
+      "svelte": "./dist/Kaitai.svelte"
+    },
+    "./Karma.svelte": {
+      "types": "./dist/Karma.svelte.d.ts",
+      "svelte": "./dist/Karma.svelte"
+    },
+    "./Keybase.svelte": {
+      "types": "./dist/Keybase.svelte.d.ts",
+      "svelte": "./dist/Keybase.svelte"
+    },
+    "./Keynote.svelte": {
+      "types": "./dist/Keynote.svelte.d.ts",
+      "svelte": "./dist/Keynote.svelte"
+    },
+    "./Khronos.svelte": {
+      "types": "./dist/Khronos.svelte.d.ts",
+      "svelte": "./dist/Khronos.svelte"
+    },
+    "./KiCad.svelte": {
+      "types": "./dist/KiCad.svelte.d.ts",
+      "svelte": "./dist/KiCad.svelte"
+    },
+    "./Kibo.svelte": {
+      "types": "./dist/Kibo.svelte.d.ts",
+      "svelte": "./dist/Kibo.svelte"
+    },
+    "./KitchenCI.svelte": {
+      "types": "./dist/KitchenCI.svelte.d.ts",
+      "svelte": "./dist/KitchenCI.svelte"
+    },
+    "./Kivy.svelte": {
+      "types": "./dist/Kivy.svelte.d.ts",
+      "svelte": "./dist/Kivy.svelte"
+    },
+    "./Knockout.svelte": {
+      "types": "./dist/Knockout.svelte.d.ts",
+      "svelte": "./dist/Knockout.svelte"
+    },
+    "./Kotlin.svelte": {
+      "types": "./dist/Kotlin.svelte.d.ts",
+      "svelte": "./dist/Kotlin.svelte"
+    },
+    "./Kubernetes.svelte": {
+      "types": "./dist/Kubernetes.svelte.d.ts",
+      "svelte": "./dist/Kubernetes.svelte"
+    },
+    "./Kusto.svelte": {
+      "types": "./dist/Kusto.svelte.d.ts",
+      "svelte": "./dist/Kusto.svelte"
+    },
+    "./KustoAlt.svelte": {
+      "types": "./dist/KustoAlt.svelte.d.ts",
+      "svelte": "./dist/KustoAlt.svelte"
+    },
+    "./Kx.svelte": {
+      "types": "./dist/Kx.svelte.d.ts",
+      "svelte": "./dist/Kx.svelte"
+    },
+    "./LFE.svelte": {
+      "types": "./dist/LFE.svelte.d.ts",
+      "svelte": "./dist/LFE.svelte"
+    },
+    "./LGTM.svelte": {
+      "types": "./dist/LGTM.svelte.d.ts",
+      "svelte": "./dist/LGTM.svelte"
+    },
+    "./LINQPad.svelte": {
+      "types": "./dist/LINQPad.svelte.d.ts",
+      "svelte": "./dist/LINQPad.svelte"
+    },
+    "./LLVM.svelte": {
+      "types": "./dist/LLVM.svelte.d.ts",
+      "svelte": "./dist/LLVM.svelte"
+    },
+    "./LOLCODE.svelte": {
+      "types": "./dist/LOLCODE.svelte.d.ts",
+      "svelte": "./dist/LOLCODE.svelte"
+    },
+    "./LSL.svelte": {
+      "types": "./dist/LSL.svelte.d.ts",
+      "svelte": "./dist/LSL.svelte"
+    },
+    "./LaTeX.svelte": {
+      "types": "./dist/LaTeX.svelte.d.ts",
+      "svelte": "./dist/LaTeX.svelte"
+    },
+    "./LabVIEW.svelte": {
+      "types": "./dist/LabVIEW.svelte.d.ts",
+      "svelte": "./dist/LabVIEW.svelte"
+    },
+    "./Laravel.svelte": {
+      "types": "./dist/Laravel.svelte.d.ts",
+      "svelte": "./dist/Laravel.svelte"
+    },
+    "./Lark.svelte": {
+      "types": "./dist/Lark.svelte.d.ts",
+      "svelte": "./dist/Lark.svelte"
+    },
+    "./Lasso.svelte": {
+      "types": "./dist/Lasso.svelte.d.ts",
+      "svelte": "./dist/Lasso.svelte"
+    },
+    "./Latino.svelte": {
+      "types": "./dist/Latino.svelte.d.ts",
+      "svelte": "./dist/Latino.svelte"
+    },
+    "./Leaflet.svelte": {
+      "types": "./dist/Leaflet.svelte.d.ts",
+      "svelte": "./dist/Leaflet.svelte"
+    },
+    "./Lean.svelte": {
+      "types": "./dist/Lean.svelte.d.ts",
+      "svelte": "./dist/Lean.svelte"
+    },
+    "./Lefthook.svelte": {
+      "types": "./dist/Lefthook.svelte.d.ts",
+      "svelte": "./dist/Lefthook.svelte"
+    },
+    "./LefthookAlt.svelte": {
+      "types": "./dist/LefthookAlt.svelte.d.ts",
+      "svelte": "./dist/LefthookAlt.svelte"
+    },
+    "./Leiningen.svelte": {
+      "types": "./dist/Leiningen.svelte.d.ts",
+      "svelte": "./dist/Leiningen.svelte"
+    },
+    "./Lektor.svelte": {
+      "types": "./dist/Lektor.svelte.d.ts",
+      "svelte": "./dist/Lektor.svelte"
+    },
+    "./Lerna.svelte": {
+      "types": "./dist/Lerna.svelte.d.ts",
+      "svelte": "./dist/Lerna.svelte"
+    },
+    "./Lex.svelte": {
+      "types": "./dist/Lex.svelte.d.ts",
+      "svelte": "./dist/Lex.svelte"
+    },
+    "./LexAlt.svelte": {
+      "types": "./dist/LexAlt.svelte.d.ts",
+      "svelte": "./dist/LexAlt.svelte"
+    },
+    "./Libuv.svelte": {
+      "types": "./dist/Libuv.svelte.d.ts",
+      "svelte": "./dist/Libuv.svelte"
+    },
+    "./LightWave.svelte": {
+      "types": "./dist/LightWave.svelte.d.ts",
+      "svelte": "./dist/LightWave.svelte"
+    },
+    "./Lighthouse.svelte": {
+      "types": "./dist/Lighthouse.svelte.d.ts",
+      "svelte": "./dist/Lighthouse.svelte"
+    },
+    "./LilyPond.svelte": {
+      "types": "./dist/LilyPond.svelte.d.ts",
+      "svelte": "./dist/LilyPond.svelte"
+    },
+    "./Lime.svelte": {
+      "types": "./dist/Lime.svelte.d.ts",
+      "svelte": "./dist/Lime.svelte"
+    },
+    "./Lisp.svelte": {
+      "types": "./dist/Lisp.svelte.d.ts",
+      "svelte": "./dist/Lisp.svelte"
+    },
+    "./LiveScript.svelte": {
+      "types": "./dist/LiveScript.svelte.d.ts",
+      "svelte": "./dist/LiveScript.svelte"
+    },
+    "./Logtalk.svelte": {
+      "types": "./dist/Logtalk.svelte.d.ts",
+      "svelte": "./dist/Logtalk.svelte"
+    },
+    "./LookML.svelte": {
+      "types": "./dist/LookML.svelte.d.ts",
+      "svelte": "./dist/LookML.svelte"
+    },
+    "./Lua.svelte": {
+      "types": "./dist/Lua.svelte.d.ts",
+      "svelte": "./dist/Lua.svelte"
+    },
+    "./MATLAB.svelte": {
+      "types": "./dist/MATLAB.svelte.d.ts",
+      "svelte": "./dist/MATLAB.svelte"
+    },
+    "./MDX.svelte": {
+      "types": "./dist/MDX.svelte.d.ts",
+      "svelte": "./dist/MDX.svelte"
+    },
+    "./MELPA.svelte": {
+      "types": "./dist/MELPA.svelte.d.ts",
+      "svelte": "./dist/MELPA.svelte"
+    },
+    "./MIRC.svelte": {
+      "types": "./dist/MIRC.svelte.d.ts",
+      "svelte": "./dist/MIRC.svelte"
+    },
+    "./MJML.svelte": {
+      "types": "./dist/MJML.svelte.d.ts",
+      "svelte": "./dist/MJML.svelte"
+    },
+    "./MSDOS.svelte": {
+      "types": "./dist/MSDOS.svelte.d.ts",
+      "svelte": "./dist/MSDOS.svelte"
+    },
+    "./MacVim.svelte": {
+      "types": "./dist/MacVim.svelte.d.ts",
+      "svelte": "./dist/MacVim.svelte"
+    },
+    "./Macaulay2.svelte": {
+      "types": "./dist/Macaulay2.svelte.d.ts",
+      "svelte": "./dist/Macaulay2.svelte"
+    },
+    "./Magit.svelte": {
+      "types": "./dist/Magit.svelte.d.ts",
+      "svelte": "./dist/Magit.svelte"
+    },
+    "./Mako.svelte": {
+      "types": "./dist/Mako.svelte.d.ts",
+      "svelte": "./dist/Mako.svelte"
+    },
+    "./Manjaro.svelte": {
+      "types": "./dist/Manjaro.svelte.d.ts",
+      "svelte": "./dist/Manjaro.svelte"
+    },
+    "./Manpage.svelte": {
+      "types": "./dist/Manpage.svelte.d.ts",
+      "svelte": "./dist/Manpage.svelte"
+    },
+    "./Mapbox.svelte": {
+      "types": "./dist/Mapbox.svelte.d.ts",
+      "svelte": "./dist/Mapbox.svelte"
+    },
+    "./MarkdownLint.svelte": {
+      "types": "./dist/MarkdownLint.svelte.d.ts",
+      "svelte": "./dist/MarkdownLint.svelte"
+    },
+    "./Marko.svelte": {
+      "types": "./dist/Marko.svelte.d.ts",
+      "svelte": "./dist/Marko.svelte"
+    },
+    "./MathJax.svelte": {
+      "types": "./dist/MathJax.svelte.d.ts",
+      "svelte": "./dist/MathJax.svelte"
+    },
+    "./Mathematica.svelte": {
+      "types": "./dist/Mathematica.svelte.d.ts",
+      "svelte": "./dist/Mathematica.svelte"
+    },
+    "./Matroska.svelte": {
+      "types": "./dist/Matroska.svelte.d.ts",
+      "svelte": "./dist/Matroska.svelte"
+    },
+    "./Max.svelte": {
+      "types": "./dist/Max.svelte.d.ts",
+      "svelte": "./dist/Max.svelte"
+    },
+    "./Maya.svelte": {
+      "types": "./dist/Maya.svelte.d.ts",
+      "svelte": "./dist/Maya.svelte"
+    },
+    "./MediaWiki.svelte": {
+      "types": "./dist/MediaWiki.svelte.d.ts",
+      "svelte": "./dist/MediaWiki.svelte"
+    },
+    "./Mercurial.svelte": {
+      "types": "./dist/Mercurial.svelte.d.ts",
+      "svelte": "./dist/Mercurial.svelte"
+    },
+    "./Mercury.svelte": {
+      "types": "./dist/Mercury.svelte.d.ts",
+      "svelte": "./dist/Mercury.svelte"
+    },
+    "./Mermaid.svelte": {
+      "types": "./dist/Mermaid.svelte.d.ts",
+      "svelte": "./dist/Mermaid.svelte"
+    },
+    "./Meson.svelte": {
+      "types": "./dist/Meson.svelte.d.ts",
+      "svelte": "./dist/Meson.svelte"
+    },
+    "./MesonOld.svelte": {
+      "types": "./dist/MesonOld.svelte.d.ts",
+      "svelte": "./dist/MesonOld.svelte"
+    },
+    "./MetaPost.svelte": {
+      "types": "./dist/MetaPost.svelte.d.ts",
+      "svelte": "./dist/MetaPost.svelte"
+    },
+    "./Metal.svelte": {
+      "types": "./dist/Metal.svelte.d.ts",
+      "svelte": "./dist/Metal.svelte"
+    },
+    "./Meteor.svelte": {
+      "types": "./dist/Meteor.svelte.d.ts",
+      "svelte": "./dist/Meteor.svelte"
+    },
+    "./MicrosoftAccess.svelte": {
+      "types": "./dist/MicrosoftAccess.svelte.d.ts",
+      "svelte": "./dist/MicrosoftAccess.svelte"
+    },
+    "./MicrosoftExcel.svelte": {
+      "types": "./dist/MicrosoftExcel.svelte.d.ts",
+      "svelte": "./dist/MicrosoftExcel.svelte"
+    },
+    "./MicrosoftInfoPath.svelte": {
+      "types": "./dist/MicrosoftInfoPath.svelte.d.ts",
+      "svelte": "./dist/MicrosoftInfoPath.svelte"
+    },
+    "./MicrosoftLync.svelte": {
+      "types": "./dist/MicrosoftLync.svelte.d.ts",
+      "svelte": "./dist/MicrosoftLync.svelte"
+    },
+    "./MicrosoftOneNote.svelte": {
+      "types": "./dist/MicrosoftOneNote.svelte.d.ts",
+      "svelte": "./dist/MicrosoftOneNote.svelte"
+    },
+    "./MicrosoftOutlook.svelte": {
+      "types": "./dist/MicrosoftOutlook.svelte.d.ts",
+      "svelte": "./dist/MicrosoftOutlook.svelte"
+    },
+    "./MicrosoftPowerPoint.svelte": {
+      "types": "./dist/MicrosoftPowerPoint.svelte.d.ts",
+      "svelte": "./dist/MicrosoftPowerPoint.svelte"
+    },
+    "./MicrosoftProject.svelte": {
+      "types": "./dist/MicrosoftProject.svelte.d.ts",
+      "svelte": "./dist/MicrosoftProject.svelte"
+    },
+    "./MicrosoftPublisher.svelte": {
+      "types": "./dist/MicrosoftPublisher.svelte.d.ts",
+      "svelte": "./dist/MicrosoftPublisher.svelte"
+    },
+    "./MicrosoftVisio.svelte": {
+      "types": "./dist/MicrosoftVisio.svelte.d.ts",
+      "svelte": "./dist/MicrosoftVisio.svelte"
+    },
+    "./MicrosoftWord.svelte": {
+      "types": "./dist/MicrosoftWord.svelte.d.ts",
+      "svelte": "./dist/MicrosoftWord.svelte"
+    },
+    "./Minecraft.svelte": {
+      "types": "./dist/Minecraft.svelte.d.ts",
+      "svelte": "./dist/Minecraft.svelte"
+    },
+    "./MiniZinc.svelte": {
+      "types": "./dist/MiniZinc.svelte.d.ts",
+      "svelte": "./dist/MiniZinc.svelte"
+    },
+    "./Mint.svelte": {
+      "types": "./dist/Mint.svelte.d.ts",
+      "svelte": "./dist/Mint.svelte"
+    },
+    "./Mirah.svelte": {
+      "types": "./dist/Mirah.svelte.d.ts",
+      "svelte": "./dist/Mirah.svelte"
+    },
+    "./Miranda.svelte": {
+      "types": "./dist/Miranda.svelte.d.ts",
+      "svelte": "./dist/Miranda.svelte"
+    },
+    "./Mixin.svelte": {
+      "types": "./dist/Mixin.svelte.d.ts",
+      "svelte": "./dist/Mixin.svelte"
+    },
+    "./Mocha.svelte": {
+      "types": "./dist/Mocha.svelte.d.ts",
+      "svelte": "./dist/Mocha.svelte"
+    },
+    "./Modelica.svelte": {
+      "types": "./dist/Modelica.svelte.d.ts",
+      "svelte": "./dist/Modelica.svelte"
+    },
+    "./ModernWeb.svelte": {
+      "types": "./dist/ModernWeb.svelte.d.ts",
+      "svelte": "./dist/ModernWeb.svelte"
+    },
+    "./Modo.svelte": {
+      "types": "./dist/Modo.svelte.d.ts",
+      "svelte": "./dist/Modo.svelte"
+    },
+    "./Modula2.svelte": {
+      "types": "./dist/Modula2.svelte.d.ts",
+      "svelte": "./dist/Modula2.svelte"
+    },
+    "./Modula3.svelte": {
+      "types": "./dist/Modula3.svelte.d.ts",
+      "svelte": "./dist/Modula3.svelte"
+    },
+    "./Moho.svelte": {
+      "types": "./dist/Moho.svelte.d.ts",
+      "svelte": "./dist/Moho.svelte"
+    },
+    "./Moleculer.svelte": {
+      "types": "./dist/Moleculer.svelte.d.ts",
+      "svelte": "./dist/Moleculer.svelte"
+    },
+    "./Moment.svelte": {
+      "types": "./dist/Moment.svelte.d.ts",
+      "svelte": "./dist/Moment.svelte"
+    },
+    "./MomentTimezone.svelte": {
+      "types": "./dist/MomentTimezone.svelte.d.ts",
+      "svelte": "./dist/MomentTimezone.svelte"
+    },
+    "./Monkey.svelte": {
+      "types": "./dist/Monkey.svelte.d.ts",
+      "svelte": "./dist/Monkey.svelte"
+    },
+    "./Mono.svelte": {
+      "types": "./dist/Mono.svelte.d.ts",
+      "svelte": "./dist/Mono.svelte"
+    },
+    "./Monotone.svelte": {
+      "types": "./dist/Monotone.svelte.d.ts",
+      "svelte": "./dist/Monotone.svelte"
+    },
+    "./Motorola.svelte": {
+      "types": "./dist/Motorola.svelte.d.ts",
+      "svelte": "./dist/Motorola.svelte"
+    },
+    "./Moustache.svelte": {
+      "types": "./dist/Moustache.svelte.d.ts",
+      "svelte": "./dist/Moustache.svelte"
+    },
+    "./Mruby.svelte": {
+      "types": "./dist/Mruby.svelte.d.ts",
+      "svelte": "./dist/Mruby.svelte"
+    },
+    "./MuPAD.svelte": {
+      "types": "./dist/MuPAD.svelte.d.ts",
+      "svelte": "./dist/MuPAD.svelte"
+    },
+    "./NASM.svelte": {
+      "types": "./dist/NASM.svelte.d.ts",
+      "svelte": "./dist/NASM.svelte"
+    },
+    "./NAnt.svelte": {
+      "types": "./dist/NAnt.svelte.d.ts",
+      "svelte": "./dist/NAnt.svelte"
+    },
+    "./NDepend.svelte": {
+      "types": "./dist/NDepend.svelte.d.ts",
+      "svelte": "./dist/NDepend.svelte"
+    },
+    "./NEON.svelte": {
+      "types": "./dist/NEON.svelte.d.ts",
+      "svelte": "./dist/NEON.svelte"
+    },
+    "./NPM.svelte": {
+      "types": "./dist/NPM.svelte.d.ts",
+      "svelte": "./dist/NPM.svelte"
+    },
+    "./NPMOld.svelte": {
+      "types": "./dist/NPMOld.svelte.d.ts",
+      "svelte": "./dist/NPMOld.svelte"
+    },
+    "./NSIS.svelte": {
+      "types": "./dist/NSIS.svelte.d.ts",
+      "svelte": "./dist/NSIS.svelte"
+    },
+    "./NSISOld.svelte": {
+      "types": "./dist/NSISOld.svelte.d.ts",
+      "svelte": "./dist/NSISOld.svelte"
+    },
+    "./NSRI.svelte": {
+      "types": "./dist/NSRI.svelte.d.ts",
+      "svelte": "./dist/NSRI.svelte"
+    },
+    "./NSRIAlt.svelte": {
+      "types": "./dist/NSRIAlt.svelte.d.ts",
+      "svelte": "./dist/NSRIAlt.svelte"
+    },
+    "./NVIDIA.svelte": {
+      "types": "./dist/NVIDIA.svelte.d.ts",
+      "svelte": "./dist/NVIDIA.svelte"
+    },
+    "./NWScript.svelte": {
+      "types": "./dist/NWScript.svelte.d.ts",
+      "svelte": "./dist/NWScript.svelte"
+    },
+    "./NXC.svelte": {
+      "types": "./dist/NXC.svelte.d.ts",
+      "svelte": "./dist/NXC.svelte"
+    },
+    "./Nano.svelte": {
+      "types": "./dist/Nano.svelte.d.ts",
+      "svelte": "./dist/Nano.svelte"
+    },
+    "./Nanoc.svelte": {
+      "types": "./dist/Nanoc.svelte.d.ts",
+      "svelte": "./dist/Nanoc.svelte"
+    },
+    "./Neko.svelte": {
+      "types": "./dist/Neko.svelte.d.ts",
+      "svelte": "./dist/Neko.svelte"
+    },
+    "./Nemerle.svelte": {
+      "types": "./dist/Nemerle.svelte.d.ts",
+      "svelte": "./dist/Nemerle.svelte"
+    },
+    "./Neo4J.svelte": {
+      "types": "./dist/Neo4J.svelte.d.ts",
+      "svelte": "./dist/Neo4J.svelte"
+    },
+    "./Nessus.svelte": {
+      "types": "./dist/Nessus.svelte.d.ts",
+      "svelte": "./dist/Nessus.svelte"
+    },
+    "./NestJS.svelte": {
+      "types": "./dist/NestJS.svelte.d.ts",
+      "svelte": "./dist/NestJS.svelte"
+    },
+    "./NetLinx.svelte": {
+      "types": "./dist/NetLinx.svelte.d.ts",
+      "svelte": "./dist/NetLinx.svelte"
+    },
+    "./NetLogo.svelte": {
+      "types": "./dist/NetLogo.svelte.d.ts",
+      "svelte": "./dist/NetLogo.svelte"
+    },
+    "./Netlify.svelte": {
+      "types": "./dist/Netlify.svelte.d.ts",
+      "svelte": "./dist/Netlify.svelte"
+    },
+    "./NewRelic.svelte": {
+      "types": "./dist/NewRelic.svelte.d.ts",
+      "svelte": "./dist/NewRelic.svelte"
+    },
+    "./NextJS.svelte": {
+      "types": "./dist/NextJS.svelte.d.ts",
+      "svelte": "./dist/NextJS.svelte"
+    },
+    "./Nextflow.svelte": {
+      "types": "./dist/Nextflow.svelte.d.ts",
+      "svelte": "./dist/Nextflow.svelte"
+    },
+    "./NgRx.svelte": {
+      "types": "./dist/NgRx.svelte.d.ts",
+      "svelte": "./dist/NgRx.svelte"
+    },
+    "./Nginx.svelte": {
+      "types": "./dist/Nginx.svelte.d.ts",
+      "svelte": "./dist/Nginx.svelte"
+    },
+    "./Nib.svelte": {
+      "types": "./dist/Nib.svelte.d.ts",
+      "svelte": "./dist/Nib.svelte"
+    },
+    "./Nickle.svelte": {
+      "types": "./dist/Nickle.svelte.d.ts",
+      "svelte": "./dist/Nickle.svelte"
+    },
+    "./Nightwatch.svelte": {
+      "types": "./dist/Nightwatch.svelte.d.ts",
+      "svelte": "./dist/Nightwatch.svelte"
+    },
+    "./Nimble.svelte": {
+      "types": "./dist/Nimble.svelte.d.ts",
+      "svelte": "./dist/Nimble.svelte"
+    },
+    "./Nimrod.svelte": {
+      "types": "./dist/Nimrod.svelte.d.ts",
+      "svelte": "./dist/Nimrod.svelte"
+    },
+    "./Nintendo64.svelte": {
+      "types": "./dist/Nintendo64.svelte.d.ts",
+      "svelte": "./dist/Nintendo64.svelte"
+    },
+    "./Nit.svelte": {
+      "types": "./dist/Nit.svelte.d.ts",
+      "svelte": "./dist/Nit.svelte"
+    },
+    "./Nix.svelte": {
+      "types": "./dist/Nix.svelte.d.ts",
+      "svelte": "./dist/Nix.svelte"
+    },
+    "./Nmap.svelte": {
+      "types": "./dist/Nmap.svelte.d.ts",
+      "svelte": "./dist/Nmap.svelte"
+    },
+    "./Nodemon.svelte": {
+      "types": "./dist/Nodemon.svelte.d.ts",
+      "svelte": "./dist/Nodemon.svelte"
+    },
+    "./Nokogiri.svelte": {
+      "types": "./dist/Nokogiri.svelte.d.ts",
+      "svelte": "./dist/Nokogiri.svelte"
+    },
+    "./Nomad.svelte": {
+      "types": "./dist/Nomad.svelte.d.ts",
+      "svelte": "./dist/Nomad.svelte"
+    },
+    "./Noon.svelte": {
+      "types": "./dist/Noon.svelte.d.ts",
+      "svelte": "./dist/Noon.svelte"
+    },
+    "./Normalise.svelte": {
+      "types": "./dist/Normalise.svelte.d.ts",
+      "svelte": "./dist/Normalise.svelte"
+    },
+    "./NuGet.svelte": {
+      "types": "./dist/NuGet.svelte.d.ts",
+      "svelte": "./dist/NuGet.svelte"
+    },
+    "./Nuclide.svelte": {
+      "types": "./dist/Nuclide.svelte.d.ts",
+      "svelte": "./dist/Nuclide.svelte"
+    },
+    "./NumPy.svelte": {
+      "types": "./dist/NumPy.svelte.d.ts",
+      "svelte": "./dist/NumPy.svelte"
+    },
+    "./NumPyOld.svelte": {
+      "types": "./dist/NumPyOld.svelte.d.ts",
+      "svelte": "./dist/NumPyOld.svelte"
+    },
+    "./Nunjucks.svelte": {
+      "types": "./dist/Nunjucks.svelte.d.ts",
+      "svelte": "./dist/Nunjucks.svelte"
+    },
+    "./Nuxt.svelte": {
+      "types": "./dist/Nuxt.svelte.d.ts",
+      "svelte": "./dist/Nuxt.svelte"
+    },
+    "./Nx.svelte": {
+      "types": "./dist/Nx.svelte.d.ts",
+      "svelte": "./dist/Nx.svelte"
+    },
+    "./OCaml.svelte": {
+      "types": "./dist/OCaml.svelte.d.ts",
+      "svelte": "./dist/OCaml.svelte"
+    },
+    "./OOC.svelte": {
+      "types": "./dist/OOC.svelte.d.ts",
+      "svelte": "./dist/OOC.svelte"
+    },
+    "./OS2.svelte": {
+      "types": "./dist/OS2.svelte.d.ts",
+      "svelte": "./dist/OS2.svelte"
+    },
+    "./OWL.svelte": {
+      "types": "./dist/OWL.svelte.d.ts",
+      "svelte": "./dist/OWL.svelte"
+    },
+    "./Oberon.svelte": {
+      "types": "./dist/Oberon.svelte.d.ts",
+      "svelte": "./dist/Oberon.svelte"
+    },
+    "./ObjectiveJ.svelte": {
+      "types": "./dist/ObjectiveJ.svelte.d.ts",
+      "svelte": "./dist/ObjectiveJ.svelte"
+    },
+    "./Octave.svelte": {
+      "types": "./dist/Octave.svelte.d.ts",
+      "svelte": "./dist/Octave.svelte"
+    },
+    "./Odin.svelte": {
+      "types": "./dist/Odin.svelte.d.ts",
+      "svelte": "./dist/Odin.svelte"
+    },
+    "./Ogone.svelte": {
+      "types": "./dist/Ogone.svelte.d.ts",
+      "svelte": "./dist/Ogone.svelte"
+    },
+    "./OmniGraffle.svelte": {
+      "types": "./dist/OmniGraffle.svelte.d.ts",
+      "svelte": "./dist/OmniGraffle.svelte"
+    },
+    "./Opa.svelte": {
+      "types": "./dist/Opa.svelte.d.ts",
+      "svelte": "./dist/Opa.svelte"
+    },
+    "./OpenAPI.svelte": {
+      "types": "./dist/OpenAPI.svelte.d.ts",
+      "svelte": "./dist/OpenAPI.svelte"
+    },
+    "./OpenBSD.svelte": {
+      "types": "./dist/OpenBSD.svelte.d.ts",
+      "svelte": "./dist/OpenBSD.svelte"
+    },
+    "./OpenBSDAlt.svelte": {
+      "types": "./dist/OpenBSDAlt.svelte.d.ts",
+      "svelte": "./dist/OpenBSDAlt.svelte"
+    },
+    "./OpenCL.svelte": {
+      "types": "./dist/OpenCL.svelte.d.ts",
+      "svelte": "./dist/OpenCL.svelte"
+    },
+    "./OpenCV.svelte": {
+      "types": "./dist/OpenCV.svelte.d.ts",
+      "svelte": "./dist/OpenCV.svelte"
+    },
+    "./OpenEXR.svelte": {
+      "types": "./dist/OpenEXR.svelte.d.ts",
+      "svelte": "./dist/OpenEXR.svelte"
+    },
+    "./OpenGL.svelte": {
+      "types": "./dist/OpenGL.svelte.d.ts",
+      "svelte": "./dist/OpenGL.svelte"
+    },
+    "./OpenIndiana.svelte": {
+      "types": "./dist/OpenIndiana.svelte.d.ts",
+      "svelte": "./dist/OpenIndiana.svelte"
+    },
+    "./OpenOffice.svelte": {
+      "types": "./dist/OpenOffice.svelte.d.ts",
+      "svelte": "./dist/OpenOffice.svelte"
+    },
+    "./OpenPolicyAgent.svelte": {
+      "types": "./dist/OpenPolicyAgent.svelte.d.ts",
+      "svelte": "./dist/OpenPolicyAgent.svelte"
+    },
+    "./OpenSolaris.svelte": {
+      "types": "./dist/OpenSolaris.svelte.d.ts",
+      "svelte": "./dist/OpenSolaris.svelte"
+    },
+    "./OpenStack.svelte": {
+      "types": "./dist/OpenStack.svelte.d.ts",
+      "svelte": "./dist/OpenStack.svelte"
+    },
+    "./OpenVMS.svelte": {
+      "types": "./dist/OpenVMS.svelte.d.ts",
+      "svelte": "./dist/OpenVMS.svelte"
+    },
+    "./OpenVPN.svelte": {
+      "types": "./dist/OpenVPN.svelte.d.ts",
+      "svelte": "./dist/OpenVPN.svelte"
+    },
+    "./OpenZFS.svelte": {
+      "types": "./dist/OpenZFS.svelte.d.ts",
+      "svelte": "./dist/OpenZFS.svelte"
+    },
+    "./OpensCAD.svelte": {
+      "types": "./dist/OpensCAD.svelte.d.ts",
+      "svelte": "./dist/OpensCAD.svelte"
+    },
+    "./OrgMode.svelte": {
+      "types": "./dist/OrgMode.svelte.d.ts",
+      "svelte": "./dist/OrgMode.svelte"
+    },
+    "./Ox.svelte": {
+      "types": "./dist/Ox.svelte.d.ts",
+      "svelte": "./dist/Ox.svelte"
+    },
+    "./Oxygene.svelte": {
+      "types": "./dist/Oxygene.svelte.d.ts",
+      "svelte": "./dist/Oxygene.svelte"
+    },
+    "./Oz.svelte": {
+      "types": "./dist/Oz.svelte.d.ts",
+      "svelte": "./dist/Oz.svelte"
+    },
+    "./P4.svelte": {
+      "types": "./dist/P4.svelte.d.ts",
+      "svelte": "./dist/P4.svelte"
+    },
+    "./PAWN.svelte": {
+      "types": "./dist/PAWN.svelte.d.ts",
+      "svelte": "./dist/PAWN.svelte"
+    },
+    "./PCD.svelte": {
+      "types": "./dist/PCD.svelte.d.ts",
+      "svelte": "./dist/PCD.svelte"
+    },
+    "./PHP.svelte": {
+      "types": "./dist/PHP.svelte.d.ts",
+      "svelte": "./dist/PHP.svelte"
+    },
+    "./PHPUnit.svelte": {
+      "types": "./dist/PHPUnit.svelte.d.ts",
+      "svelte": "./dist/PHPUnit.svelte"
+    },
+    "./PICO8.svelte": {
+      "types": "./dist/PICO8.svelte.d.ts",
+      "svelte": "./dist/PICO8.svelte"
+    },
+    "./PM2.svelte": {
+      "types": "./dist/PM2.svelte.d.ts",
+      "svelte": "./dist/PM2.svelte"
+    },
+    "./PNPM.svelte": {
+      "types": "./dist/PNPM.svelte.d.ts",
+      "svelte": "./dist/PNPM.svelte"
+    },
+    "./POVRay.svelte": {
+      "types": "./dist/POVRay.svelte.d.ts",
+      "svelte": "./dist/POVRay.svelte"
+    },
+    "./PROS.svelte": {
+      "types": "./dist/PROS.svelte.d.ts",
+      "svelte": "./dist/PROS.svelte"
+    },
+    "./Pan.svelte": {
+      "types": "./dist/Pan.svelte.d.ts",
+      "svelte": "./dist/Pan.svelte"
+    },
+    "./Papyrus.svelte": {
+      "types": "./dist/Papyrus.svelte.d.ts",
+      "svelte": "./dist/Papyrus.svelte"
+    },
+    "./Parrot.svelte": {
+      "types": "./dist/Parrot.svelte.d.ts",
+      "svelte": "./dist/Parrot.svelte"
+    },
+    "./Pascal.svelte": {
+      "types": "./dist/Pascal.svelte.d.ts",
+      "svelte": "./dist/Pascal.svelte"
+    },
+    "./Patch.svelte": {
+      "types": "./dist/Patch.svelte.d.ts",
+      "svelte": "./dist/Patch.svelte"
+    },
+    "./Patreon.svelte": {
+      "types": "./dist/Patreon.svelte.d.ts",
+      "svelte": "./dist/Patreon.svelte"
+    },
+    "./PegJS.svelte": {
+      "types": "./dist/PegJS.svelte.d.ts",
+      "svelte": "./dist/PegJS.svelte"
+    },
+    "./Perl6.svelte": {
+      "types": "./dist/Perl6.svelte.d.ts",
+      "svelte": "./dist/Perl6.svelte"
+    },
+    "./Phalcon.svelte": {
+      "types": "./dist/Phalcon.svelte.d.ts",
+      "svelte": "./dist/Phalcon.svelte"
+    },
+    "./Phoenix.svelte": {
+      "types": "./dist/Phoenix.svelte.d.ts",
+      "svelte": "./dist/Phoenix.svelte"
+    },
+    "./PhotoRec.svelte": {
+      "types": "./dist/PhotoRec.svelte.d.ts",
+      "svelte": "./dist/PhotoRec.svelte"
+    },
+    "./PhraseApp.svelte": {
+      "types": "./dist/PhraseApp.svelte.d.ts",
+      "svelte": "./dist/PhraseApp.svelte"
+    },
+    "./Pickle.svelte": {
+      "types": "./dist/Pickle.svelte.d.ts",
+      "svelte": "./dist/Pickle.svelte"
+    },
+    "./PicoLisp.svelte": {
+      "types": "./dist/PicoLisp.svelte.d.ts",
+      "svelte": "./dist/PicoLisp.svelte"
+    },
+    "./Pike.svelte": {
+      "types": "./dist/Pike.svelte.d.ts",
+      "svelte": "./dist/Pike.svelte"
+    },
+    "./PineScript.svelte": {
+      "types": "./dist/PineScript.svelte.d.ts",
+      "svelte": "./dist/PineScript.svelte"
+    },
+    "./Pipenv.svelte": {
+      "types": "./dist/Pipenv.svelte.d.ts",
+      "svelte": "./dist/Pipenv.svelte"
+    },
+    "./Pkgsrc.svelte": {
+      "types": "./dist/Pkgsrc.svelte.d.ts",
+      "svelte": "./dist/Pkgsrc.svelte"
+    },
+    "./PlatformIO.svelte": {
+      "types": "./dist/PlatformIO.svelte.d.ts",
+      "svelte": "./dist/PlatformIO.svelte"
+    },
+    "./Pod.svelte": {
+      "types": "./dist/Pod.svelte.d.ts",
+      "svelte": "./dist/Pod.svelte"
+    },
+    "./PogoScript.svelte": {
+      "types": "./dist/PogoScript.svelte.d.ts",
+      "svelte": "./dist/PogoScript.svelte"
+    },
+    "./PointWise.svelte": {
+      "types": "./dist/PointWise.svelte.d.ts",
+      "svelte": "./dist/PointWise.svelte"
+    },
+    "./Polymer.svelte": {
+      "types": "./dist/Polymer.svelte.d.ts",
+      "svelte": "./dist/Polymer.svelte"
+    },
+    "./Pony.svelte": {
+      "types": "./dist/Pony.svelte.d.ts",
+      "svelte": "./dist/Pony.svelte"
+    },
+    "./PostCSS.svelte": {
+      "types": "./dist/PostCSS.svelte.d.ts",
+      "svelte": "./dist/PostCSS.svelte"
+    },
+    "./PostScript.svelte": {
+      "types": "./dist/PostScript.svelte.d.ts",
+      "svelte": "./dist/PostScript.svelte"
+    },
+    "./PowerBuilder.svelte": {
+      "types": "./dist/PowerBuilder.svelte.d.ts",
+      "svelte": "./dist/PowerBuilder.svelte"
+    },
+    "./PowerPC.svelte": {
+      "types": "./dist/PowerPC.svelte.d.ts",
+      "svelte": "./dist/PowerPC.svelte"
+    },
+    "./PowerShell.svelte": {
+      "types": "./dist/PowerShell.svelte.d.ts",
+      "svelte": "./dist/PowerShell.svelte"
+    },
+    "./Precision.svelte": {
+      "types": "./dist/Precision.svelte.d.ts",
+      "svelte": "./dist/Precision.svelte"
+    },
+    "./Precommit.svelte": {
+      "types": "./dist/Precommit.svelte.d.ts",
+      "svelte": "./dist/Precommit.svelte"
+    },
+    "./Prettier.svelte": {
+      "types": "./dist/Prettier.svelte.d.ts",
+      "svelte": "./dist/Prettier.svelte"
+    },
+    "./Prisma.svelte": {
+      "types": "./dist/Prisma.svelte.d.ts",
+      "svelte": "./dist/Prisma.svelte"
+    },
+    "./Processing.svelte": {
+      "types": "./dist/Processing.svelte.d.ts",
+      "svelte": "./dist/Processing.svelte"
+    },
+    "./Progress.svelte": {
+      "types": "./dist/Progress.svelte.d.ts",
+      "svelte": "./dist/Progress.svelte"
+    },
+    "./ProgressOld.svelte": {
+      "types": "./dist/ProgressOld.svelte.d.ts",
+      "svelte": "./dist/ProgressOld.svelte"
+    },
+    "./Propeller.svelte": {
+      "types": "./dist/Propeller.svelte.d.ts",
+      "svelte": "./dist/Propeller.svelte"
+    },
+    "./Proselint.svelte": {
+      "types": "./dist/Proselint.svelte.d.ts",
+      "svelte": "./dist/Proselint.svelte"
+    },
+    "./Protractor.svelte": {
+      "types": "./dist/Protractor.svelte.d.ts",
+      "svelte": "./dist/Protractor.svelte"
+    },
+    "./Pug.svelte": {
+      "types": "./dist/Pug.svelte.d.ts",
+      "svelte": "./dist/Pug.svelte"
+    },
+    "./PugOld.svelte": {
+      "types": "./dist/PugOld.svelte.d.ts",
+      "svelte": "./dist/PugOld.svelte"
+    },
+    "./PullApprove.svelte": {
+      "types": "./dist/PullApprove.svelte.d.ts",
+      "svelte": "./dist/PullApprove.svelte"
+    },
+    "./Puppet.svelte": {
+      "types": "./dist/Puppet.svelte.d.ts",
+      "svelte": "./dist/Puppet.svelte"
+    },
+    "./Pure.svelte": {
+      "types": "./dist/Pure.svelte.d.ts",
+      "svelte": "./dist/Pure.svelte"
+    },
+    "./PureBasic.svelte": {
+      "types": "./dist/PureBasic.svelte.d.ts",
+      "svelte": "./dist/PureBasic.svelte"
+    },
+    "./PureScript.svelte": {
+      "types": "./dist/PureScript.svelte.d.ts",
+      "svelte": "./dist/PureScript.svelte"
+    },
+    "./PyPi.svelte": {
+      "types": "./dist/PyPi.svelte.d.ts",
+      "svelte": "./dist/PyPi.svelte"
+    },
+    "./PyUp.svelte": {
+      "types": "./dist/PyUp.svelte.d.ts",
+      "svelte": "./dist/PyUp.svelte"
+    },
+    "./Pyret.svelte": {
+      "types": "./dist/Pyret.svelte.d.ts",
+      "svelte": "./dist/Pyret.svelte"
+    },
+    "./Pytest.svelte": {
+      "types": "./dist/Pytest.svelte.d.ts",
+      "svelte": "./dist/Pytest.svelte"
+    },
+    "./QSharp.svelte": {
+      "types": "./dist/QSharp.svelte.d.ts",
+      "svelte": "./dist/QSharp.svelte"
+    },
+    "./QT.svelte": {
+      "types": "./dist/QT.svelte.d.ts",
+      "svelte": "./dist/QT.svelte"
+    },
+    "./Qiskit.svelte": {
+      "types": "./dist/Qiskit.svelte.d.ts",
+      "svelte": "./dist/Qiskit.svelte"
+    },
+    "./QlikView.svelte": {
+      "types": "./dist/QlikView.svelte.d.ts",
+      "svelte": "./dist/QlikView.svelte"
+    },
+    "./Quasar.svelte": {
+      "types": "./dist/Quasar.svelte.d.ts",
+      "svelte": "./dist/Quasar.svelte"
+    },
+    "./R.svelte": {
+      "types": "./dist/R.svelte.d.ts",
+      "svelte": "./dist/R.svelte"
+    },
+    "./RAML.svelte": {
+      "types": "./dist/RAML.svelte.d.ts",
+      "svelte": "./dist/RAML.svelte"
+    },
+    "./RData.svelte": {
+      "types": "./dist/RData.svelte.d.ts",
+      "svelte": "./dist/RData.svelte"
+    },
+    "./RDoc.svelte": {
+      "types": "./dist/RDoc.svelte.d.ts",
+      "svelte": "./dist/RDoc.svelte"
+    },
+    "./REALbasic.svelte": {
+      "types": "./dist/REALbasic.svelte.d.ts",
+      "svelte": "./dist/REALbasic.svelte"
+    },
+    "./RISCV.svelte": {
+      "types": "./dist/RISCV.svelte.d.ts",
+      "svelte": "./dist/RISCV.svelte"
+    },
+    "./RSpec.svelte": {
+      "types": "./dist/RSpec.svelte.d.ts",
+      "svelte": "./dist/RSpec.svelte"
+    },
+    "./RStudio.svelte": {
+      "types": "./dist/RStudio.svelte.d.ts",
+      "svelte": "./dist/RStudio.svelte"
+    },
+    "./Racket.svelte": {
+      "types": "./dist/Racket.svelte.d.ts",
+      "svelte": "./dist/Racket.svelte"
+    },
+    "./Rascal.svelte": {
+      "types": "./dist/Rascal.svelte.d.ts",
+      "svelte": "./dist/Rascal.svelte"
+    },
+    "./Razzle.svelte": {
+      "types": "./dist/Razzle.svelte.d.ts",
+      "svelte": "./dist/Razzle.svelte"
+    },
+    "./ReScript.svelte": {
+      "types": "./dist/ReScript.svelte.d.ts",
+      "svelte": "./dist/ReScript.svelte"
+    },
+    "./ReStructuredText.svelte": {
+      "types": "./dist/ReStructuredText.svelte.d.ts",
+      "svelte": "./dist/ReStructuredText.svelte"
+    },
+    "./ReactOS.svelte": {
+      "types": "./dist/ReactOS.svelte.d.ts",
+      "svelte": "./dist/ReactOS.svelte"
+    },
+    "./ReadTheDocs.svelte": {
+      "types": "./dist/ReadTheDocs.svelte.d.ts",
+      "svelte": "./dist/ReadTheDocs.svelte"
+    },
+    "./Reason.svelte": {
+      "types": "./dist/Reason.svelte.d.ts",
+      "svelte": "./dist/Reason.svelte"
+    },
+    "./ReasonStudios.svelte": {
+      "types": "./dist/ReasonStudios.svelte.d.ts",
+      "svelte": "./dist/ReasonStudios.svelte"
+    },
+    "./ReasonStudiosAlt.svelte": {
+      "types": "./dist/ReasonStudiosAlt.svelte.d.ts",
+      "svelte": "./dist/ReasonStudiosAlt.svelte"
+    },
+    "./Rebol.svelte": {
+      "types": "./dist/Rebol.svelte.d.ts",
+      "svelte": "./dist/Rebol.svelte"
+    },
+    "./Red.svelte": {
+      "types": "./dist/Red.svelte.d.ts",
+      "svelte": "./dist/Red.svelte"
+    },
+    "./RedOld.svelte": {
+      "types": "./dist/RedOld.svelte.d.ts",
+      "svelte": "./dist/RedOld.svelte"
+    },
+    "./Redux.svelte": {
+      "types": "./dist/Redux.svelte.d.ts",
+      "svelte": "./dist/Redux.svelte"
+    },
+    "./Reek.svelte": {
+      "types": "./dist/Reek.svelte.d.ts",
+      "svelte": "./dist/Reek.svelte"
+    },
+    "./RegEx.svelte": {
+      "types": "./dist/RegEx.svelte.d.ts",
+      "svelte": "./dist/RegEx.svelte"
+    },
+    "./Remark.svelte": {
+      "types": "./dist/Remark.svelte.d.ts",
+      "svelte": "./dist/Remark.svelte"
+    },
+    "./Renovate.svelte": {
+      "types": "./dist/Renovate.svelte.d.ts",
+      "svelte": "./dist/Renovate.svelte"
+    },
+    "./RestQL.svelte": {
+      "types": "./dist/RestQL.svelte.d.ts",
+      "svelte": "./dist/RestQL.svelte"
+    },
+    "./Rexx.svelte": {
+      "types": "./dist/Rexx.svelte.d.ts",
+      "svelte": "./dist/Rexx.svelte"
+    },
+    "./Rhino3D.svelte": {
+      "types": "./dist/Rhino3D.svelte.d.ts",
+      "svelte": "./dist/Rhino3D.svelte"
+    },
+    "./Ring.svelte": {
+      "types": "./dist/Ring.svelte.d.ts",
+      "svelte": "./dist/Ring.svelte"
+    },
+    "./Riot.svelte": {
+      "types": "./dist/Riot.svelte.d.ts",
+      "svelte": "./dist/Riot.svelte"
+    },
+    "./RiotOld.svelte": {
+      "types": "./dist/RiotOld.svelte.d.ts",
+      "svelte": "./dist/RiotOld.svelte"
+    },
+    "./Rmarkdown.svelte": {
+      "types": "./dist/Rmarkdown.svelte.d.ts",
+      "svelte": "./dist/Rmarkdown.svelte"
+    },
+    "./RobotFramework.svelte": {
+      "types": "./dist/RobotFramework.svelte.d.ts",
+      "svelte": "./dist/RobotFramework.svelte"
+    },
+    "./RobotFrameworkOld.svelte": {
+      "types": "./dist/RobotFrameworkOld.svelte.d.ts",
+      "svelte": "./dist/RobotFrameworkOld.svelte"
+    },
+    "./Robots.svelte": {
+      "types": "./dist/Robots.svelte.d.ts",
+      "svelte": "./dist/Robots.svelte"
+    },
+    "./Rollup.svelte": {
+      "types": "./dist/Rollup.svelte.d.ts",
+      "svelte": "./dist/Rollup.svelte"
+    },
+    "./RollupOld.svelte": {
+      "types": "./dist/RollupOld.svelte.d.ts",
+      "svelte": "./dist/RollupOld.svelte"
+    },
+    "./Rsync.svelte": {
+      "types": "./dist/Rsync.svelte.d.ts",
+      "svelte": "./dist/Rsync.svelte"
+    },
+    "./Rubocop.svelte": {
+      "types": "./dist/Rubocop.svelte.d.ts",
+      "svelte": "./dist/Rubocop.svelte"
+    },
+    "./RubyGems.svelte": {
+      "types": "./dist/RubyGems.svelte.d.ts",
+      "svelte": "./dist/RubyGems.svelte"
+    },
+    "./SAC.svelte": {
+      "types": "./dist/SAC.svelte.d.ts",
+      "svelte": "./dist/SAC.svelte"
+    },
+    "./SAS.svelte": {
+      "types": "./dist/SAS.svelte.d.ts",
+      "svelte": "./dist/SAS.svelte"
+    },
+    "./SBT.svelte": {
+      "types": "./dist/SBT.svelte.d.ts",
+      "svelte": "./dist/SBT.svelte"
+    },
+    "./SPARC.svelte": {
+      "types": "./dist/SPARC.svelte.d.ts",
+      "svelte": "./dist/SPARC.svelte"
+    },
+    "./SQF.svelte": {
+      "types": "./dist/SQF.svelte.d.ts",
+      "svelte": "./dist/SQF.svelte"
+    },
+    "./SQLite.svelte": {
+      "types": "./dist/SQLite.svelte.d.ts",
+      "svelte": "./dist/SQLite.svelte"
+    },
+    "./SVN.svelte": {
+      "types": "./dist/SVN.svelte.d.ts",
+      "svelte": "./dist/SVN.svelte"
+    },
+    "./Sage.svelte": {
+      "types": "./dist/Sage.svelte.d.ts",
+      "svelte": "./dist/Sage.svelte"
+    },
+    "./Sails.svelte": {
+      "types": "./dist/Sails.svelte.d.ts",
+      "svelte": "./dist/Sails.svelte"
+    },
+    "./SaltStack.svelte": {
+      "types": "./dist/SaltStack.svelte.d.ts",
+      "svelte": "./dist/SaltStack.svelte"
+    },
+    "./San.svelte": {
+      "types": "./dist/San.svelte.d.ts",
+      "svelte": "./dist/San.svelte"
+    },
+    "./Sandbox.svelte": {
+      "types": "./dist/Sandbox.svelte.d.ts",
+      "svelte": "./dist/Sandbox.svelte"
+    },
+    "./Scheme.svelte": {
+      "types": "./dist/Scheme.svelte.d.ts",
+      "svelte": "./dist/Scheme.svelte"
+    },
+    "./Scilab.svelte": {
+      "types": "./dist/Scilab.svelte.d.ts",
+      "svelte": "./dist/Scilab.svelte"
+    },
+    "./Scilla.svelte": {
+      "types": "./dist/Scilla.svelte.d.ts",
+      "svelte": "./dist/Scilla.svelte"
+    },
+    "./Scratch.svelte": {
+      "types": "./dist/Scratch.svelte.d.ts",
+      "svelte": "./dist/Scratch.svelte"
+    },
+    "./Scrutinizer.svelte": {
+      "types": "./dist/Scrutinizer.svelte.d.ts",
+      "svelte": "./dist/Scrutinizer.svelte"
+    },
+    "./Self.svelte": {
+      "types": "./dist/Self.svelte.d.ts",
+      "svelte": "./dist/Self.svelte"
+    },
+    "./SemanticRelease.svelte": {
+      "types": "./dist/SemanticRelease.svelte.d.ts",
+      "svelte": "./dist/SemanticRelease.svelte"
+    },
+    "./Sentry.svelte": {
+      "types": "./dist/Sentry.svelte.d.ts",
+      "svelte": "./dist/Sentry.svelte"
+    },
+    "./Sequelize.svelte": {
+      "types": "./dist/Sequelize.svelte.d.ts",
+      "svelte": "./dist/Sequelize.svelte"
+    },
+    "./Serverless.svelte": {
+      "types": "./dist/Serverless.svelte.d.ts",
+      "svelte": "./dist/Serverless.svelte"
+    },
+    "./ServiceFabric.svelte": {
+      "types": "./dist/ServiceFabric.svelte.d.ts",
+      "svelte": "./dist/ServiceFabric.svelte"
+    },
+    "./ShadowCLJS.svelte": {
+      "types": "./dist/ShadowCLJS.svelte.d.ts",
+      "svelte": "./dist/ShadowCLJS.svelte"
+    },
+    "./ShellCheck.svelte": {
+      "types": "./dist/ShellCheck.svelte.d.ts",
+      "svelte": "./dist/ShellCheck.svelte"
+    },
+    "./Shen.svelte": {
+      "types": "./dist/Shen.svelte.d.ts",
+      "svelte": "./dist/Shen.svelte"
+    },
+    "./Shipit.svelte": {
+      "types": "./dist/Shipit.svelte.d.ts",
+      "svelte": "./dist/Shipit.svelte"
+    },
+    "./Shippable.svelte": {
+      "types": "./dist/Shippable.svelte.d.ts",
+      "svelte": "./dist/Shippable.svelte"
+    },
+    "./Shopify.svelte": {
+      "types": "./dist/Shopify.svelte.d.ts",
+      "svelte": "./dist/Shopify.svelte"
+    },
+    "./Shuriken.svelte": {
+      "types": "./dist/Shuriken.svelte.d.ts",
+      "svelte": "./dist/Shuriken.svelte"
+    },
+    "./Sigils.svelte": {
+      "types": "./dist/Sigils.svelte.d.ts",
+      "svelte": "./dist/Sigils.svelte"
+    },
+    "./SiliconGraphics.svelte": {
+      "types": "./dist/SiliconGraphics.svelte.d.ts",
+      "svelte": "./dist/SiliconGraphics.svelte"
+    },
+    "./SilverStripe.svelte": {
+      "types": "./dist/SilverStripe.svelte.d.ts",
+      "svelte": "./dist/SilverStripe.svelte"
+    },
+    "./Sinatra.svelte": {
+      "types": "./dist/Sinatra.svelte.d.ts",
+      "svelte": "./dist/Sinatra.svelte"
+    },
+    "./Sketch.svelte": {
+      "types": "./dist/Sketch.svelte.d.ts",
+      "svelte": "./dist/Sketch.svelte"
+    },
+    "./SketchUpLayOut.svelte": {
+      "types": "./dist/SketchUpLayOut.svelte.d.ts",
+      "svelte": "./dist/SketchUpLayOut.svelte"
+    },
+    "./SketchUpMake.svelte": {
+      "types": "./dist/SketchUpMake.svelte.d.ts",
+      "svelte": "./dist/SketchUpMake.svelte"
+    },
+    "./SketchUpStyleBuilder.svelte": {
+      "types": "./dist/SketchUpStyleBuilder.svelte.d.ts",
+      "svelte": "./dist/SketchUpStyleBuilder.svelte"
+    },
+    "./Slash.svelte": {
+      "types": "./dist/Slash.svelte.d.ts",
+      "svelte": "./dist/Slash.svelte"
+    },
+    "./SmartOS.svelte": {
+      "types": "./dist/SmartOS.svelte.d.ts",
+      "svelte": "./dist/SmartOS.svelte"
+    },
+    "./SmartOSAlt.svelte": {
+      "types": "./dist/SmartOSAlt.svelte.d.ts",
+      "svelte": "./dist/SmartOSAlt.svelte"
+    },
+    "./Snapcraft.svelte": {
+      "types": "./dist/Snapcraft.svelte.d.ts",
+      "svelte": "./dist/Snapcraft.svelte"
+    },
+    "./Snort.svelte": {
+      "types": "./dist/Snort.svelte.d.ts",
+      "svelte": "./dist/Snort.svelte"
+    },
+    "./Snowpack.svelte": {
+      "types": "./dist/Snowpack.svelte.d.ts",
+      "svelte": "./dist/Snowpack.svelte"
+    },
+    "./Snyk.svelte": {
+      "types": "./dist/Snyk.svelte.d.ts",
+      "svelte": "./dist/Snyk.svelte"
+    },
+    "./Solidarity.svelte": {
+      "types": "./dist/Solidarity.svelte.d.ts",
+      "svelte": "./dist/Solidarity.svelte"
+    },
+    "./Solidity.svelte": {
+      "types": "./dist/Solidity.svelte.d.ts",
+      "svelte": "./dist/Solidity.svelte"
+    },
+    "./Sophia.svelte": {
+      "types": "./dist/Sophia.svelte.d.ts",
+      "svelte": "./dist/Sophia.svelte"
+    },
+    "./Sorbet.svelte": {
+      "types": "./dist/Sorbet.svelte.d.ts",
+      "svelte": "./dist/Sorbet.svelte"
+    },
+    "./Source.svelte": {
+      "types": "./dist/Source.svelte.d.ts",
+      "svelte": "./dist/Source.svelte"
+    },
+    "./Spacemacs.svelte": {
+      "types": "./dist/Spacemacs.svelte.d.ts",
+      "svelte": "./dist/Spacemacs.svelte"
+    },
+    "./Spacengine.svelte": {
+      "types": "./dist/Spacengine.svelte.d.ts",
+      "svelte": "./dist/Spacengine.svelte"
+    },
+    "./Spray.svelte": {
+      "types": "./dist/Spray.svelte.d.ts",
+      "svelte": "./dist/Spray.svelte"
+    },
+    "./SquareSpace.svelte": {
+      "types": "./dist/SquareSpace.svelte.d.ts",
+      "svelte": "./dist/SquareSpace.svelte"
+    },
+    "./Stan.svelte": {
+      "types": "./dist/Stan.svelte.d.ts",
+      "svelte": "./dist/Stan.svelte"
+    },
+    "./Stata.svelte": {
+      "types": "./dist/Stata.svelte.d.ts",
+      "svelte": "./dist/Stata.svelte"
+    },
+    "./StdlibJS.svelte": {
+      "types": "./dist/StdlibJS.svelte.d.ts",
+      "svelte": "./dist/StdlibJS.svelte"
+    },
+    "./Stencil.svelte": {
+      "types": "./dist/Stencil.svelte.d.ts",
+      "svelte": "./dist/Stencil.svelte"
+    },
+    "./Stitches.svelte": {
+      "types": "./dist/Stitches.svelte.d.ts",
+      "svelte": "./dist/Stitches.svelte"
+    },
+    "./Storybook.svelte": {
+      "types": "./dist/Storybook.svelte.d.ts",
+      "svelte": "./dist/Storybook.svelte"
+    },
+    "./Storyist.svelte": {
+      "types": "./dist/Storyist.svelte.d.ts",
+      "svelte": "./dist/Storyist.svelte"
+    },
+    "./Strings.svelte": {
+      "types": "./dist/Strings.svelte.d.ts",
+      "svelte": "./dist/Strings.svelte"
+    },
+    "./Stylable.svelte": {
+      "types": "./dist/Stylable.svelte.d.ts",
+      "svelte": "./dist/Stylable.svelte"
+    },
+    "./StyledComponents.svelte": {
+      "types": "./dist/StyledComponents.svelte.d.ts",
+      "svelte": "./dist/StyledComponents.svelte"
+    },
+    "./Stylelint.svelte": {
+      "types": "./dist/Stylelint.svelte.d.ts",
+      "svelte": "./dist/Stylelint.svelte"
+    },
+    "./StylishHaskell.svelte": {
+      "types": "./dist/StylishHaskell.svelte.d.ts",
+      "svelte": "./dist/StylishHaskell.svelte"
+    },
+    "./Stylus.svelte": {
+      "types": "./dist/Stylus.svelte.d.ts",
+      "svelte": "./dist/Stylus.svelte"
+    },
+    "./StylusOrb.svelte": {
+      "types": "./dist/StylusOrb.svelte.d.ts",
+      "svelte": "./dist/StylusOrb.svelte"
+    },
+    "./StylusS.svelte": {
+      "types": "./dist/StylusS.svelte.d.ts",
+      "svelte": "./dist/StylusS.svelte"
+    },
+    "./Sublime.svelte": {
+      "types": "./dist/Sublime.svelte.d.ts",
+      "svelte": "./dist/Sublime.svelte"
+    },
+    "./SuperCollider.svelte": {
+      "types": "./dist/SuperCollider.svelte.d.ts",
+      "svelte": "./dist/SuperCollider.svelte"
+    },
+    "./Svelte.svelte": {
+      "types": "./dist/Svelte.svelte.d.ts",
+      "svelte": "./dist/Svelte.svelte"
+    },
+    "./Swagger.svelte": {
+      "types": "./dist/Swagger.svelte.d.ts",
+      "svelte": "./dist/Swagger.svelte"
+    },
+    "./SystemVerilog.svelte": {
+      "types": "./dist/SystemVerilog.svelte.d.ts",
+      "svelte": "./dist/SystemVerilog.svelte"
+    },
+    "./TFS.svelte": {
+      "types": "./dist/TFS.svelte.d.ts",
+      "svelte": "./dist/TFS.svelte"
+    },
+    "./TLAPlus.svelte": {
+      "types": "./dist/TLAPlus.svelte.d.ts",
+      "svelte": "./dist/TLAPlus.svelte"
+    },
+    "./TOML.svelte": {
+      "types": "./dist/TOML.svelte.d.ts",
+      "svelte": "./dist/TOML.svelte"
+    },
+    "./TOTVS.svelte": {
+      "types": "./dist/TOTVS.svelte.d.ts",
+      "svelte": "./dist/TOTVS.svelte"
+    },
+    "./TSX.svelte": {
+      "types": "./dist/TSX.svelte.d.ts",
+      "svelte": "./dist/TSX.svelte"
+    },
+    "./TSXAlt.svelte": {
+      "types": "./dist/TSXAlt.svelte.d.ts",
+      "svelte": "./dist/TSXAlt.svelte"
+    },
+    "./TTCN3.svelte": {
+      "types": "./dist/TTCN3.svelte.d.ts",
+      "svelte": "./dist/TTCN3.svelte"
+    },
+    "./TXL.svelte": {
+      "types": "./dist/TXL.svelte.d.ts",
+      "svelte": "./dist/TXL.svelte"
+    },
+    "./Tag.svelte": {
+      "types": "./dist/Tag.svelte.d.ts",
+      "svelte": "./dist/Tag.svelte"
+    },
+    "./Tailwind.svelte": {
+      "types": "./dist/Tailwind.svelte.d.ts",
+      "svelte": "./dist/Tailwind.svelte"
+    },
+    "./Tcl.svelte": {
+      "types": "./dist/Tcl.svelte.d.ts",
+      "svelte": "./dist/Tcl.svelte"
+    },
+    "./Telegram.svelte": {
+      "types": "./dist/Telegram.svelte.d.ts",
+      "svelte": "./dist/Telegram.svelte"
+    },
+    "./TemplateToolkit.svelte": {
+      "types": "./dist/TemplateToolkit.svelte.d.ts",
+      "svelte": "./dist/TemplateToolkit.svelte"
+    },
+    "./TempleOS.svelte": {
+      "types": "./dist/TempleOS.svelte.d.ts",
+      "svelte": "./dist/TempleOS.svelte"
+    },
+    "./Terminal.svelte": {
+      "types": "./dist/Terminal.svelte.d.ts",
+      "svelte": "./dist/Terminal.svelte"
+    },
+    "./Tern.svelte": {
+      "types": "./dist/Tern.svelte.d.ts",
+      "svelte": "./dist/Tern.svelte"
+    },
+    "./Terraform.svelte": {
+      "types": "./dist/Terraform.svelte.d.ts",
+      "svelte": "./dist/Terraform.svelte"
+    },
+    "./Terser.svelte": {
+      "types": "./dist/Terser.svelte.d.ts",
+      "svelte": "./dist/Terser.svelte"
+    },
+    "./TestCafe.svelte": {
+      "types": "./dist/TestCafe.svelte.d.ts",
+      "svelte": "./dist/TestCafe.svelte"
+    },
+    "./TestCoffeeScript.svelte": {
+      "types": "./dist/TestCoffeeScript.svelte.d.ts",
+      "svelte": "./dist/TestCoffeeScript.svelte"
+    },
+    "./TestDirectory.svelte": {
+      "types": "./dist/TestDirectory.svelte.d.ts",
+      "svelte": "./dist/TestDirectory.svelte"
+    },
+    "./TestGeneric.svelte": {
+      "types": "./dist/TestGeneric.svelte.d.ts",
+      "svelte": "./dist/TestGeneric.svelte"
+    },
+    "./TestGo.svelte": {
+      "types": "./dist/TestGo.svelte.d.ts",
+      "svelte": "./dist/TestGo.svelte"
+    },
+    "./TestHaskell.svelte": {
+      "types": "./dist/TestHaskell.svelte.d.ts",
+      "svelte": "./dist/TestHaskell.svelte"
+    },
+    "./TestJS.svelte": {
+      "types": "./dist/TestJS.svelte.d.ts",
+      "svelte": "./dist/TestJS.svelte"
+    },
+    "./TestPerl.svelte": {
+      "types": "./dist/TestPerl.svelte.d.ts",
+      "svelte": "./dist/TestPerl.svelte"
+    },
+    "./TestPython.svelte": {
+      "types": "./dist/TestPython.svelte.d.ts",
+      "svelte": "./dist/TestPython.svelte"
+    },
+    "./TestReact.svelte": {
+      "types": "./dist/TestReact.svelte.d.ts",
+      "svelte": "./dist/TestReact.svelte"
+    },
+    "./TestRuby.svelte": {
+      "types": "./dist/TestRuby.svelte.d.ts",
+      "svelte": "./dist/TestRuby.svelte"
+    },
+    "./TestRust.svelte": {
+      "types": "./dist/TestRust.svelte.d.ts",
+      "svelte": "./dist/TestRust.svelte"
+    },
+    "./TestTypeScript.svelte": {
+      "types": "./dist/TestTypeScript.svelte.d.ts",
+      "svelte": "./dist/TestTypeScript.svelte"
+    },
+    "./TextMate.svelte": {
+      "types": "./dist/TextMate.svelte.d.ts",
+      "svelte": "./dist/TextMate.svelte"
+    },
+    "./Textile.svelte": {
+      "types": "./dist/Textile.svelte.d.ts",
+      "svelte": "./dist/Textile.svelte"
+    },
+    "./Thor.svelte": {
+      "types": "./dist/Thor.svelte.d.ts",
+      "svelte": "./dist/Thor.svelte"
+    },
+    "./Tilt.svelte": {
+      "types": "./dist/Tilt.svelte.d.ts",
+      "svelte": "./dist/Tilt.svelte"
+    },
+    "./TinyMCE.svelte": {
+      "types": "./dist/TinyMCE.svelte.d.ts",
+      "svelte": "./dist/TinyMCE.svelte"
+    },
+    "./Tipe.svelte": {
+      "types": "./dist/Tipe.svelte.d.ts",
+      "svelte": "./dist/Tipe.svelte"
+    },
+    "./Tmux.svelte": {
+      "types": "./dist/Tmux.svelte.d.ts",
+      "svelte": "./dist/Tmux.svelte"
+    },
+    "./TortoiseSVN.svelte": {
+      "types": "./dist/TortoiseSVN.svelte.d.ts",
+      "svelte": "./dist/TortoiseSVN.svelte"
+    },
+    "./Truffle.svelte": {
+      "types": "./dist/Truffle.svelte.d.ts",
+      "svelte": "./dist/Truffle.svelte"
+    },
+    "./Turing.svelte": {
+      "types": "./dist/Turing.svelte.d.ts",
+      "svelte": "./dist/Turing.svelte"
+    },
+    "./Twig.svelte": {
+      "types": "./dist/Twig.svelte.d.ts",
+      "svelte": "./dist/Twig.svelte"
+    },
+    "./Twine.svelte": {
+      "types": "./dist/Twine.svelte.d.ts",
+      "svelte": "./dist/Twine.svelte"
+    },
+    "./TypeDoc.svelte": {
+      "types": "./dist/TypeDoc.svelte.d.ts",
+      "svelte": "./dist/TypeDoc.svelte"
+    },
+    "./TypeScript.svelte": {
+      "types": "./dist/TypeScript.svelte.d.ts",
+      "svelte": "./dist/TypeScript.svelte"
+    },
+    "./TypeScriptAlt.svelte": {
+      "types": "./dist/TypeScriptAlt.svelte.d.ts",
+      "svelte": "./dist/TypeScriptAlt.svelte"
+    },
+    "./Typings.svelte": {
+      "types": "./dist/Typings.svelte.d.ts",
+      "svelte": "./dist/Typings.svelte"
+    },
+    "./UFO.svelte": {
+      "types": "./dist/UFO.svelte.d.ts",
+      "svelte": "./dist/UFO.svelte"
+    },
+    "./UNO.svelte": {
+      "types": "./dist/UNO.svelte.d.ts",
+      "svelte": "./dist/UNO.svelte"
+    },
+    "./Unibeautify.svelte": {
+      "types": "./dist/Unibeautify.svelte.d.ts",
+      "svelte": "./dist/Unibeautify.svelte"
+    },
+    "./Unicode.svelte": {
+      "types": "./dist/Unicode.svelte.d.ts",
+      "svelte": "./dist/Unicode.svelte"
+    },
+    "./UnrealScript.svelte": {
+      "types": "./dist/UnrealScript.svelte.d.ts",
+      "svelte": "./dist/UnrealScript.svelte"
+    },
+    "./UrWeb.svelte": {
+      "types": "./dist/UrWeb.svelte.d.ts",
+      "svelte": "./dist/UrWeb.svelte"
+    },
+    "./V.svelte": {
+      "types": "./dist/V.svelte.d.ts",
+      "svelte": "./dist/V.svelte"
+    },
+    "./V8.svelte": {
+      "types": "./dist/V8.svelte.d.ts",
+      "svelte": "./dist/V8.svelte"
+    },
+    "./V8Turbofan.svelte": {
+      "types": "./dist/V8Turbofan.svelte.d.ts",
+      "svelte": "./dist/V8Turbofan.svelte"
+    },
+    "./VAX.svelte": {
+      "types": "./dist/VAX.svelte.d.ts",
+      "svelte": "./dist/VAX.svelte"
+    },
+    "./VCL.svelte": {
+      "types": "./dist/VCL.svelte.d.ts",
+      "svelte": "./dist/VCL.svelte"
+    },
+    "./VHDL.svelte": {
+      "types": "./dist/VHDL.svelte.d.ts",
+      "svelte": "./dist/VHDL.svelte"
+    },
+    "./VMware.svelte": {
+      "types": "./dist/VMware.svelte.d.ts",
+      "svelte": "./dist/VMware.svelte"
+    },
+    "./VRay.svelte": {
+      "types": "./dist/VRay.svelte.d.ts",
+      "svelte": "./dist/VRay.svelte"
+    },
+    "./VSCode.svelte": {
+      "types": "./dist/VSCode.svelte.d.ts",
+      "svelte": "./dist/VSCode.svelte"
+    },
+    "./VSTS.svelte": {
+      "types": "./dist/VSTS.svelte.d.ts",
+      "svelte": "./dist/VSTS.svelte"
+    },
+    "./Vagrant.svelte": {
+      "types": "./dist/Vagrant.svelte.d.ts",
+      "svelte": "./dist/Vagrant.svelte"
+    },
+    "./Vala.svelte": {
+      "types": "./dist/Vala.svelte.d.ts",
+      "svelte": "./dist/Vala.svelte"
+    },
+    "./Velocity.svelte": {
+      "types": "./dist/Velocity.svelte.d.ts",
+      "svelte": "./dist/Velocity.svelte"
+    },
+    "./Verilog.svelte": {
+      "types": "./dist/Verilog.svelte.d.ts",
+      "svelte": "./dist/Verilog.svelte"
+    },
+    "./VertexShader.svelte": {
+      "types": "./dist/VertexShader.svelte.d.ts",
+      "svelte": "./dist/VertexShader.svelte"
+    },
+    "./Video.svelte": {
+      "types": "./dist/Video.svelte.d.ts",
+      "svelte": "./dist/Video.svelte"
+    },
+    "./VirtualBox.svelte": {
+      "types": "./dist/VirtualBox.svelte.d.ts",
+      "svelte": "./dist/VirtualBox.svelte"
+    },
+    "./VirtualBoxAlt.svelte": {
+      "types": "./dist/VirtualBoxAlt.svelte.d.ts",
+      "svelte": "./dist/VirtualBoxAlt.svelte"
+    },
+    "./Vite.svelte": {
+      "types": "./dist/Vite.svelte.d.ts",
+      "svelte": "./dist/Vite.svelte"
+    },
+    "./Vue.svelte": {
+      "types": "./dist/Vue.svelte.d.ts",
+      "svelte": "./dist/Vue.svelte"
+    },
+    "./Vyper.svelte": {
+      "types": "./dist/Vyper.svelte.d.ts",
+      "svelte": "./dist/Vyper.svelte"
+    },
+    "./W3C.svelte": {
+      "types": "./dist/W3C.svelte.d.ts",
+      "svelte": "./dist/W3C.svelte"
+    },
+    "./WASI.svelte": {
+      "types": "./dist/WASI.svelte.d.ts",
+      "svelte": "./dist/WASI.svelte"
+    },
+    "./WDL.svelte": {
+      "types": "./dist/WDL.svelte.d.ts",
+      "svelte": "./dist/WDL.svelte"
+    },
+    "./Wallaby.svelte": {
+      "types": "./dist/Wallaby.svelte.d.ts",
+      "svelte": "./dist/Wallaby.svelte"
+    },
+    "./Walt.svelte": {
+      "types": "./dist/Walt.svelte.d.ts",
+      "svelte": "./dist/Walt.svelte"
+    },
+    "./WarcraftIII.svelte": {
+      "types": "./dist/WarcraftIII.svelte.d.ts",
+      "svelte": "./dist/WarcraftIII.svelte"
+    },
+    "./Watchman.svelte": {
+      "types": "./dist/Watchman.svelte.d.ts",
+      "svelte": "./dist/Watchman.svelte"
+    },
+    "./WebAssembly.svelte": {
+      "types": "./dist/WebAssembly.svelte.d.ts",
+      "svelte": "./dist/WebAssembly.svelte"
+    },
+    "./WebGL.svelte": {
+      "types": "./dist/WebGL.svelte.d.ts",
+      "svelte": "./dist/WebGL.svelte"
+    },
+    "./WebVTT.svelte": {
+      "types": "./dist/WebVTT.svelte.d.ts",
+      "svelte": "./dist/WebVTT.svelte"
+    },
+    "./Webhint.svelte": {
+      "types": "./dist/Webhint.svelte.d.ts",
+      "svelte": "./dist/Webhint.svelte"
+    },
+    "./Webpack.svelte": {
+      "types": "./dist/Webpack.svelte.d.ts",
+      "svelte": "./dist/Webpack.svelte"
+    },
+    "./WebpackOld.svelte": {
+      "types": "./dist/WebpackOld.svelte.d.ts",
+      "svelte": "./dist/WebpackOld.svelte"
+    },
+    "./Wenyan.svelte": {
+      "types": "./dist/Wenyan.svelte.d.ts",
+      "svelte": "./dist/Wenyan.svelte"
+    },
+    "./Wercker.svelte": {
+      "types": "./dist/Wercker.svelte.d.ts",
+      "svelte": "./dist/Wercker.svelte"
+    },
+    "./Wget.svelte": {
+      "types": "./dist/Wget.svelte.d.ts",
+      "svelte": "./dist/Wget.svelte"
+    },
+    "./WiX.svelte": {
+      "types": "./dist/WiX.svelte.d.ts",
+      "svelte": "./dist/WiX.svelte"
+    },
+    "./WinUI.svelte": {
+      "types": "./dist/WinUI.svelte.d.ts",
+      "svelte": "./dist/WinUI.svelte"
+    },
+    "./Windi.svelte": {
+      "types": "./dist/Windi.svelte.d.ts",
+      "svelte": "./dist/Windi.svelte"
+    },
+    "./Wine.svelte": {
+      "types": "./dist/Wine.svelte.d.ts",
+      "svelte": "./dist/Wine.svelte"
+    },
+    "./Wolfram.svelte": {
+      "types": "./dist/Wolfram.svelte.d.ts",
+      "svelte": "./dist/Wolfram.svelte"
+    },
+    "./Workbox.svelte": {
+      "types": "./dist/Workbox.svelte.d.ts",
+      "svelte": "./dist/Workbox.svelte"
+    },
+    "./Wurst.svelte": {
+      "types": "./dist/Wurst.svelte.d.ts",
+      "svelte": "./dist/Wurst.svelte"
+    },
+    "./X10.svelte": {
+      "types": "./dist/X10.svelte.d.ts",
+      "svelte": "./dist/X10.svelte"
+    },
+    "./XMOS.svelte": {
+      "types": "./dist/XMOS.svelte.d.ts",
+      "svelte": "./dist/XMOS.svelte"
+    },
+    "./XPages.svelte": {
+      "types": "./dist/XPages.svelte.d.ts",
+      "svelte": "./dist/XPages.svelte"
+    },
+    "./Xamarin.svelte": {
+      "types": "./dist/Xamarin.svelte.d.ts",
+      "svelte": "./dist/Xamarin.svelte"
+    },
+    "./Xmake.svelte": {
+      "types": "./dist/Xmake.svelte.d.ts",
+      "svelte": "./dist/Xmake.svelte"
+    },
+    "./Xtend.svelte": {
+      "types": "./dist/Xtend.svelte.d.ts",
+      "svelte": "./dist/Xtend.svelte"
+    },
+    "./Xubuntu.svelte": {
+      "types": "./dist/Xubuntu.svelte.d.ts",
+      "svelte": "./dist/Xubuntu.svelte"
+    },
+    "./YAML.svelte": {
+      "types": "./dist/YAML.svelte.d.ts",
+      "svelte": "./dist/YAML.svelte"
+    },
+    "./YAMLAlt1.svelte": {
+      "types": "./dist/YAMLAlt1.svelte.d.ts",
+      "svelte": "./dist/YAMLAlt1.svelte"
+    },
+    "./YAMLAlt2.svelte": {
+      "types": "./dist/YAMLAlt2.svelte.d.ts",
+      "svelte": "./dist/YAMLAlt2.svelte"
+    },
+    "./YAMLAlt3.svelte": {
+      "types": "./dist/YAMLAlt3.svelte.d.ts",
+      "svelte": "./dist/YAMLAlt3.svelte"
+    },
+    "./YAMLAlt4.svelte": {
+      "types": "./dist/YAMLAlt4.svelte.d.ts",
+      "svelte": "./dist/YAMLAlt4.svelte"
+    },
+    "./YAMLLint.svelte": {
+      "types": "./dist/YAMLLint.svelte.d.ts",
+      "svelte": "./dist/YAMLLint.svelte"
+    },
+    "./YANG.svelte": {
+      "types": "./dist/YANG.svelte.d.ts",
+      "svelte": "./dist/YANG.svelte"
+    },
+    "./YARA.svelte": {
+      "types": "./dist/YARA.svelte.d.ts",
+      "svelte": "./dist/YARA.svelte"
+    },
+    "./YUI.svelte": {
+      "types": "./dist/YUI.svelte.d.ts",
+      "svelte": "./dist/YUI.svelte"
+    },
+    "./Yandex.svelte": {
+      "types": "./dist/Yandex.svelte.d.ts",
+      "svelte": "./dist/Yandex.svelte"
+    },
+    "./Yarn.svelte": {
+      "types": "./dist/Yarn.svelte.d.ts",
+      "svelte": "./dist/Yarn.svelte"
+    },
+    "./Yasm.svelte": {
+      "types": "./dist/Yasm.svelte.d.ts",
+      "svelte": "./dist/Yasm.svelte"
+    },
+    "./Yorick.svelte": {
+      "types": "./dist/Yorick.svelte.d.ts",
+      "svelte": "./dist/Yorick.svelte"
+    },
+    "./ZBrush.svelte": {
+      "types": "./dist/ZBrush.svelte.d.ts",
+      "svelte": "./dist/ZBrush.svelte"
+    },
+    "./Zeit.svelte": {
+      "types": "./dist/Zeit.svelte.d.ts",
+      "svelte": "./dist/Zeit.svelte"
+    },
+    "./Zephir.svelte": {
+      "types": "./dist/Zephir.svelte.d.ts",
+      "svelte": "./dist/Zephir.svelte"
+    },
+    "./Zig.svelte": {
+      "types": "./dist/Zig.svelte.d.ts",
+      "svelte": "./dist/Zig.svelte"
+    },
+    "./Zilog.svelte": {
+      "types": "./dist/Zilog.svelte.d.ts",
+      "svelte": "./dist/Zilog.svelte"
+    },
+    "./Zimpl.svelte": {
+      "types": "./dist/Zimpl.svelte.d.ts",
+      "svelte": "./dist/Zimpl.svelte"
+    },
+    "./ZorinOS.svelte": {
+      "types": "./dist/ZorinOS.svelte.d.ts",
+      "svelte": "./dist/ZorinOS.svelte"
+    },
+    "./Zork.svelte": {
+      "types": "./dist/Zork.svelte.d.ts",
+      "svelte": "./dist/Zork.svelte"
     }
   },
   "files": [

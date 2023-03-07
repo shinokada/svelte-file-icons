@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.4.1](https://github.com/shinokada/svelte-file-icons/compare/v0.3.2...v0.4.1) (2023-03-07)
 
-
 ### Features
 
-* add script add-exports and update README ([c5f498a](https://github.com/shinokada/svelte-file-icons/commit/c5f498a2975d35f4dae670a5120f9512e36b68ab))
+- add script add-exports and update README ([c5f498a](https://github.com/shinokada/svelte-file-icons/commit/c5f498a2975d35f4dae670a5120f9512e36b68ab))
 
 ### [0.3.2](https://github.com/shinokada/svelte-file-icons/compare/v0.3.1...v0.3.2) (2023-02-22)
 
