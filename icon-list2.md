@@ -1,5 +1,3 @@
-# Icon names
-
 - A1C.svelte
 - A1CAlt.svelte
 - A3DModel.svelte
@@ -931,8 +929,3 @@
 - Zimpl.svelte
 - ZorinOS.svelte
 - Zork.svelte
-
-
-## Back to Home
-
-[Back to Home](/)
