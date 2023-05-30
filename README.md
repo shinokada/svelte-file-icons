@@ -54,6 +54,16 @@ In a svelte file:
 <EJS />
 ```
 
+## Props
+
+- size = '24';
+- color = 'currentColor';
+- ariaLabel = '1C';
+
+## IDE support
+
+If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, or Neovim, hovering over a component name will display a documentation link, props, and events.
+
 ## Faster compiling
 
 If you need only a few icons from this library in your Svelte app, import them directly. This can optimize compilation speed and improve performance by reducing the amount of code processed during compilation.
@@ -157,15 +167,15 @@ If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 All icons have the following events:
 
-```
-on:click
-on:mouseenter
-on:mouseleave
-on:mouseover
-on:mouseout
-on:blur
-on:focus
-```
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
 
 ## Passing down other attributes
 

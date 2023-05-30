@@ -1,1 +1,47 @@
-<script>export let size="24"; export let color="currentColor";export let ariaLabel="tmux" </script><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="{size}" height="{size}" viewBox="0 0 512 512" fill={color} class={$$props.class} {...$$restProps} aria-label={ariaLabel} on:click on:mouseenter on:mouseleave on:mouseover on:mouseout on:blur on:focus ><path d="M272.0003967,22.3999996h192.0044861C490.5119019,22.3999996,512,43.9197273,512,70.4207001v169.5789032H272.0003967V22.3999996z M239.9996033,22.3999996H47.9951172C21.5103512,22.3999996,0,43.8996086,0,70.4207001v419.1793213h239.9996033V22.3999996z M272.0003967,272.0003967v217.5996094H512V272.0003967H272.0003967z"/></svg>
+<script>
+  export let size = '24';
+  export let color = 'currentColor';
+  export let ariaLabel = 'tmux';
+</script>
+
+<svg
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 512 512"
+  fill={color}
+  class={$$props.class}
+  {...$$restProps}
+  aria-label={ariaLabel}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  ><path
+    d="M272.0003967,22.3999996h192.0044861C490.5119019,22.3999996,512,43.9197273,512,70.4207001v169.5789032H272.0003967V22.3999996z M239.9996033,22.3999996H47.9951172C21.5103512,22.3999996,0,43.8996086,0,70.4207001v419.1793213h239.9996033V22.3999996z M272.0003967,272.0003967v217.5996094H512V272.0003967H272.0003967z"
+  /></svg
+>
+<!--
+@component
+[Go to Document](https://svelte-ant-design-icons.codewithshin.com/)
+## Props
+@prop size = '24';
+@prop ariaLabel = 'icon file name';
+@prop color = 'currentColor';
+## Event
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
+-->
