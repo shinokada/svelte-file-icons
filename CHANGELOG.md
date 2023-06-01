@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.3](https://github.com/shinokada/svelte-file-icons/compare/v0.6.2...v0.6.3) (2023-06-01)
+
+
+### Features
+
+* add || ^4.0.0 to peerDependencies ([ecc2f90](https://github.com/shinokada/svelte-file-icons/commit/ecc2f904cec8802fa01018c2da47557c146d54a5))
+
 ### [0.6.2](https://github.com/shinokada/svelte-file-icons/compare/v0.6.1...v0.6.2) (2023-05-30)
 
 
