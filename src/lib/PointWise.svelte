@@ -12,7 +12,6 @@
   height={size}
   viewBox="0 0 512 512"
   fill={color}
-  class={$$props.class}
   {...$$restProps}
   {role}
   aria-label={ariaLabel}
