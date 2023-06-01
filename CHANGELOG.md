@@ -4,17 +4,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.6.3](https://github.com/shinokada/svelte-file-icons/compare/v0.6.2...v0.6.3) (2023-06-01)
 
-
 ### Features
 
-* add || ^4.0.0 to peerDependencies ([ecc2f90](https://github.com/shinokada/svelte-file-icons/commit/ecc2f904cec8802fa01018c2da47557c146d54a5))
+- add || ^4.0.0 to peerDependencies ([ecc2f90](https://github.com/shinokada/svelte-file-icons/commit/ecc2f904cec8802fa01018c2da47557c146d54a5))
 
 ### [0.6.2](https://github.com/shinokada/svelte-file-icons/compare/v0.6.1...v0.6.2) (2023-05-30)
 
-
 ### Bug Fixes
 
-* doc link ([9ca879b](https://github.com/shinokada/svelte-file-icons/commit/9ca879b1da87e665d22370365f0f783d13930305))
+- doc link ([9ca879b](https://github.com/shinokada/svelte-file-icons/commit/9ca879b1da87e665d22370365f0f783d13930305))
 
 ### [0.6.1](https://github.com/shinokada/svelte-file-icons/compare/v0.5.2...v0.6.1) (2023-05-30)
 

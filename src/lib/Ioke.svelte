@@ -1,5 +1,6 @@
 <script>
   export let size = '24';
+  export let role = 'img';
   export let color = 'currentColor';
   export let ariaLabel = 'Ioke';
 </script>
@@ -13,6 +14,7 @@
   fill={color}
   class={$$props.class}
   {...$$restProps}
+  {role}
   aria-label={ariaLabel}
   on:click
   on:keydown
@@ -48,6 +50,7 @@
 [Go to Document](https://svelte-file-icons.codewithshin.com/)
 ## Props
 @prop size = '24';
+@prop role = 'img';
 @prop ariaLabel = 'icon file name';
 @prop color = 'currentColor';
 ## Event

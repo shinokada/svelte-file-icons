@@ -57,6 +57,7 @@ In a svelte file:
 ## Props
 
 - size = '24';
+- role = 'img';
 - color = 'currentColor';
 - ariaLabel = '1C';
 
