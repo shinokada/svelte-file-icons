@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.4](https://github.com/shinokada/svelte-file-icons/compare/v0.6.3...v0.6.4) (2023-06-01)
+
+
+### Features
+
+* add prop role="img" ([5603a6c](https://github.com/shinokada/svelte-file-icons/commit/5603a6c756047e0b285a0acd79c9315bdd58ed69))
+
 ### [0.6.3](https://github.com/shinokada/svelte-file-icons/compare/v0.6.2...v0.6.3) (2023-06-01)
 
 ### Features
