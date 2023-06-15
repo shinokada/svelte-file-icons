@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.6.5](https://github.com/shinokada/svelte-file-icons/compare/v0.6.4...v0.6.5) (2023-06-01)
 
-
 ### Features
 
-* add prop role="img" ([ca3ed52](https://github.com/shinokada/svelte-file-icons/commit/ca3ed521bf7257158ee0887b04402b7812ff4588))
+- add prop role="img" ([ca3ed52](https://github.com/shinokada/svelte-file-icons/commit/ca3ed521bf7257158ee0887b04402b7812ff4588))
 
 ### [0.6.4](https://github.com/shinokada/svelte-file-icons/compare/v0.6.3...v0.6.4) (2023-06-01)
 
