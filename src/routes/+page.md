@@ -8,7 +8,7 @@
 <a href="https://www.npmjs.com/package/svelte-file-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-file-icons.svg" alt="npm" height="25" style="height: 25px !important;"></a>
 </div>
 
-930+ SVG file icon components for Svelte. Svelte-file-Icons support major CSS frameworks using the `class` props.
+930+ SVG file icon components for Svelte.
 
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
