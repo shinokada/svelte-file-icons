@@ -39,51 +39,20 @@ In a svelte file:
 
 ```html
 <script>
-  import { Vite, Svelte, VSCode } from 'svelte-file-icons';
+  import { Icon } from 'svelte-file-icons';
 </script>
 
-<Vite />
-<Svelte />
-<VSCode />
-```
-
-
-## Faster compiling
-
-If you need only a few icons from this library in your Svelte app, import them directly. This can optimize compilation speed and improve performance by reducing the amount of code processed during compilation.
-
-```html
-<script>
-  import Vite from 'svelte-file-icons/Vite.svelte';
-</script>
-
-<Vite />
-```
-
-If you are a TypeScript user, install **typescript version 5.0.0 or above**.
-
-```sh
-pnpm i -D typescript@beta
-```
-
-To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
-
-```json
-{
-  //...
-  "compilerOptions": {
-    // ...
-    "moduleResolution": "nodenext"
-  }
-}
+<Icon name="Svelte" />
 ```
 
 ## Props
 
-- size = '24';
-- role = 'img';
-- color = 'currentColor';
-- ariaLabel = '1C';
+- @prop name;
+- @prop width = "24";
+- @prop height = "24";
+- @prop color = 'currentColor'
+- @prop role = 'img';
+- @prop ariaLabel='icon name'
 
 ## IDE support
 
@@ -92,18 +61,16 @@ If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, o
 
 ## Size
 
-Use the `size` prop to change the size of icons.
+Use the `width` and `height` props to change the size of icons.
 
 ```html
-<Vite size="40" />
-<Svelte size="40" />
-<VSCode size="40" />
+<Icon name="Svelte" width="100" height="100" />
 ```
 
-If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the class prop. For example:
+If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the `class` prop. For example:
 
 ```html
-<Vite class="shrink-0 h-20 w-20" />
+<Icon name="Svelte" class="shrink-0 h-20 w-20" />
 ```
 
 ## CSS HEX Colors
@@ -111,7 +78,7 @@ If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by i
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<Vite color="#c61515" />
+<Icon name="Svelte" color="#c61515" />
 ```
 
 ## CSS framworks suport
@@ -121,13 +88,13 @@ You can apply CSS framework color and other attributes directly to the icon comp
 Tailwind CSS example:
 
 ```html
-<Svelte class="h-24 w-24 text-blue-700 mr-4" />
+<Icon name="Svelte" class="text-red-700 inline m-1" />
 ```
 
 Bootstrap examples:
 
 ```html
-<Svelte class="position-absolute top-0 px-1" />
+<Icon name="Svelte" class="position-absolute top-0 px-1" />
 ```
 
 ## Dark mode
@@ -137,16 +104,16 @@ If you are using the dark mode on your website with Tailwind CSS, add your dark 
 Let's use `dark` for the dark mode class as an example.
 
 ```html
-<Svelte class="text-blue-700 dark:text-red-500" />
+<Icon name="Svelte" class="text-red-700 dark:text-green-500" />
 ```
 
 ## aria-label
 
-All icons have aria-label. For example `Svelte` has `aria-label="svelte"`.
+All icons have aria-label. For example `Svelte` has `aria-label="Svelte"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<Svelte ariaLabel="Awesome Svelte" />
+<Icon name="Svelte" ariaLabel="Awesome Svelte" />
 ```
 
 ## Unfocusable icon
@@ -154,7 +121,7 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 ```html
-<Svelte tabindex="-1" />
+<Icon name="Svelte" tabindex="-1" />
 ```
 
 ## Events
@@ -176,26 +143,23 @@ All icons have the following events:
 You can pass other attibutes as well.
 
 ```html
-<Svelte tabindex="0" />
+<Icon name="Svelte" tabindex="0" />
 ```
 
 ## Using svelte:component
 
 ```html
-<script>
-  import { Svelte } from 'svelte-file-icons';
-</script>
-
-<svelte:component this="{Svelte}" />
+<svelte:component this="{Icon}" name="Svelte" />
 ```
 
 ## Using onMount
 
 ```html
 <script>
-  import { Svelte } from 'svelte-file-icons';
+  import { Icon } from 'svelte-file-icons';
   import { onMount } from 'svelte';
   const props = {
+    name: 'Svelte',
     size: '50',
     color: '#ff0000'
   };
@@ -207,26 +171,19 @@ You can pass other attibutes as well.
 
 ## Import all
 
-Use `import * as Icon from 'svelte-file-icons`.
+Use `import {Icon, icons} from 'svelte-evil-icons';`.
 
 ```html
 <script>
-  import * as Icon from 'svelte-file-icons';
+  import {Icon, icons} from 'svelte-evil-icons';
 </script>
 
-<Icon.Svelte />
-<Icon.Vite />
-
-<h1>Size</h1>
-<Icon.Svelte size="30" />
-<Icon.Vite size="40" />
-
-<h1>CSS HEX color</h1>
-<Icon.Svelte color="#c61515" size="40" />
-
-<h1>Tailwind CSS</h1>
-<Icon.Svelte class="text-blue-500" />
-<Icon.Vite class="text-pink-700" />
+{#each Object.keys(icons) as name}
+<div class="flex gap-4 items-center text-lg">
+  <Icon name={name} bind:width={size} bind:height={size} class="shrink-0"/>
+  {name}
+</div>
+{/each}
 ```
 
 ## Other icons
