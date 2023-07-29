@@ -18,7 +18,7 @@
     let n = (Math.random() * 0xfffff * 1000000).toString(16);
     return '#' + n.slice(0, 6);
   };
-  const contentClass = 'rounded-lg dark:bg-stone-950 mt-4';
+  const contentClass = 'rounded-lg dark:bg-slate-900 mt-4';
   let searchTerm = '';
 
   $: filteredIconNames = Object.keys(icons).filter(name => {
