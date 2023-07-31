@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.4](https://github.com/shinokada/svelte-file-icons/compare/v0.7.3...v0.7.4) (2023-07-31)
+
+
+### Bug Fixes
+
+* component doc update ([9df79d8](https://github.com/shinokada/svelte-file-icons/commit/9df79d81f13eaf9cc5ac410302b2e368ac85599d))
+
 ### [0.7.3](https://github.com/shinokada/svelte-file-icons/compare/v0.7.2...v0.7.3) (2023-07-29)
 
 
