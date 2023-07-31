@@ -36,7 +36,7 @@ on:mouseout
 
 <!--
 @component
-[Go to Document](https://shinokada.github.io/svelte-file-icons/)
+[Go to Document](https://svelte-file-icons.vercel.app/)
 ## Props
 @prop name;
 @prop width = "24";
