@@ -6,17 +6,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.7.4](https://github.com/shinokada/svelte-file-icons/compare/v0.7.3...v0.7.4) (2023-07-31)
 
-
 ### Bug Fixes
 
-* component doc update ([9df79d8](https://github.com/shinokada/svelte-file-icons/commit/9df79d81f13eaf9cc5ac410302b2e368ac85599d))
+- component doc update ([9df79d8](https://github.com/shinokada/svelte-file-icons/commit/9df79d81f13eaf9cc5ac410302b2e368ac85599d))
 
 ### [0.7.3](https://github.com/shinokada/svelte-file-icons/compare/v0.7.2...v0.7.3) (2023-07-29)
 
-
 ### Features
 
-* update add=exports-to-package-json ([121a266](https://github.com/shinokada/svelte-file-icons/commit/121a26697bf9a4904c9ad812432a4938a0763aab))
+- update add=exports-to-package-json ([121a266](https://github.com/shinokada/svelte-file-icons/commit/121a26697bf9a4904c9ad812432a4938a0763aab))
 
 ### [0.7.2](https://github.com/shinokada/svelte-file-icons/compare/v0.7.1...v0.7.2) (2023-07-29)
 
@@ -24,17 +22,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.6.7](https://github.com/shinokada/svelte-file-icons/compare/v0.6.6...v0.6.7) (2023-07-20)
 
-
 ### Features
 
-* add size range ([73357ce](https://github.com/shinokada/svelte-file-icons/commit/73357cecdfd6e0638d5afe848f2bd3af13337906))
-* layout update ([efa9ead](https://github.com/shinokada/svelte-file-icons/commit/efa9ead23e509c855952538e1b8b694a09b781e2))
-
+- add size range ([73357ce](https://github.com/shinokada/svelte-file-icons/commit/73357cecdfd6e0638d5afe848f2bd3af13337906))
+- layout update ([efa9ead](https://github.com/shinokada/svelte-file-icons/commit/efa9ead23e509c855952538e1b8b694a09b781e2))
 
 ### Bug Fixes
 
-* homepage update ([5dd39b7](https://github.com/shinokada/svelte-file-icons/commit/5dd39b780a92b843367ed14038cb29d1406b73f9))
-* update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([c4c5658](https://github.com/shinokada/svelte-file-icons/commit/c4c5658ae520973f75effbc2ce3fcaa225e881c5))
+- homepage update ([5dd39b7](https://github.com/shinokada/svelte-file-icons/commit/5dd39b780a92b843367ed14038cb29d1406b73f9))
+- update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([c4c5658](https://github.com/shinokada/svelte-file-icons/commit/c4c5658ae520973f75effbc2ce3fcaa225e881c5))
 
 ### [0.6.6](https://github.com/shinokada/svelte-file-icons/compare/v0.6.5...v0.6.6) (2023-06-15)
 

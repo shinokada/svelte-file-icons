@@ -1,0 +1,40 @@
+<script>
+  export let size = '24';
+  export let role = 'img';
+  export let color = 'currentColor';
+  export let ariaLabel = 'NPM';
+</script>
+
+<svg
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 512 512"
+  fill={color}
+  {...$$restProps}
+  {role}
+  aria-label={ariaLabel}
+  on:click
+  on:keydown
+  on:keyup
+  on:focus
+  on:blur
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  ><path
+    d="M71.609 112.569v286.649h143.432v-215.040h71.608v215.040h71.608v-286.649h-286.649zM430.080 40.96v430.080h-430.080v-430.080h430.080z"
+  ></path></svg
+>
+
+<!--
+@component
+[Go to docs](https://svelte-file-icons.vercel.app/)
+## Props
+@prop export let size = '24';
+@prop export let role = 'img';
+@prop export let color = 'currentColor';
+@prop export let ariaLabel = 'NPM';
+-->
