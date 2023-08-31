@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.1](https://github.com/shinokada/svelte-file-icons/compare/v0.7.5...v0.8.1) (2023-08-31)
+
+
+### Features
+
+* add Icon component ([845e1e9](https://github.com/shinokada/svelte-file-icons/commit/845e1e933d10b011e13a824589822410f4786168))
+* smaller compiled size and Icon component ([ed889df](https://github.com/shinokada/svelte-file-icons/commit/ed889dfdcd38132ef8cdd50e721cd83c15c241e6))
+
 ### [0.7.5](https://github.com/shinokada/svelte-file-icons/compare/v0.7.4...v0.7.5) (2023-08-03)
 
 ### [0.7.4](https://github.com/shinokada/svelte-file-icons/compare/v0.7.3...v0.7.4) (2023-07-31)
