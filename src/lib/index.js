@@ -391,6 +391,7 @@ export { default as ICU } from './ICU.svelte';
 export { default as IDL } from './IDL.svelte';
 export { default as IGORPro } from './IGORPro.svelte';
 export { default as IcoMoon } from './IcoMoon.svelte';
+export { default as Icon } from './Icon.svelte';
 export { default as Idris } from './Idris.svelte';
 export { default as Illumos } from './Illumos.svelte';
 export { default as Image } from './Image.svelte';

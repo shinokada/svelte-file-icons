@@ -1659,6 +1659,10 @@
       "types": "./dist/IcoMoon.svelte.d.ts",
       "svelte": "./dist/IcoMoon.svelte"
     },
+    "./Icon.svelte": {
+      "types": "./dist/Icon.svelte.d.ts",
+      "svelte": "./dist/Icon.svelte"
+    },
     "./Idris.svelte": {
       "types": "./dist/Idris.svelte.d.ts",
       "svelte": "./dist/Idris.svelte"
