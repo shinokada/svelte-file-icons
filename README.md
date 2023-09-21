@@ -1,11 +1,13 @@
+
+
 # Svelte File Icons
 
 <div class="flex gap-2 my-8">
-<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" alt="sponsor" height="25" style="height: 25px !important;"></a>
-<a href="https://www.npmjs.com/package/svelte-file-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/v/svelte-file-icons" alt="npm" height="25" style="height: 25px !important;"></a>
-<a href="https://twitter.com/shinokada" rel="nofollow" target="_blank"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada" height="25" style="height: 25px !important;"></a>
-<a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank"><img src="https://img.shields.io/github/license/shinokada/svelte-file-icons" alt="License" height="25" style="height: 25px !important;"></a>
-<a href="https://www.npmjs.com/package/svelte-file-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-file-icons.svg" alt="npm" height="25" style="height: 25px !important;"></a>
+<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" alt="sponsor"></a>
+<a href="https://www.npmjs.com/package/svelte-file-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/v/svelte-file-icons" alt="npm"></a>
+<a href="https://twitter.com/shinokada" rel="nofollow" target="_blank"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada"></a>
+<a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank"><img src="https://img.shields.io/github/license/shinokada/svelte-file-icons" alt="License"></a>
+<a href="https://www.npmjs.com/package/svelte-file-icons" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-file-icons.svg" alt="npm"></a>
 </div>
 
 930+ SVG file icon components for Svelte.
@@ -85,7 +87,47 @@ If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by i
 <Vite class="shrink-0 h-20 w-20" />
 ```
 
-## Creating a Default Global Icon Setting in Svelte
+## Setting Global Icon using setContext
+
+You can establish global icon preferences in your Svelte application using `setContext`. This allows you to configure icon-related properties once and share them across multiple components. Here's how you can do it:
+
+
+```html
+<script>
+  import { setContext } from 'svelte';
+
+  // Define your global icon settings
+  const iconCtx = {
+    size: '100', // Icon size in pixels
+    color: '#ff4488', // Icon color in hexadecimal or CSS color name
+    role: 'svg icon image' // Accessible role for the icon
+  };
+  setContext('iconCtx', iconCtx);
+</script>
+```
+
+The `size`, `color`, and `role` properties are optional, allowing you to fine-tune the appearance and accessibility of your icons as needed.
+
+If you set `size`, icons can be customized with different colors. For example:
+
+```html
+<script>
+  import { setContext } from 'svelte';
+  import { Svelte } from 'svelte-fileicons';
+  const iconCtx = {
+    size: '50'
+  };
+  setContext('iconCtx', iconCtx);
+</script>
+
+<Svelte color="#ff4488" />
+```
+
+Remember that you can set only one or two of these properties, allowing you to tailor icon settings to your specific design and accessibility requirements.
+
+Feel free to mix and match these properties as needed to create visually appealing and accessible icons in your Svelte application.
+
+## Creating a Default Icon Setting
 
 You can create a config file, `/src/lib/icon.config.json`.
 
