@@ -6,16 +6,14 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.8.2](https://github.com/shinokada/svelte-file-icons/compare/v0.8.1...v0.8.2) (2023-09-21)
 
-
 ### Features
 
-* add context ([e525ad1](https://github.com/shinokada/svelte-file-icons/commit/e525ad10c54c5759013dfe90ccb86c486b3e5819))
-* add sidebar menu ([c559835](https://github.com/shinokada/svelte-file-icons/commit/c559835d1ff39953cb51a1377246b71547f92273))
-
+- add context ([e525ad1](https://github.com/shinokada/svelte-file-icons/commit/e525ad10c54c5759013dfe90ccb86c486b3e5819))
+- add sidebar menu ([c559835](https://github.com/shinokada/svelte-file-icons/commit/c559835d1ff39953cb51a1377246b71547f92273))
 
 ### Bug Fixes
 
-* remove lib-helpers from publish ([7172158](https://github.com/shinokada/svelte-file-icons/commit/7172158776721bf69844b9d78458f30401ce700e))
+- remove lib-helpers from publish ([7172158](https://github.com/shinokada/svelte-file-icons/commit/7172158776721bf69844b9d78458f30401ce700e))
 
 ### [0.8.1](https://github.com/shinokada/svelte-file-icons/compare/v0.7.5...v0.8.1) (2023-08-31)
 
