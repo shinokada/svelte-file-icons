@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/shinokada/svelte-file-icons/compare/v0.8.3...v1.0.1) (2024-01-27)
+
+
+### Bug Fixes
+
+* add class="ml-3 m-0 lg:hidden md:block" to NavHamburger ([266ed89](https://github.com/shinokada/svelte-file-icons/commit/266ed89232613b84b5f80eaa96aaa6e8a79b0881))
+
 ### [0.8.3](https://github.com/shinokada/svelte-file-icons/compare/v0.8.2...v0.8.3) (2023-09-21)
 
 ### [0.8.2](https://github.com/shinokada/svelte-file-icons/compare/v0.8.1...v0.8.2) (2023-09-21)
