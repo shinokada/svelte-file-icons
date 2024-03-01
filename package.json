@@ -3815,6 +3815,7 @@
     "./Zork.svelte": {
       "types": "./dist/Zork.svelte.d.ts",
       "svelte": "./dist/Zork.svelte"
-    }
+    },
+    "./package.json": "./package.json"
   }
 }
