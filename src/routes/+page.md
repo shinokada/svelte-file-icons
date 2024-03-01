@@ -20,16 +20,6 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 [GitHub Repo](https://github.com/shinokada/svelte-file-icons)
 
-## Original source
-
-[file-icons/icons](https://github.com/file-icons/icons)
-
-## License
-
-[Svelte-Coreui-Icons License](https://github.com/shinokada/svelte-file-icons/blob/main/LICENSE)
-
-[file-icons/icons LICENSE](https://github.com/file-icons/icons/blob/master/LICENSE.md)
-
 ## Installation
 
 ```sh
@@ -345,6 +335,16 @@ Use `import * as Icon from 'svelte-file-icons`.
 <Icon.Vite class="text-pink-700" />
 ```
 
+## Original source
+
+[file-icons/icons](https://github.com/file-icons/icons)
+
+## License
+
+[Svelte-Coreui-Icons License](https://github.com/shinokada/svelte-file-icons/blob/main/LICENSE)
+
+[file-icons/icons LICENSE](https://github.com/file-icons/icons/blob/master/LICENSE.md)
+
 ## Other icons
 
-[Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+[Svelte-Icon-Sets](https://svelte-svg-icons.codewithshin.com/)
